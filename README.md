@@ -1,5 +1,7 @@
 # THE GREAT ESCALATION
 
+> **Repository status (2026-11-17):** This README describes the verified standalone alpha package, not the files currently present in this Git repository. Full import and Release uploads remain pending; see [PROJECT_HANDOFF.md](PROJECT_HANDOFF.md).
+
 ## Fully illustrated 110-card alpha - 0.1.0
 
 Open **index.html** in a modern browser. Everything needed to play is inside that file: 110 card definitions, rules engine, fonts, automated rivals, the collection, the field manual and all 110 individual illustrations. No account, installation or server is required.
@@ -34,6 +36,6 @@ All 110 card effects are implemented. All 110 have unique mechanical signatures,
 
 The rules engine passed automated checks and 500 seeded matches. **Live browser testing was blocked by the production environment**, so desktop/mobile layout, save controls, handoff behavior and other actual browser interactions still need the included walkthrough. The shell's JavaScript and its catalog embedding have been checked. Read the quality report before treating this as a finished release.
 
-This project is maintained in [the-pepsi-kid/the-great-escalation](https://github.com/the-pepsi-kid/the-great-escalation). Download the offline game, full project kit, original PNG archive and PDFs from [Releases](https://github.com/the-pepsi-kid/the-great-escalation/releases). This is an original game; the supplied promotional board guided the mood, not the publisher branding or proprietary rules.
+This project is maintained in [the-pepsi-kid/the-great-escalation](https://github.com/the-pepsi-kid/the-great-escalation). **Publication is in progress:** the source/game/assets and downloadable GitHub Releases are not yet published. The fully verified input archives are in the project conversation; see [PROJECT_HANDOFF.md](PROJECT_HANDOFF.md) for their SHA-256 checksums, verification results, blockers and the exact next steps. This is an original game; the supplied promotional board guided the mood, not the publisher branding or proprietary rules.
 
 HOLY HOLY. THE APOCALYPSE HAS BEEN MONETIZED. THE NETWORK IS STILL DOWN. PLEASE HOLD.
