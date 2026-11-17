@@ -1,54 +1,53 @@
-name: Publish illustrated alpha
+# Verified source checks. Large print PDFs and original PNG archives are
+# GitHub Release assets, uploaded by Publish-The-Great-Escalation.ps1.
+name: Verify illustrated alpha source
 
 on:
   push:
     branches: [main]
-    paths: [.github/import-ready]
+    paths:
+      - 'index.html'
+      - 'src/**'
+      - 'tests/**'
+      - 'data/**'
+      - 'art/**'
+      - '.github/workflows/publish-alpha.yml'
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'src/**'
+      - 'tests/**'
+      - 'data/**'
+      - 'art/**'
+      - '.github/workflows/publish-alpha.yml'
   workflow_dispatch:
 
 permissions:
-  contents: write
-
-concurrency:
-  group: illustrated-alpha-release
-  cancel-in-progress: false
+  contents: read
 
 jobs:
-  release:
+  verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-        with:
-          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - name: Install verification dependencies
-        run: python -m pip install -r requirements-checks.txt
-      - name: Verify game and delivered artifacts
+      - name: Verify game rules engine
+        run: node tests/engine.test.cjs
+      - name: Verify card IDs and artwork coverage
         run: |
-          node tests/engine.test.cjs
-          python tests/artifact_checks.py
-      - name: Verify checksums and prepare downloads
-        run: python tools/package_release.py
-      - name: Publish verified alpha downloads
-        env:
-          GH_TOKEN: ${{ github.token }}
-          GH_REPO: ${{ github.repository }}
-          TGE_TARGET: ${{ github.sha }}
-          TGE_TAG: v0.1.0-illustrated.1
-        run: |
-          if gh release view "$TGE_TAG" --json isDraft > "$RUNNER_TEMP/tge-release-state.json"; then
-            if python -c 'import json,sys;sys.exit(0 if not json.load(open(sys.argv[1]))["isDraft"] else 1)' "$RUNNER_TEMP/tge-release-state.json"; then
-              echo 'The illustrated alpha release is already published.'
-              exit 0
-            fi
-          else
-            gh release create "$TGE_TAG" --target "$TGE_TARGET" --title '110-card illustrated alpha 0.1.0' --notes-file docs/RELEASE_NOTES.md --draft --prerelease
-          fi
-          gh release upload "$TGE_TAG" release/* --clobber
-          gh release edit "$TGE_TAG" --draft=false --prerelease
+          python - <<'PY'
+          import json, pathlib
+          base = pathlib.Path('.')
+          cards = json.loads((base / 'data/cards.json').read_text(encoding='utf-8'))['cards']
+          assert len(cards) == 110, f"Expected 110 cards, found {len(cards)}"
+          ids = [card['id'] for card in cards]
+          assert len(ids) == len(set(ids)), 'Duplicate card IDs'
+          for card_id in ids:
+              assert (base / 'art' / (card_id + '.jpg')).exists(), f'Missing art for {card_id}'
+              assert (base / 'art' / 'web' / (card_id + '.jpg')).exists(), f'Missing web art for {card_id}'
+          assert (base / 'index.html').exists(), 'Missing browser game'
+          print('110 cards, all matching master and web artwork, and game HTML verified.')
+          PY
