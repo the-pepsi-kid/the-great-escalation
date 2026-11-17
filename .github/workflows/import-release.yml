@@ -1,0 +1,106 @@
+name: Import verified illustrated alpha release
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: Published release tag to import
+        required: true
+        default: v0.1.0-illustrated.1
+
+permissions:
+  contents: write
+
+concurrency:
+  group: great-escalation-alpha-import
+  cancel-in-progress: false
+
+jobs:
+  import:
+    if: github.event_name == 'workflow_dispatch' || github.event.release.tag_name == 'v0.1.0-illustrated.1'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out main for import
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: Set up Python and Node
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Download uploaded release archives
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.event_name == 'workflow_dispatch' && inputs.release_tag || github.event.release.tag_name }}
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/tge-downloads"
+          gh release download "$RELEASE_TAG" --pattern '*.zip' --dir "$RUNNER_TEMP/tge-downloads" --clobber
+
+      - name: Verify the exact uploaded original archives
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          alphas=("$RUNNER_TEMP"/tge-downloads/The_Great_Escalation_110_Card_Alpha*.zip)
+          originals=("$RUNNER_TEMP"/tge-downloads/The_Great_Escalation_110_Original_Illustrations*.zip)
+          if [[ ${#alphas[@]} -ne 1 || ${#originals[@]} -ne 1 ]]; then
+            echo 'Upload exactly one 110-card alpha ZIP and one originals ZIP to the release.' >&2
+            exit 1
+          fi
+          printf '%s  %s\n' 'bb8d390d42148c9c4fbd21cebc5d70980e58db2eef98414bc7d9895daea6697e' "${alphas[0]}" | sha256sum -c -
+          printf '%s  %s\n' '7556babe1085527941b13db998a51047917fe9eb3de965ccabf819731bdbacf3' "${originals[0]}" | sha256sum -c -
+          unzip -tqq "${alphas[0]}"
+          unzip -tqq "${originals[0]}"
+          unzip -q "${alphas[0]}" -d "$RUNNER_TEMP/tge-unpacked"
+          test -f "$RUNNER_TEMP/tge-unpacked/The_Great_Escalation/index.html"
+          echo 'Both archive checksums and ZIP integrity passed.'
+
+      - name: Run complete verified alpha tests
+        run: |
+          set -euo pipefail
+          python -m pip install pypdf jsonschema
+          cd "$RUNNER_TEMP/tge-unpacked/The_Great_Escalation"
+          node tests/engine.test.cjs
+          python tests/artifact_checks.py
+
+      - name: Import game, source, catalog, docs, tests and illustrations
+        run: |
+          set -euo pipefail
+          source="$RUNNER_TEMP/tge-unpacked/The_Great_Escalation"
+          cp "$source/index.html" "$source/CHANGELOG.md" "$source/MANIFEST.json" .
+          cp -a "$source/src" "$source/tools" "$source/tests" "$source/data" "$source/docs" "$source/art" .
+          cp "$source/README.md" ./README.md
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('README.md')
+          s = p.read_text(encoding='utf-8')
+          s = s.replace(
+              'No repository has been pushed and no public site has been published.',
+              'This alpha has been imported into the GitHub repository. Download the full verified game and original 110-PNG illustration archives, including printable PDFs, from [GitHub Releases](https://github.com/the-pepsi-kid/the-great-escalation/releases).')
+          p.write_text(s, encoding='utf-8')
+          handoff = Path('PROJECT_HANDOFF.md')
+          if handoff.exists():
+              text = handoff.read_text(encoding='utf-8')
+              text = '> **Publication update:** The verified alpha archives were imported via the GitHub Release workflow. The notes below record the original pre-import status for historical reference.\n\n' + text
+              handoff.write_text(text, encoding='utf-8')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md PROJECT_HANDOFF.md CHANGELOG.md MANIFEST.json index.html src tools tests data docs art
+          if git diff --cached --quiet; then
+            echo 'Repository already matches verified alpha; no commit necessary.'
+          else
+            git commit -m "Import verified 110-card illustrated alpha from GitHub Release"
+            git push origin HEAD:main
+          fi
+          echo 'Done. Complete original PNGs and PDF print files remain available inside the Release ZIP assets.'
