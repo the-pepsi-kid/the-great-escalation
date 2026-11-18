@@ -1,7 +1,5 @@
 # THE GREAT ESCALATION
 
-> **Repository status (2026-11-17):** This README describes the verified standalone alpha package, not the files currently present in this Git repository. Full import and Release uploads remain pending; see [PROJECT_HANDOFF.md](PROJECT_HANDOFF.md).
-
 ## Fully illustrated 110-card alpha - 0.1.0
 
 Open **index.html** in a modern browser. Everything needed to play is inside that file: 110 card definitions, rules engine, fonts, automated rivals, the collection, the field manual and all 110 individual illustrations. No account, installation or server is required.
