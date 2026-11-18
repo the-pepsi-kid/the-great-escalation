@@ -1,0 +1,528 @@
+{
+  "generation": "individual built-in image generation",
+  "approved_reference_count": 6,
+  "new_illustration_count": 104,
+  "shared_prompt": "Use case: illustration-story. Asset type: one individual art-only illustration for the original satirical tabletop card game The Great Escalation. Landscape 3:2 composition, 1536x1024 framing. Hand-inked late-1980s editorial comic with dense crosshatching and stipple, aged cream newsprint, charcoal-black shadows, oxblood red, amber yellow and muted petrol teal accents, slightly offset screen-print grain. Rich expressive characters, detailed physical equipment and original visual satire, a clear main silhouette readable at card size. Same coherent world of retro newsrooms, corporate disaster theater and exhausted competent technicians. No card typography, captions, readable words, letters, digits, borders, logos, pyramid-and-eye symbols, watermarks, or recognizable real public figures. Keep critical action in the central 85% of the canvas. ",
+  "scenes": [
+    {
+      "id": "TGE-M02",
+      "name": "Anonymous Sources",
+      "scene": "A broadcaster interviews a silhouette behind three curtains; the silhouette is itself reading a rumor from another television."
+    },
+    {
+      "id": "TGE-M03",
+      "name": "The Algorithm Has Spoken",
+      "scene": "An enormous mechanical newsroom sorting machine feeds tiny audience members customized portions of illustrated dread."
+    },
+    {
+      "id": "TGE-M04",
+      "name": "Expert Panel of Absolutely Nobody",
+      "scene": "Six self-appointed experts argue around seven microphones while a qualified technician waits outside the studio glass."
+    },
+    {
+      "id": "TGE-M05",
+      "name": "Downdetector Says We're Dying",
+      "scene": "A terrified family stares at a single red point on a giant outage map while their functioning room glows with electronics."
+    },
+    {
+      "id": "TGE-M06",
+      "name": "We Interrupt This Program",
+      "scene": "A television producer physically interrupts a repair technician to insert a lavish advertisement into an emergency broadcast."
+    },
+    {
+      "id": "TGE-M07",
+      "name": "Live From the Parking Lot",
+      "scene": "A field reporter gravely points at a perfectly ordinary office parking lot, framed as if it were an archaeological catastrophe."
+    },
+    {
+      "id": "TGE-M08",
+      "name": "Context Is Behind a Paywall",
+      "scene": "A newspaper barricade hides a simple mundane explanation; a coin slot offers a narrow glimpse behind the sensational front page."
+    },
+    {
+      "id": "TGE-M09",
+      "name": "Correction on Page 47",
+      "scene": "A tiny correction occupies a remote back page of a newspaper whose front cover depicts the end of the world."
+    },
+    {
+      "id": "TGE-M10",
+      "name": "Leaked Slide Deck",
+      "scene": "An executive secretly hands over an enormous slide deck while every nearby employee openly holds a copy."
+    },
+    {
+      "id": "TGE-M11",
+      "name": "The Thumbnail Has Flames",
+      "scene": "A graphic designer paints flames around a photograph of a cool, unplugged server; the real computer sits harmlessly beside them."
+    },
+    {
+      "id": "TGE-M12",
+      "name": "Breaking: Still Broken",
+      "scene": "Three television crews film the same technician working on the same broken server from increasingly dramatic camera angles."
+    },
+    {
+      "id": "TGE-M13",
+      "name": "Community Radio",
+      "scene": "A calm community radio host gives practical instructions beside a lantern while anxious neighbors gradually relax."
+    },
+    {
+      "id": "TGE-M14",
+      "name": "Follow the Money",
+      "scene": "An investigator follows a winding trail of banknotes that ends at an invoice for the investigation itself."
+    },
+    {
+      "id": "TGE-M15",
+      "name": "Scheduled Outrage",
+      "scene": "A studio clock controls a conveyor belt of identical outraged presenters emerging from theatrical dressing rooms."
+    },
+    {
+      "id": "TGE-M16",
+      "name": "Retraction Speedrun",
+      "scene": "A breathless editor tears down a catastrophe poster while a warehouse worker is still printing merchandise for it."
+    },
+    {
+      "id": "TGE-M17",
+      "name": "Independent Fact Check",
+      "scene": "A modest investigator compares a loud rumor board against a small, clear collection of physical records and receipts."
+    },
+    {
+      "id": "TGE-M18",
+      "name": "The Camera Found IT",
+      "scene": "A camera operator finally swivels away from a grandstanding executive and toward the technician reconnecting the network."
+    },
+    {
+      "id": "TGE-M19",
+      "name": "Emergency Press Conference",
+      "scene": "A beautiful emergency podium, six functioning microphones, and elaborate lighting surround a visibly disconnected network rack."
+    },
+    {
+      "id": "TGE-M20",
+      "name": "Public Service Announcement",
+      "scene": "A public-service announcer holds a clear practical diagram while a group of sensationalist presenters waits impatiently backstage."
+    },
+    {
+      "id": "TGE-M21",
+      "name": "A Screenshot Is Not a Source",
+      "scene": "An investigator magnifies a pixelated picture of another pixelated picture; the actual source sits unopened on the desk."
+    },
+    {
+      "id": "TGE-M22",
+      "name": "The Mic Is Still On",
+      "scene": "An executive whispers into a colleague's ear while the giant studio microphone remains illuminated in front of them."
+    },
+    {
+      "id": "TGE-M23",
+      "name": "Longform Investigation",
+      "scene": "A patient reporter works late through boxes of records while a conveyor belt of instant reactions rushes past the window."
+    },
+    {
+      "id": "TGE-M24",
+      "name": "Emergency Broadcast Loop",
+      "scene": "A dusty emergency television endlessly repeats an alarm in a room where the original problem was fixed days ago."
+    },
+    {
+      "id": "TGE-M25",
+      "name": "Responsible Headline",
+      "scene": "A grounded local reporter watches a technician repair a real fault; a restrained camera crew lets the work happen."
+    },
+    {
+      "id": "TGE-D02",
+      "name": "Nationwide Ground Stop",
+      "scene": "A motionless fleet of airplanes waits under a clear sky while an exhausted controller stares at a tiny service-token alert."
+    },
+    {
+      "id": "TGE-D03",
+      "name": "Banking Outage",
+      "scene": "A bank lobby crowds around an unavailable payment terminal while a technician follows one misplaced network cable behind the teller wall."
+    },
+    {
+      "id": "TGE-D04",
+      "name": "The Legacy Router",
+      "scene": "A yellowed ancient router sits on a velvet historical pedestal, surrounded by executives afraid to touch its failing power brick."
+    },
+    {
+      "id": "TGE-D05",
+      "name": "Global DNS Failure",
+      "scene": "A city of working computers points toward an empty directory board, unable to locate services that are visibly still running."
+    },
+    {
+      "id": "TGE-D06",
+      "name": "Unapproved Production Change",
+      "scene": "A cheerful engineer makes a tiny keyboard edit as a long row of production monitors changes color behind them."
+    },
+    {
+      "id": "TGE-D07",
+      "name": "Expired Certificate",
+      "scene": "An imposing office security door rejects a harmless certificate because a tiny wall calendar has advanced one day."
+    },
+    {
+      "id": "TGE-D08",
+      "name": "Fiber-Seeking Backhoe",
+      "scene": "A backhoe bucket delicately and unerringly snips a lone underground fiber cable while workers study an inaccurate map."
+    },
+    {
+      "id": "TGE-D09",
+      "name": "Read-Only Backup",
+      "scene": "An immaculate backup vault is full of empty folders; a restoration engineer realizes the neatly maintained shelf contains nothing."
+    },
+    {
+      "id": "TGE-D10",
+      "name": "Region Unavailable",
+      "scene": "An abstract cloud facility becomes an overcrowded physical operations room with overloaded consoles and distant stranded users."
+    },
+    {
+      "id": "TGE-D11",
+      "name": "Ransomware Drill Gone Live",
+      "scene": "A training console accidentally drives a real production machine while the instructor's celebratory drill props fall to the floor."
+    },
+    {
+      "id": "TGE-D12",
+      "name": "Empty Generator Tank",
+      "scene": "A pristine emergency generator sits beside an empty fuel gauge and a thick, confidently approved continuity binder."
+    },
+    {
+      "id": "TGE-D13",
+      "name": "DHCP Hunger Games",
+      "scene": "A queue of desperate laptops waits at an address dispenser that contains one remaining numbered ticket, rendered without readable digits."
+    },
+    {
+      "id": "TGE-D14",
+      "name": "Identity Provider Vacation",
+      "scene": "Employees hold valid badges outside a locked electronic office while a neglected directory-sync computer sleeps behind glass."
+    },
+    {
+      "id": "TGE-D15",
+      "name": "Flooded Equipment Closet",
+      "scene": "A plumbing leak drips into a floor-mounted rack as a technician arrives with a ladder and an extremely unimpressed expression."
+    },
+    {
+      "id": "TGE-D16",
+      "name": "Patching the Wrong Cluster",
+      "scene": "An overenthusiastic maintenance operator shuts down two supposedly independent server clusters at the same moment."
+    },
+    {
+      "id": "TGE-D17",
+      "name": "Vendor Status: Operational",
+      "scene": "A cheerful green status display monitors itself while every real service console behind it is dark."
+    },
+    {
+      "id": "TGE-D18",
+      "name": "The Building Has One Uplink",
+      "scene": "An entire office's network connections narrow into a single fragile transceiver held together with a cable tie."
+    },
+    {
+      "id": "TGE-D19",
+      "name": "The Spreadsheet Was Production",
+      "scene": "An immense industrial process depends on a humble spreadsheet open on an abandoned beige desktop computer."
+    },
+    {
+      "id": "TGE-D20",
+      "name": "Friday at 4:59",
+      "scene": "A grinning deployment engineer puts on a weekend jacket as a small configuration file tumbles into a production machine."
+    },
+    {
+      "id": "TGE-P02",
+      "name": "Emergency Executive Meeting",
+      "scene": "An emergency meeting expands into a second, larger boardroom while the same unresolved outage follows on a wheeled monitor."
+    },
+    {
+      "id": "TGE-P03",
+      "name": "Strategic Infrastructure Heritage",
+      "scene": "Executives unveil a ceremonial plaque on an obsolete router while its warning lights blink desperately beneath the ribbon."
+    },
+    {
+      "id": "TGE-P04",
+      "name": "The Sacred Dashboard",
+      "scene": "A robed corporate official kneels before a luminous green dashboard in an otherwise completely dark office."
+    },
+    {
+      "id": "TGE-P05",
+      "name": "Congressional Hearing",
+      "scene": "A fictional committee studies a single unsigned approval document under bright lamps while a witness points toward a mountain of unread binders."
+    },
+    {
+      "id": "TGE-P06",
+      "name": "The Contractor Has Been Identified",
+      "scene": "An executive spotlight follows a lone contractor away from the actual decision makers seated comfortably in shadow."
+    },
+    {
+      "id": "TGE-P07",
+      "name": "The Consultant's Consultant",
+      "scene": "A consultant opens a polished briefcase containing a smaller consultant who opens an even smaller briefcase."
+    },
+    {
+      "id": "TGE-P08",
+      "name": "Steering Committee",
+      "scene": "A steering wheel mounted at a committee table has many hands on it and is connected to absolutely nothing."
+    },
+    {
+      "id": "TGE-P09",
+      "name": "Budget Reallocation",
+      "scene": "One department's budget bucket is quietly siphoned into another while both managers smile at a shared efficiency chart."
+    },
+    {
+      "id": "TGE-P10",
+      "name": "Mandatory Awareness Training",
+      "scene": "An employee finishes a cybersecurity training module while an obviously suspicious congratulatory envelope slides underneath the keyboard."
+    },
+    {
+      "id": "TGE-P11",
+      "name": "No One Owns This System",
+      "scene": "A server sits on a rotating departmental handoff carousel; every manager points to the next office as alarms continue."
+    },
+    {
+      "id": "TGE-P12",
+      "name": "All Hands on Deck",
+      "scene": "Managers finally roll up their sleeves and help technicians lift replacement equipment into a damaged rack."
+    },
+    {
+      "id": "TGE-P13",
+      "name": "Minutes Were Approved",
+      "scene": "A spotless approval stamp lands on meeting minutes with a conspicuous empty space where the decision should have been."
+    },
+    {
+      "id": "TGE-P14",
+      "name": "Crisis Branding Workshop",
+      "scene": "A branding workshop carefully chooses catastrophe-colored swatches while an actual repair queue grows outside the room."
+    },
+    {
+      "id": "TGE-P15",
+      "name": "Emergency Procurement",
+      "scene": "A technician receives a crucial replacement part by bicycle courier while the enormous purchase-order machine is still warming up."
+    },
+    {
+      "id": "TGE-P16",
+      "name": "Premium Support Tier",
+      "scene": "A luxury concierge offers a velvet-rope entrance to a support desk while a queue of ordinary emergencies waits nearby."
+    },
+    {
+      "id": "TGE-P17",
+      "name": "Legal Has Joined the Call",
+      "scene": "An austere legal adviser reaches for the mute button just as a technician begins pointing at the actual incident evidence."
+    },
+    {
+      "id": "TGE-P18",
+      "name": "Return to Office (During the Outage)",
+      "scene": "Employees obediently return to an office full of blank screens and disconnected desk phones, watched by a satisfied executive."
+    },
+    {
+      "id": "TGE-P19",
+      "name": "Audit Committee Calendar",
+      "scene": "An audit committee carefully squeezes a stack of accountability records into a very narrow appointment slot."
+    },
+    {
+      "id": "TGE-P20",
+      "name": "Emergency Change Approval",
+      "scene": "Three ordinary people read, sign and implement the same clear repair document while ceremonial approval machinery gathers dust."
+    },
+    {
+      "id": "TGE-C02",
+      "name": "Tomorrow Is the Day",
+      "scene": "A prophet unveils tomorrow's calendar page while an assistant wheels in a vast supply of identical future calendar pages."
+    },
+    {
+      "id": "TGE-C03",
+      "name": "Numerological Alignment",
+      "scene": "An enthusiast connects arbitrary clock faces, receipts and cereal shapes with red string while ignoring an obvious broken plug."
+    },
+    {
+      "id": "TGE-C04",
+      "name": "The Insider Knows",
+      "scene": "A concealed informant presents an empty envelope inside several increasingly secretive locked containers."
+    },
+    {
+      "id": "TGE-C05",
+      "name": "Trust the Plan",
+      "scene": "Followers solemnly carry a rolled plan that is visibly being drawn by someone walking behind the procession."
+    },
+    {
+      "id": "TGE-C06",
+      "name": "Global Blackout (Rumored)",
+      "scene": "A well-lit prediction studio presents a dark globe while an ordinary street outside carries on with every light working."
+    },
+    {
+      "id": "TGE-C07",
+      "name": "Screenshot of a Screenshot",
+      "scene": "A rumor passes through a row of increasingly old photocopiers until its final blurry image is treated as sacred evidence."
+    },
+    {
+      "id": "TGE-C08",
+      "name": "Coincidence Department",
+      "scene": "A frantic investigator links a spilled coffee cup to a distant network outage with an absurdly long length of red string."
+    },
+    {
+      "id": "TGE-C09",
+      "name": "Secret Weather Machine",
+      "scene": "An elaborate imaginary weather-control console is assembled from a desk fan, a kettle and dramatic unrelated satellite photographs."
+    },
+    {
+      "id": "TGE-C10",
+      "name": "Quantum Patriot Router",
+      "scene": "A huckster presents a flag-draped router whose ethernet cables evaporate into theatrical stage fog."
+    },
+    {
+      "id": "TGE-C11",
+      "name": "The Date Has Been Revised",
+      "scene": "A stagehand replaces an apocalypse date card with a new blank card while the prophet keeps the same triumphant pose."
+    },
+    {
+      "id": "TGE-C12",
+      "name": "Encrypted Voice Note",
+      "scene": "A whispering personality records a voice message beneath layers of blankets while a mundane visible explanation waits on the desk."
+    },
+    {
+      "id": "TGE-C13",
+      "name": "Just Asking Questions",
+      "scene": "An interviewer releases an endless stream of question-shaped paper while a simple answer remains trapped in a closed drawer."
+    },
+    {
+      "id": "TGE-C14",
+      "name": "The Caveat Was Classified",
+      "scene": "A self-appointed authority hides a tiny caveat inside an absurdly large locked classified binder."
+    },
+    {
+      "id": "TGE-C15",
+      "name": "Unfollowed by Reality",
+      "scene": "A confident online personality watches their fantastical forecast dissolve against an ordinary sunlit scene of people doing repairs."
+    },
+    {
+      "id": "TGE-H02",
+      "name": "The Senior Systems Engineer",
+      "scene": "A composed senior engineer with worn glasses points to one simple physical diagram while a room full of argumentative managers falls silent."
+    },
+    {
+      "id": "TGE-H03",
+      "name": "DNS Fixes Everything",
+      "scene": "A technician changes one tiny directory entry and a citywide web of disconnected service lines suddenly finds its destinations."
+    },
+    {
+      "id": "TGE-H04",
+      "name": "Have You Tried Restarting It?",
+      "scene": "A tired technician reaches for the plain power switch while a crowd awaits an extravagantly complicated technical ritual."
+    },
+    {
+      "id": "TGE-H05",
+      "name": "Read the Fucking Logs",
+      "scene": "An engineer opens one unassuming log file while three elaborate speculative conspiracy diagrams collapse behind the monitor."
+    },
+    {
+      "id": "TGE-H06",
+      "name": "The Sacred Maintenance Window",
+      "scene": "A quiet night-shift team performs careful documented maintenance under a warmly lit clock, with no executives in sight."
+    },
+    {
+      "id": "TGE-H07",
+      "name": "Known Good Backup",
+      "scene": "A recovery engineer restores actual files from a tested backup while untouched glossy backup reports lie in a discarded stack."
+    },
+    {
+      "id": "TGE-H08",
+      "name": "The Help Desk Remembers",
+      "scene": "A help-desk worker opens an old ticket drawer and immediately recognizes a problem that a startled executive insists is unprecedented."
+    },
+    {
+      "id": "TGE-H09",
+      "name": "Packet Capture",
+      "scene": "An analyst watches a clear stream of network packets pass through a diagnostic lens while a melodramatic rumor board blurs behind them."
+    },
+    {
+      "id": "TGE-H10",
+      "name": "Rollback Plan",
+      "scene": "An engineer calmly turns a deployment mechanism backward and the old, stable configuration slides neatly into place."
+    },
+    {
+      "id": "TGE-H11",
+      "name": "Field Technician",
+      "scene": "A field technician with a ladder and tool bag replaces a failed physical uplink beneath an enormous advertisement for cloud services."
+    },
+    {
+      "id": "TGE-H12",
+      "name": "Unpaid Overtime",
+      "scene": "An exhausted night-shift engineer solves an outage beside a cold meal and a wall of unanswered staffing requests."
+    },
+    {
+      "id": "TGE-H13",
+      "name": "Documented Runbook",
+      "scene": "A clear practical runbook is passed from an experienced worker to a new team as a lone indispensable expert finally takes a day off."
+    },
+    {
+      "id": "TGE-H14",
+      "name": "The Junior Asked Why",
+      "scene": "A junior technician raises one thoughtful hand and points to an obvious contradiction that an entire senior meeting has overlooked."
+    },
+    {
+      "id": "TGE-H15",
+      "name": "Working as Intended",
+      "scene": "An ordinary working system quietly performs its actual purpose while the technicians enjoy an unusually undramatic cup of coffee."
+    },
+    {
+      "id": "TGE-W02",
+      "name": "Close All Tickets",
+      "scene": "An executive sweeps a pile of unresolved ticket folders into a cabinet while every user behind the glass still holds broken equipment."
+    },
+    {
+      "id": "TGE-W03",
+      "name": "Executive Panic",
+      "scene": "A relaxed boardroom erupts into theatrical alarm only when the chief executive notices the already-existing outage screen."
+    },
+    {
+      "id": "TGE-W04",
+      "name": "The Apocalypse Has Been Downgraded",
+      "scene": "A stagehand lowers an enormous apocalypse prop to reveal a small, ordinary technical inconvenience behind it."
+    },
+    {
+      "id": "TGE-W05",
+      "name": "The Great Compliance",
+      "scene": "Calm robot evidence clerks present organized receipts to an ordinary human court; a judge and counsel examine them with visible procedural care."
+    },
+    {
+      "id": "TGE-W06",
+      "name": "Quiet Weekend",
+      "scene": "A silent operations room and a peaceful street share a slow Saturday morning, with technicians suspiciously enjoying their breakfast."
+    },
+    {
+      "id": "TGE-W07",
+      "name": "Third-Party Review",
+      "scene": "An independent reviewer studies physical evidence at a plain desk while interested executives wait outside the glass."
+    },
+    {
+      "id": "TGE-W08",
+      "name": "Mutual Aid",
+      "scene": "Neighbors and technicians share tools and carry replacement equipment together without banners, sponsorships or cameras."
+    },
+    {
+      "id": "TGE-W09",
+      "name": "The News Cycle Moved On",
+      "scene": "A caravan of news cameras leaves one repaired service and rushes toward a distant new flashing light."
+    },
+    {
+      "id": "TGE-W10",
+      "name": "The Follow-Up Never Happened",
+      "scene": "A meeting action item slips through a growing maze of empty calendar boxes and dusty follow-up folders."
+    },
+    {
+      "id": "TGE-W11",
+      "name": "Unscheduled Transparency",
+      "scene": "A technician opens the actual incident record to everyone before a group of speechwriters can finish arranging their talking points."
+    },
+    {
+      "id": "TGE-W12",
+      "name": "The Coffee Arrived",
+      "scene": "A bicycle courier delivers a tray of strong coffee to a night-shift operations room whose entire team visibly regains focus."
+    },
+    {
+      "id": "TGE-W13",
+      "name": "One More Thing",
+      "scene": "A meeting presenter produces one last small folder from behind their back while the exhausted audience reaches for the door."
+    },
+    {
+      "id": "TGE-W14",
+      "name": "Emergency Fund",
+      "scene": "A long-locked emergency fund cabinet finally opens for a visibly real operational emergency rather than a ceremonial executive request."
+    },
+    {
+      "id": "TGE-W15",
+      "name": "The Public Remembers",
+      "scene": "Ordinary users recognize the technician who fixed their systems and call them back, passing an unused executive publicity stand."
+    }
+  ]
+}

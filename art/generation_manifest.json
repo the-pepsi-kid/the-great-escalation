@@ -1,0 +1,1982 @@
+{
+  "TGE-M02": {
+    "id": "TGE-M02",
+    "name": "Anonymous Sources",
+    "asset": "art/TGE-M02.jpg",
+    "web_asset": "art/web/TGE-M02.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "98df9f04808473f9a7fa36bd064645966fc2b661ce42c29e174b8834ba956063",
+    "asset_sha256": "7ebbe1679529dccde892d187007a4102c3189a9007da67b7cbbbdf4c854c9ae9",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M06": {
+    "id": "TGE-M06",
+    "name": "We Interrupt This Program",
+    "asset": "art/TGE-M06.jpg",
+    "web_asset": "art/web/TGE-M06.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "019045bbbb7aec95dc2168ba602f23bf82b9b3290425b7c4910b8e1b04d47fe1",
+    "asset_sha256": "0084ce068e7e26bd62ce84d67e0cdbf23dadc28bd7c3dad52238d37970c1778f",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M04": {
+    "id": "TGE-M04",
+    "name": "Expert Panel of Absolutely Nobody",
+    "asset": "art/TGE-M04.jpg",
+    "web_asset": "art/web/TGE-M04.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "d109fbb3ac4f306bdf8ce148569b416460809ec54b0bda8d0940344cb16fab93",
+    "asset_sha256": "ed62ea39c6ac4768cb40996fefc897142cabd178b81f878bbd5c8ffcefa00900",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M05": {
+    "id": "TGE-M05",
+    "name": "Downdetector Says We're Dying",
+    "asset": "art/TGE-M05.jpg",
+    "web_asset": "art/web/TGE-M05.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "76fc3d29468083c498e2bb83f3fdb2e6dce6169076501a7512c948e7d3694a7c",
+    "asset_sha256": "a04f502f6fe78fbbea2971a3a9b976048e76f0329f4d076bf122de9f80bbd4d7",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M03": {
+    "id": "TGE-M03",
+    "name": "The Algorithm Has Spoken",
+    "asset": "art/TGE-M03.jpg",
+    "web_asset": "art/web/TGE-M03.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "0e56f4f7dde4b4d315c785ce455c5c7cc10d6b1393337c2d8077c5d267ca7363",
+    "asset_sha256": "c317ee1d7ab20c20cbb1826f34f7a25390dbeb79c75387de96c864b5196d2c71",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M08": {
+    "id": "TGE-M08",
+    "name": "Context Is Behind a Paywall",
+    "asset": "art/TGE-M08.jpg",
+    "web_asset": "art/web/TGE-M08.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "9795ef7dcfeea5267e4ffe4e3442f9c4f4e89b1e6ae52d936e7b17685c3d6155",
+    "asset_sha256": "5353867401c0e670614670848f245e2009747fd179f6bab521896d1f7715c44b",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M07": {
+    "id": "TGE-M07",
+    "name": "Live From the Parking Lot",
+    "asset": "art/TGE-M07.jpg",
+    "web_asset": "art/web/TGE-M07.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "e1a2d7a982d1b9f8c1b4a96ee8a3c6e4f4c0657fd218731773b94d4e3ffec27b",
+    "asset_sha256": "d34453a039e7e19628e4142e2100ccf3ffc3e5880a81f992076b24543d909667",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M10": {
+    "id": "TGE-M10",
+    "name": "Leaked Slide Deck",
+    "asset": "art/TGE-M10.jpg",
+    "web_asset": "art/web/TGE-M10.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "e21a6952b36f24dd197dff24f71c5dab5ed96dd731553502ae597cb5cf38d1a4",
+    "asset_sha256": "2e77f49380d730b14b3cc72fb0881f6355b57ae7a665a19c81265be85aa7759b",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M11": {
+    "id": "TGE-M11",
+    "name": "The Thumbnail Has Flames",
+    "asset": "art/TGE-M11.jpg",
+    "web_asset": "art/web/TGE-M11.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "09305f2b5c121a2d7e352cefaee62efb3c12fbd5391242de410ca9a8f2732d80",
+    "asset_sha256": "d955063747b669cf73c683cf1d880b3925abce3c0ccad4022e58a2b061ed5c28",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M12": {
+    "id": "TGE-M12",
+    "name": "Breaking: Still Broken",
+    "asset": "art/TGE-M12.jpg",
+    "web_asset": "art/web/TGE-M12.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "4c433f77f1cd5725abd38440deffec30ee17e84980f84d483aae49551ec822b3",
+    "asset_sha256": "370c1fa2c45e6aad64b3503d9ef3c5341d241bec765b00e5b31fb6cfca8517b2",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M13": {
+    "id": "TGE-M13",
+    "name": "Community Radio",
+    "asset": "art/TGE-M13.jpg",
+    "web_asset": "art/web/TGE-M13.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "97849ae62c987d83dc754ba90577bcf64ffa2aaffd344623cbfffd75280541f4",
+    "asset_sha256": "51ce9e885863088788fbf076828a4bd37b73b1cbc661023a6d9b0b8173aebde6",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M09": {
+    "id": "TGE-M09",
+    "name": "Correction on Page 47",
+    "asset": "art/TGE-M09.jpg",
+    "web_asset": "art/web/TGE-M09.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "3be0895dc3de4e30281729ee43a15af6ef07bba547e4d8ad6f3ad83c402d7f1e",
+    "asset_sha256": "d68fa2019d68c0dd49c107b378c77e576a868806131231ecb27aa2da52a83c36",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M15": {
+    "id": "TGE-M15",
+    "name": "Scheduled Outrage",
+    "asset": "art/TGE-M15.jpg",
+    "web_asset": "art/web/TGE-M15.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "26bc173d11a28aed6de02a18a2ce5b349a379258d35ed3821a9b91f2db875bf1",
+    "asset_sha256": "282a32f890882e580ad2554a5f1d268deb407d4e115544aff1ddfe8af3bfe388",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M17": {
+    "id": "TGE-M17",
+    "name": "Independent Fact Check",
+    "asset": "art/TGE-M17.jpg",
+    "web_asset": "art/web/TGE-M17.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "0ac8442f401f6f5ef3a271dc764d7061110ef25039c3dcdbfc08a88298167d6a",
+    "asset_sha256": "c9c0867fdc5ad447929386ed1c25d65be601c6280ff06ef76d9c02621d74920a",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M16": {
+    "id": "TGE-M16",
+    "name": "Retraction Speedrun",
+    "asset": "art/TGE-M16.jpg",
+    "web_asset": "art/web/TGE-M16.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "6b27a4d9143deebd3f8649799f5e0bc707314888755784a37e99617ebd743cba",
+    "asset_sha256": "dac6da06fdb93ccfb010291b49b4478a93556acebe279e6660228ff93964ef74",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M14": {
+    "id": "TGE-M14",
+    "name": "Follow the Money",
+    "asset": "art/TGE-M14.jpg",
+    "web_asset": "art/web/TGE-M14.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "729703c6d92d89c56dee8ee7611dc83a7e2a828708a42292ce30a2acd5e658bf",
+    "asset_sha256": "a6565a0e621870a9155adbf6c25f644363cb7f5b616ee0a7981ab0443547f05f",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M18": {
+    "id": "TGE-M18",
+    "name": "The Camera Found IT",
+    "asset": "art/TGE-M18.jpg",
+    "web_asset": "art/web/TGE-M18.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "c051c6de5507e801b6a9aa5e29e1fd5d38b135d0325b58ba2f02d35bc7858ffb",
+    "asset_sha256": "51e712974140ee6541bbfbac94c8c19a119c005b26872bce83647f507bc86f9a",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M19": {
+    "id": "TGE-M19",
+    "name": "Emergency Press Conference",
+    "asset": "art/TGE-M19.jpg",
+    "web_asset": "art/web/TGE-M19.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "a3683290afd5e9714edcb500759516b539f27a6c69f5f8749b8457967d2ba24e",
+    "asset_sha256": "95ce1a9b843df85b16c9ebc1b48396dae8035cc2ba3337118dd0d457aebbdb21",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M23": {
+    "id": "TGE-M23",
+    "name": "Longform Investigation",
+    "asset": "art/TGE-M23.jpg",
+    "web_asset": "art/web/TGE-M23.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "a136f58990173e48ce4d8742ac6c5af1b9d6e0b44f8e87c16b99c1642d68a093",
+    "asset_sha256": "857bdce616a2c4d06df81b1577dc2fa3ae33a4cef3e9659fc791722f426d95d7",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M20": {
+    "id": "TGE-M20",
+    "name": "Public Service Announcement",
+    "asset": "art/TGE-M20.jpg",
+    "web_asset": "art/web/TGE-M20.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "ef3d66b87556adc63a233a998874346f810e40a8a54801aeeea4c944ea4d51fc",
+    "asset_sha256": "3fc5d7e3cdd9c816144405c7c39182e82b4453cc784eaa6cf8874c041c808ae6",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M24": {
+    "id": "TGE-M24",
+    "name": "Emergency Broadcast Loop",
+    "asset": "art/TGE-M24.jpg",
+    "web_asset": "art/web/TGE-M24.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "53aa67db70dfc747e4b9efc6d850d7ac19fed913d2e6478c888438986bf8072e",
+    "asset_sha256": "404df7856a60295602c8843ce6b312fd4d03662b379a65740c665fca88e7784a",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M22": {
+    "id": "TGE-M22",
+    "name": "The Mic Is Still On",
+    "asset": "art/TGE-M22.jpg",
+    "web_asset": "art/web/TGE-M22.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "6549b8c8f8cba7a0c9f6e9b20c83a584410a9a1657cf0b6b1b59ee8cce47e4bd",
+    "asset_sha256": "80e98193918ce2ad75f6d4367e252a32cb6ed78ea6d98a4fe786fb67074f1e46",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M21": {
+    "id": "TGE-M21",
+    "name": "A Screenshot Is Not a Source",
+    "asset": "art/TGE-M21.jpg",
+    "web_asset": "art/web/TGE-M21.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "f3d933e720f9b3442401c790077ad43dffa5e5bad76c2b1b8701a98a3950e95e",
+    "asset_sha256": "33872091046dc3cb92a099d849b0dbf21a36156aac0c46418ce42ebfa1d7b83f",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M25": {
+    "id": "TGE-M25",
+    "name": "Responsible Headline",
+    "asset": "art/TGE-M25.jpg",
+    "web_asset": "art/web/TGE-M25.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "5023fa0bba76aa2cb5ede515ee3fb7ef33385b5366a434c58739700a5da63442",
+    "asset_sha256": "7f9d090820fa70fa85b653c16eb0e56650af3f358bf08d07687089325e437b44",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-D05": {
+    "id": "TGE-D05",
+    "name": "Global DNS Failure",
+    "asset": "art/TGE-D05.jpg",
+    "web_asset": "art/web/TGE-D05.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "8e4880c5abccecf45e648fbfac1a71cbbbfad4598d12dea9b475ed86148aae44",
+    "asset_sha256": "c3d7fb5d37a88b68bb969bc88d51a80a68ee4e3f3f717df098a573a07fdda04e",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-D07": {
+    "id": "TGE-D07",
+    "name": "Expired Certificate",
+    "asset": "art/TGE-D07.jpg",
+    "web_asset": "art/web/TGE-D07.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "a024524f28c7a5b36e63e187a937d5a173f998cdea3d0b46e1e21f058614f24d",
+    "asset_sha256": "d8f62c01161c71935047088c18e2fd481b3e253580624d970c425d5769bd43b3",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-D06": {
+    "id": "TGE-D06",
+    "name": "Unapproved Production Change",
+    "asset": "art/TGE-D06.jpg",
+    "web_asset": "art/web/TGE-D06.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "7b39691de2538d71b6ba20a4a34d40b26ee974719dc26e48309f39bc0d0c073f",
+    "asset_sha256": "4495a16cc1225dd09ec598adde3d2ec226da14023eea6ce44cb4ef9fa0c69f7f",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-D04": {
+    "id": "TGE-D04",
+    "name": "The Legacy Router",
+    "asset": "art/TGE-D04.jpg",
+    "web_asset": "art/web/TGE-D04.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "81d1ec711c94bdbd62b48d359f3dba3b6f719e615463c2b6a91e4bf3096204fc",
+    "asset_sha256": "8a182da8715b05ec7a362b5773e35f215c231e61f61804dac5643ba096c4152a",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-D02": {
+    "id": "TGE-D02",
+    "name": "Nationwide Ground Stop",
+    "asset": "art/TGE-D02.jpg",
+    "web_asset": "art/web/TGE-D02.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "2f25dec9331155fc44b4417a0b269460c7288d32169148e6b22591422fa88b2b",
+    "asset_sha256": "52f6f64f9d4901d25a20951cb2e3d3b94b71692dda282134dc50d9cad7cbe978",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-D03": {
+    "id": "TGE-D03",
+    "name": "Banking Outage",
+    "asset": "art/TGE-D03.jpg",
+    "web_asset": "art/web/TGE-D03.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "0371ee88a0bd9a6cd263454d54df2473c40e66c0d95e02769c8b326b8977d727",
+    "asset_sha256": "0739cec0927ce8f7d021251601f9c890744787c3544560b67598fef2dc856b04",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-D10": {
+    "id": "TGE-D10",
+    "name": "Region Unavailable",
+    "asset": "art/TGE-D10.jpg",
+    "web_asset": "art/web/TGE-D10.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "a20c0861cd986470d210890473ddd04fc96631a7155eb1e20f7a1bc97acf3b63",
+    "asset_sha256": "cdff750423a391e897f65c948e87af2e6d9f4722d8997471e7fef960d123903a",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-D08": {
+    "id": "TGE-D08",
+    "name": "Fiber-Seeking Backhoe",
+    "asset": "art/TGE-D08.jpg",
+    "web_asset": "art/web/TGE-D08.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "5d6bae6a7247a60cdb75642d2c3559e1626c443ab1d20badfa89ad977284a235",
+    "asset_sha256": "0bcc574b5a4f0d264dac889f22d96160870eb32738aca570a40dfbecb5406b0a",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-D17": {
+    "id": "TGE-D17",
+    "name": "Vendor Status: Operational",
+    "asset": "art/TGE-D17.jpg",
+    "web_asset": "art/web/TGE-D17.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "1d12ca3132c5466beee8aa8e87362382f950466edf491609f318baec6f99cc7f",
+    "asset_sha256": "8aeca7cb1b6752cb36405a2b6ee8366c5b185a4d0c87312aeb40a42ac3b7b32d",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-D14": {
+    "id": "TGE-D14",
+    "name": "Identity Provider Vacation",
+    "asset": "art/TGE-D14.jpg",
+    "web_asset": "art/web/TGE-D14.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "ca46b9b1039f1ab074abbd4d728eb404891680b4bf249f3ebac8faf4d081e1de",
+    "asset_sha256": "91dfbec8db950d820599a26d4945498cdfb367270e4514e0ef34e3053b99aaed",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-D09": {
+    "id": "TGE-D09",
+    "name": "Read-Only Backup",
+    "asset": "art/TGE-D09.jpg",
+    "web_asset": "art/web/TGE-D09.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "97c18ebcb45239453447602642c4853c6f8880398387bb73ef613412485032fa",
+    "asset_sha256": "74aec075fce20a2acfcc22d2685e535a1a74da0e83e4322ed03bc9f0ffe75e48",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-D11": {
+    "id": "TGE-D11",
+    "name": "Ransomware Drill Gone Live",
+    "asset": "art/TGE-D11.jpg",
+    "web_asset": "art/web/TGE-D11.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "9eb9d1fe507fb034a10959f36d3d208b44aee1455cf6389812f76da53fdd606b",
+    "asset_sha256": "ee4e41427a7857e0f23a3c14087000bd4bb912f9f5a0eadee875a1a5c32ee23d",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-D15": {
+    "id": "TGE-D15",
+    "name": "Flooded Equipment Closet",
+    "asset": "art/TGE-D15.jpg",
+    "web_asset": "art/web/TGE-D15.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "cf31cfc4236fde2b3439ddb0e0079eaaf72fa32c0b9730ee49cd970f61f43638",
+    "asset_sha256": "9a8d255fbaf8ec3cb36eb359ce69f0cffa8da5b0a3cbb4d1faec49f6de83c75c",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-D12": {
+    "id": "TGE-D12",
+    "name": "Empty Generator Tank",
+    "asset": "art/TGE-D12.jpg",
+    "web_asset": "art/web/TGE-D12.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "35272048b5722d8293262bb339f62c7739a5a38a73f01bf41e7540fe6c3080f8",
+    "asset_sha256": "e71e39b8656c049e9e865b79be8f36f56be34a0dcf4fa8797131d06a8b1084ba",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-D13": {
+    "id": "TGE-D13",
+    "name": "DHCP Hunger Games",
+    "asset": "art/TGE-D13.jpg",
+    "web_asset": "art/web/TGE-D13.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "0570f577ff1c4948d29c4aba66705b882844fa9d6f21be897d4e2bb703beefee",
+    "asset_sha256": "325d10d2cc14c3030eb9bbb64c71c2f876b01583df490fadebe3aa5bcdceae15",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-D16": {
+    "id": "TGE-D16",
+    "name": "Patching the Wrong Cluster",
+    "asset": "art/TGE-D16.jpg",
+    "web_asset": "art/web/TGE-D16.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "d6f082516ff1396b740b9f7fa7d7bbd568017a0ee6c8078cbf29461ba77af946",
+    "asset_sha256": "97f1e74193cb65b501d6a3e694b79da2fefc7b6a62381ba8b4699d53114372e2",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-D18": {
+    "id": "TGE-D18",
+    "name": "The Building Has One Uplink",
+    "asset": "art/TGE-D18.jpg",
+    "web_asset": "art/web/TGE-D18.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "7182a79ab973ddcf77f01775b858ff4ac4973f4af2c485c5df446bfadbcfd2de",
+    "asset_sha256": "dd3ef49ed23d9ca8b247d5cb8e58c5128079b5c4ab9b0fbd722efd4a55d06d58",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-D19": {
+    "id": "TGE-D19",
+    "name": "The Spreadsheet Was Production",
+    "asset": "art/TGE-D19.jpg",
+    "web_asset": "art/web/TGE-D19.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "df5f11cb3c296f6df8605c16a3c9e47f05595eeea49a4b8f19158fdc7c9e3fb2",
+    "asset_sha256": "402085420edea184fa65427f0bedff52327823628a2d504e04ea0b4ecbbfc8f8",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-D20": {
+    "id": "TGE-D20",
+    "name": "Friday at 4:59",
+    "asset": "art/TGE-D20.jpg",
+    "web_asset": "art/web/TGE-D20.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "39ec81867b6621ec84f893498b4cc978ba20461f16b3f180fee68424489dd5ed",
+    "asset_sha256": "15b336e3cfe70d297137c0f6f4eb072ea43a9e16c4b19a1d91d52d71899c00db",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-P02": {
+    "id": "TGE-P02",
+    "name": "Emergency Executive Meeting",
+    "asset": "art/TGE-P02.jpg",
+    "web_asset": "art/web/TGE-P02.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "02600ed6c1524f7cfe7eeec57f445c1e63c9a976dc22414255edd3d67f210695",
+    "asset_sha256": "8b2439375ae56b1ee685f446a8291e07c261fc23155a77ecddcdca93aa610372",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-P03": {
+    "id": "TGE-P03",
+    "name": "Strategic Infrastructure Heritage",
+    "asset": "art/TGE-P03.jpg",
+    "web_asset": "art/web/TGE-P03.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "87612e2f2d58f859d6ec6c5450d1cb9655702b993bf1819d3fdf207f1f0360f4",
+    "asset_sha256": "248c9712d71e15f4b99a9d6826a685b257fd287a20352b285a7fcac544fbb785",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-P04": {
+    "id": "TGE-P04",
+    "name": "The Sacred Dashboard",
+    "asset": "art/TGE-P04.jpg",
+    "web_asset": "art/web/TGE-P04.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "f8f13273e57785d3dc81cb32b19000fdbcac2d84d75bc153ccb2222cade70080",
+    "asset_sha256": "3480a624f72aeee3e5956634c222a0e8b5ae2478a434e9286be137691c47f35e",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-P05": {
+    "id": "TGE-P05",
+    "name": "Congressional Hearing",
+    "asset": "art/TGE-P05.jpg",
+    "web_asset": "art/web/TGE-P05.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "62b9bccd2691689788c52b0c268b092b3316c97b225d33b6ed5900dcd82b5cb4",
+    "asset_sha256": "1879fe7709a424f031d3141c7634fbfdb2ab0d33f658b1247b69b76eff57b1eb",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-P06": {
+    "id": "TGE-P06",
+    "name": "The Contractor Has Been Identified",
+    "asset": "art/TGE-P06.jpg",
+    "web_asset": "art/web/TGE-P06.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "256178f45213121b4e76a2e520a999c2535b9d24cbfe703fb3f2e8e6e3de11b3",
+    "asset_sha256": "406c1f49d4d9cfd20e8014dec6146fae82305f2215ec86064120b217d5783926",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-P07": {
+    "id": "TGE-P07",
+    "name": "The Consultant's Consultant",
+    "asset": "art/TGE-P07.jpg",
+    "web_asset": "art/web/TGE-P07.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "42a5c0065a55b56e56eebe1df4c30e02e06462872d3b099abc1927c1f7ba5ae2",
+    "asset_sha256": "c3d4d8c6a62d9322e247e54620aae60315d1f73af0ee8b62c69ab34dd0e067a5",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-P08": {
+    "id": "TGE-P08",
+    "name": "Steering Committee",
+    "asset": "art/TGE-P08.jpg",
+    "web_asset": "art/web/TGE-P08.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "5520bcf9326f4ec9bf6cd0595b48d0a653068f3c6b46815eb5fe5b99476dcfe9",
+    "asset_sha256": "0c24bb9ab9553268adaba8119431956a04a72ba9eb87c2cbf1968ece21b309af",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-P09": {
+    "id": "TGE-P09",
+    "name": "Budget Reallocation",
+    "asset": "art/TGE-P09.jpg",
+    "web_asset": "art/web/TGE-P09.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "8dfde27a441d23b4f74fa5f02d0f50e28496297ffd6c8de2367f499c7bdfa68c",
+    "asset_sha256": "0797ec7200f94eeba32d48bb0ed0ab251d4befea2be68c610585bc7adb2df92b",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-P10": {
+    "id": "TGE-P10",
+    "name": "Mandatory Awareness Training",
+    "asset": "art/TGE-P10.jpg",
+    "web_asset": "art/web/TGE-P10.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "edaa8a7f6b97651e531dd3276ad2a1d7874b1415e3eb42f27c902811bc41ee77",
+    "asset_sha256": "d9dae1069084905dca9866e14797bad8e3bb798f3292b1b3a2bd1869195d3260",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-P11": {
+    "id": "TGE-P11",
+    "name": "No One Owns This System",
+    "asset": "art/TGE-P11.jpg",
+    "web_asset": "art/web/TGE-P11.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "d8b261be508b90938358ca75e4e55255b60a4776e1ff05c209c8162a93ccaba9",
+    "asset_sha256": "75a63f29a7de1057c13a5ac70bae8f5f9038a6c9be037aff73a34a04ac8f073c",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-P12": {
+    "id": "TGE-P12",
+    "name": "All Hands on Deck",
+    "asset": "art/TGE-P12.jpg",
+    "web_asset": "art/web/TGE-P12.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "74da73eaf255571a04109acb28ca8737a1b71b38df1d261683393c7dd40242a5",
+    "asset_sha256": "e746fef4d50245a668bc047d4876f1da9bc297793dcd47ac0d2586927d4f4c63",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-P13": {
+    "id": "TGE-P13",
+    "name": "Minutes Were Approved",
+    "asset": "art/TGE-P13.jpg",
+    "web_asset": "art/web/TGE-P13.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "2d9ac976644ad3567cfc46c763f68ae2f8cef2b64499b84fcd0fae827f759de9",
+    "asset_sha256": "3050730569342d7497580e8c33633c6828776c4a4681526abd4d5ab7091157c4",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-P14": {
+    "id": "TGE-P14",
+    "name": "Crisis Branding Workshop",
+    "asset": "art/TGE-P14.jpg",
+    "web_asset": "art/web/TGE-P14.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "b766dc5a94a65c444e60510ce0b8cedd7195044e1b85d0920b6199ae72071768",
+    "asset_sha256": "44ee9bff8ed7e06eb087296c6e244d0c08bd7b5944e3c10de1324be85790cc53",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-P15": {
+    "id": "TGE-P15",
+    "name": "Emergency Procurement",
+    "asset": "art/TGE-P15.jpg",
+    "web_asset": "art/web/TGE-P15.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "cdf40ef797aa456c6d42f9b63f23e247f5036090bb2c7a080c1211224661ae42",
+    "asset_sha256": "05fcd3eae7ab6e712827fa0eddff99b42b2da495fb793490182fdc51ca0dd5b7",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-P16": {
+    "id": "TGE-P16",
+    "name": "Premium Support Tier",
+    "asset": "art/TGE-P16.jpg",
+    "web_asset": "art/web/TGE-P16.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "663963f6d98cb671c0338a4c2ca37e09cf704aa630d8276e3a18650a8c865337",
+    "asset_sha256": "ec618d165f305b331d4cb4498f939b1b3cb9245a01f56a8b2c5b3d587127e0f7",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-P17": {
+    "id": "TGE-P17",
+    "name": "Legal Has Joined the Call",
+    "asset": "art/TGE-P17.jpg",
+    "web_asset": "art/web/TGE-P17.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "cf5dbee4ba73120103d450b704dc3233b375341903cc153c15a8b62d04794eee",
+    "asset_sha256": "1d84fb3c68dfa20c15cbbc51b26a54c21b19f7c2153e2ff0f197325dacb780ac",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-P18": {
+    "id": "TGE-P18",
+    "name": "Return to Office (During the Outage)",
+    "asset": "art/TGE-P18.jpg",
+    "web_asset": "art/web/TGE-P18.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "b4e6c75ad16460d1a85e3bf2a491df55948173c3c92ec1d57da933b82ac63f7f",
+    "asset_sha256": "72912e9a098e5a6606e71b27ee0477837cac2376bdfaf92106b116d959208f09",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-P19": {
+    "id": "TGE-P19",
+    "name": "Audit Committee Calendar",
+    "asset": "art/TGE-P19.jpg",
+    "web_asset": "art/web/TGE-P19.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "933e57a65692d3db309e7ddba93c036fed8085cea239e477aca5247696cb28c0",
+    "asset_sha256": "6c424a6d8ff120c957d223418e231a9712c54e6b59c3eddfbbb506f578b52aef",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-P20": {
+    "id": "TGE-P20",
+    "name": "Emergency Change Approval",
+    "asset": "art/TGE-P20.jpg",
+    "web_asset": "art/web/TGE-P20.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "2f7e2ee98bb6ff6763d8d0fe51dd85a922fa4b006c91b30ce2066b26fe94a8dc",
+    "asset_sha256": "1cb86bb19b3808de5825c814ddc13a065a3159be61f0c2b7f217b16ebc3be463",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-C02": {
+    "id": "TGE-C02",
+    "name": "Tomorrow Is the Day",
+    "asset": "art/TGE-C02.jpg",
+    "web_asset": "art/web/TGE-C02.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "748790b4e07465688097584e23dafa4e27d9d8bc860b276a8d1f8d9722d7cbf1",
+    "asset_sha256": "2f18651bc2e18bc80dcf7692580986b1edc63ac0985cdff538c4383165df8bf3",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-C03": {
+    "id": "TGE-C03",
+    "name": "Numerological Alignment",
+    "asset": "art/TGE-C03.jpg",
+    "web_asset": "art/web/TGE-C03.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "264fc0637eb3bc5908d84b26be0d2c8e95a2b88466c9dc11adeabaf64821f27a",
+    "asset_sha256": "7eabb1312ef648163346b053e47833c5ed6612a63faa8a608b961b4cc7ea4cf9",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-C04": {
+    "id": "TGE-C04",
+    "name": "The Insider Knows",
+    "asset": "art/TGE-C04.jpg",
+    "web_asset": "art/web/TGE-C04.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "c4891b5405f5d7a0887016a88c0d5b50e10f464aef26228412e8d89a87583160",
+    "asset_sha256": "6acc8e42c73425991a9d46a28d7998e9f732ce4fcc77ea1d18695bbb898bac83",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-C05": {
+    "id": "TGE-C05",
+    "name": "Trust the Plan",
+    "asset": "art/TGE-C05.jpg",
+    "web_asset": "art/web/TGE-C05.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "abfd0f825d02941f9268e09bddab670811cee5fa79ae079cef5dd39bb362a1f3",
+    "asset_sha256": "829601cf838dd74de0b6f01db629bcd016e6f2627afe2b4260cceab7b3522856",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-C06": {
+    "id": "TGE-C06",
+    "name": "Global Blackout (Rumored)",
+    "asset": "art/TGE-C06.jpg",
+    "web_asset": "art/web/TGE-C06.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "4504741ed3937af9117e83868767afc099458c4b7e9e21682670a801bc31cf88",
+    "asset_sha256": "78ff3e2ab677b3771e7ef3dee178e13ce583eea170412abb20a88a33c0392f71",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-C07": {
+    "id": "TGE-C07",
+    "name": "Screenshot of a Screenshot",
+    "asset": "art/TGE-C07.jpg",
+    "web_asset": "art/web/TGE-C07.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "440e43a33822c16d12c2123bc66528c88a27aa52c2321ef3a36f34daecdccdf5",
+    "asset_sha256": "e23c350f5e916eb7f3c059a0543062433b41423cd597822f6aafd834e97539d7",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-C08": {
+    "id": "TGE-C08",
+    "name": "Coincidence Department",
+    "asset": "art/TGE-C08.jpg",
+    "web_asset": "art/web/TGE-C08.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "c273fa58a3486cf2b3efac408631369a2b018f1ee1b265fcebadbebb06241e47",
+    "asset_sha256": "42036e047567c4074a3a9737c8754f4fd874405e124d7910b9b781d1182d6437",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-C09": {
+    "id": "TGE-C09",
+    "name": "Secret Weather Machine",
+    "asset": "art/TGE-C09.jpg",
+    "web_asset": "art/web/TGE-C09.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "5839454a021648068b41f73b71fee387b38eb632609a09beb3c0c3e3806c3138",
+    "asset_sha256": "60aa60292f60da89cf5d43526bd6f0905d9004a0f0260222d4c061ef88fca79f",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-C10": {
+    "id": "TGE-C10",
+    "name": "Quantum Patriot Router",
+    "asset": "art/TGE-C10.jpg",
+    "web_asset": "art/web/TGE-C10.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "5726ec7b974315301d87eb06991b35da5e7fe4df7145509fdea0a2cd6f4fa2ce",
+    "asset_sha256": "6263bf9a8fa936c3bb1a1a6d71fff992269f98d6429dac8c892b9d9df9cc9466",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-C11": {
+    "id": "TGE-C11",
+    "name": "The Date Has Been Revised",
+    "asset": "art/TGE-C11.jpg",
+    "web_asset": "art/web/TGE-C11.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "77780a66a5c1db1e7f29f680882d5e890ef531b563842a7541001444690faff5",
+    "asset_sha256": "b25c3c1973fce56df3d03a00c03fa077b192cb51fd22fdded114e37012ac8c21",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-C12": {
+    "id": "TGE-C12",
+    "name": "Encrypted Voice Note",
+    "asset": "art/TGE-C12.jpg",
+    "web_asset": "art/web/TGE-C12.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "e6aa33ac3fd5881277a463bd59b7f7880813ad937f1fdbc5bd5e1c39691bbbb3",
+    "asset_sha256": "81fae160fc827876697162ad1245f463d89dd52c3baaacb9267e4197dd538e20",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-C13": {
+    "id": "TGE-C13",
+    "name": "Just Asking Questions",
+    "asset": "art/TGE-C13.jpg",
+    "web_asset": "art/web/TGE-C13.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "821326a65133437929ab44fae951b9f8ac9d188625c3d492c01e5d7b8bc7639c",
+    "asset_sha256": "b823ed19b4c1db8b2c110b5287d75c1f5adcd524d7ae931bcee4d842bc333baa",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-C14": {
+    "id": "TGE-C14",
+    "name": "The Caveat Was Classified",
+    "asset": "art/TGE-C14.jpg",
+    "web_asset": "art/web/TGE-C14.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "b6de67f0f676836ce759b476efb54418ac977191b58f990cc76b1e4154c2d944",
+    "asset_sha256": "4e8b2da2922f80e8a3601e8c5648ba26020197dff20d7b0fc36bb07526a19027",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-C15": {
+    "id": "TGE-C15",
+    "name": "Unfollowed by Reality",
+    "asset": "art/TGE-C15.jpg",
+    "web_asset": "art/web/TGE-C15.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "6ae1ad13386ff6c17af10dfe3b5094560613d92aa38ee703f90a9eb8fc78d8f5",
+    "asset_sha256": "6c2411c5bf1ad72f04e8a6b1a10b3aa3c3df06d374bbc37ae5f3c8268fe787ea",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-H02": {
+    "id": "TGE-H02",
+    "name": "The Senior Systems Engineer",
+    "asset": "art/TGE-H02.jpg",
+    "web_asset": "art/web/TGE-H02.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "e82476ac6cf40c23e3147a90f91931b513048924aaf949857311ecbfec512979",
+    "asset_sha256": "e950939df660232cc0d48f06c1d776651af75956fe59eb145f0f782e59a91733",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-H03": {
+    "id": "TGE-H03",
+    "name": "DNS Fixes Everything",
+    "asset": "art/TGE-H03.jpg",
+    "web_asset": "art/web/TGE-H03.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "c8a41c8bf53cf39df19fe5d85d59ab5f7e2990f0b64a821adc474cc51703312b",
+    "asset_sha256": "2b4f6b349bd86938cd133d77db05b079fcd850491dc2f0344cf808a46dbcef50",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-H04": {
+    "id": "TGE-H04",
+    "name": "Have You Tried Restarting It?",
+    "asset": "art/TGE-H04.jpg",
+    "web_asset": "art/web/TGE-H04.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "1ca19d8899dd317c34e278d36d4b2e6bc0f3c0987764347c221ab242510bd051",
+    "asset_sha256": "7ec64dfe9deaa44bd68dcc855a97db7d9a32a17f343588043408c1f455f35db3",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-H05": {
+    "id": "TGE-H05",
+    "name": "Read the Fucking Logs",
+    "asset": "art/TGE-H05.jpg",
+    "web_asset": "art/web/TGE-H05.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "4fab26a2a6a7bf27028c79d0f62f255a9ebdc449d7c97f1f5ca5ca72fad0b509",
+    "asset_sha256": "74c8ce39728f96cebe3442670d2c3bf4c0692f134b0a6b77fe19832e65402e38",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-H06": {
+    "id": "TGE-H06",
+    "name": "The Sacred Maintenance Window",
+    "asset": "art/TGE-H06.jpg",
+    "web_asset": "art/web/TGE-H06.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "099942761925c589618acca3a83f659843965cfe6be08541b548137c8f4ab898",
+    "asset_sha256": "d239f847a6ac50fa18e508311e3fd43d223b6528fd941a6f30d6436ab090b2e8",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-H07": {
+    "id": "TGE-H07",
+    "name": "Known Good Backup",
+    "asset": "art/TGE-H07.jpg",
+    "web_asset": "art/web/TGE-H07.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "daccbe3fd300a6e2444aa43db773ed73d774029b9cdd97370ea9482e653ee315",
+    "asset_sha256": "de392e2acf83ee11fcc22addc30deb615c7ab526803bf2b21777692975069480",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-H08": {
+    "id": "TGE-H08",
+    "name": "The Help Desk Remembers",
+    "asset": "art/TGE-H08.jpg",
+    "web_asset": "art/web/TGE-H08.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "6a2e08cc32dbb567bc49d8759403c029ccb56fe7cf581ef28dba39ae84c5202d",
+    "asset_sha256": "c35d2f9b7d6a3ee33c64484b4a0881479808deaaec5126f3df2c5f3cd3fd245b",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-H09": {
+    "id": "TGE-H09",
+    "name": "Packet Capture",
+    "asset": "art/TGE-H09.jpg",
+    "web_asset": "art/web/TGE-H09.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "e7b4153bedb4dad30ea491803660a6a7c79cd5d6682d64f27f8caa9f75c1a02f",
+    "asset_sha256": "d0c4f74688c0dc99c41f91578e2bb2b41b40df9b46ceb6f45167bc1529af791a",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-H10": {
+    "id": "TGE-H10",
+    "name": "Rollback Plan",
+    "asset": "art/TGE-H10.jpg",
+    "web_asset": "art/web/TGE-H10.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "5fc8c3e12f8bd0ad2fb5c14c652077e79401bac21a09b641872d0a3d5292e95e",
+    "asset_sha256": "b4d8f902bc9dd5a823ddbdbdeddcea5453bfb72a2f07f57fb89acc43598f7652",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-H11": {
+    "id": "TGE-H11",
+    "name": "Field Technician",
+    "asset": "art/TGE-H11.jpg",
+    "web_asset": "art/web/TGE-H11.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "e6212691e3c45e498936990fbdf525866d31217bd09317438f49e8da85e60fa6",
+    "asset_sha256": "8952a29c749ce78e699a2f816f0f79e90b4581f926af63eaeebd67174feb46ce",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-H12": {
+    "id": "TGE-H12",
+    "name": "Unpaid Overtime",
+    "asset": "art/TGE-H12.jpg",
+    "web_asset": "art/web/TGE-H12.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "88bd8cfecb997e0030473548890157e5fc432bc610ee436bd7d909739affb18f",
+    "asset_sha256": "d32f08139aa708d6464bfb6a01613e15f7e8b3fe36c2d431b8a05f6f5389b318",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-H13": {
+    "id": "TGE-H13",
+    "name": "Documented Runbook",
+    "asset": "art/TGE-H13.jpg",
+    "web_asset": "art/web/TGE-H13.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "f58e440e86da3ce748889b19d9a9ffdf135f94e38d5723f0add59bb3080f7a77",
+    "asset_sha256": "141371db8053924f48afb912ee404a550a643fb857b6ee3eff8a5b977f6956d8",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-H14": {
+    "id": "TGE-H14",
+    "name": "The Junior Asked Why",
+    "asset": "art/TGE-H14.jpg",
+    "web_asset": "art/web/TGE-H14.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "efb3f7ac554403a40e82fec2873c955ac6c0ba0352a1b7a4722cf50dc0132450",
+    "asset_sha256": "55a12cf601e58f08a9d88a56262dc741cc2f1943266ac6824d8fe509f171411c",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-H15": {
+    "id": "TGE-H15",
+    "name": "Working as Intended",
+    "asset": "art/TGE-H15.jpg",
+    "web_asset": "art/web/TGE-H15.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "72ae6eb90735e0bd20e5fcf04ea22b98949ac07acce6703b2f4182ca50bef01a",
+    "asset_sha256": "74adddd15cb217160e9264719c5659ba441a007451a2c95b7d6c6bf4d82336cc",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-W02": {
+    "id": "TGE-W02",
+    "name": "Close All Tickets",
+    "asset": "art/TGE-W02.jpg",
+    "web_asset": "art/web/TGE-W02.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "37fc56fe971963946df43c5b1077b7b3e292bfb35236ec2b0a7b8269de805579",
+    "asset_sha256": "374c8e546ab353ddf65635a3a2f92646af92c168113d9d8c5fbc94b00387a466",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-W03": {
+    "id": "TGE-W03",
+    "name": "Executive Panic",
+    "asset": "art/TGE-W03.jpg",
+    "web_asset": "art/web/TGE-W03.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "9a11d657d45b8a2c9579bf9638cf4ce374cbf86806f85c61715b8e5570c0367b",
+    "asset_sha256": "9719ed41c9bbceb88674b1ee4e692c8e8aa0ce079ca8a3b7b09ee97b6f5f127e",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-W04": {
+    "id": "TGE-W04",
+    "name": "The Apocalypse Has Been Downgraded",
+    "asset": "art/TGE-W04.jpg",
+    "web_asset": "art/web/TGE-W04.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "23f5b5db54e8f44aa19c0f9a05e119c240f6bf63234814fe96568e13e809ca3e",
+    "asset_sha256": "8590d1c0da87fee52cdf0bf83b9e0ad12a81c6826f3414f0c83018863f23d287",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-W05": {
+    "id": "TGE-W05",
+    "name": "The Great Compliance",
+    "asset": "art/TGE-W05.jpg",
+    "web_asset": "art/web/TGE-W05.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "1431434d048fcdfa979d9c71fa5d8390d4c79000cc8b947554d7c41ed4965479",
+    "asset_sha256": "07b21908ad640049a86e331621aba74b6bc0289599b6cbb60f97e20b6401e647",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-W06": {
+    "id": "TGE-W06",
+    "name": "Quiet Weekend",
+    "asset": "art/TGE-W06.jpg",
+    "web_asset": "art/web/TGE-W06.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "5bc281d276bb576eee47a0fef7f88f35d8a54504722c206dc43322508ed2ce58",
+    "asset_sha256": "1c4f0bcbefb60aae41ec4d3daa724fb33d0f43bff86146f87d9b7837538698fa",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-W07": {
+    "id": "TGE-W07",
+    "name": "Third-Party Review",
+    "asset": "art/TGE-W07.jpg",
+    "web_asset": "art/web/TGE-W07.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "0d5be2ebfae971c59056d9f67f5b2054fddd3e225ce8918345209c42afd4c81d",
+    "asset_sha256": "ddd4552ffa179dc668bd682e8fa3f61d2eec9cf8f08ade2949fe61355517e401",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-W08": {
+    "id": "TGE-W08",
+    "name": "Mutual Aid",
+    "asset": "art/TGE-W08.jpg",
+    "web_asset": "art/web/TGE-W08.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "a3b9e8dc02674a6ab99a2d4fd5410467c171013983a7e67f2056af57fff56f4b",
+    "asset_sha256": "87b064419ca7e8e50846272635861d7043cb2776f32420e173c7d93e493b6894",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-W09": {
+    "id": "TGE-W09",
+    "name": "The News Cycle Moved On",
+    "asset": "art/TGE-W09.jpg",
+    "web_asset": "art/web/TGE-W09.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "b0fed578eafb9f4ed0f93c1ba51aec18101e0bf5b0f9631d246e57790cd46076",
+    "asset_sha256": "c08d4983a6d86d735cfdc142025447550ac2911625b4633a9b8b2ca6db615120",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-W10": {
+    "id": "TGE-W10",
+    "name": "The Follow-Up Never Happened",
+    "asset": "art/TGE-W10.jpg",
+    "web_asset": "art/web/TGE-W10.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "08726be49b38e4a9ce294817c5707388f129d17802f38bbc5ce8b313ad5c4b3d",
+    "asset_sha256": "1bb763ba87faab93556852a1f6d09edddd557915f2233a750e82b16e60f22630",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-W11": {
+    "id": "TGE-W11",
+    "name": "Unscheduled Transparency",
+    "asset": "art/TGE-W11.jpg",
+    "web_asset": "art/web/TGE-W11.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "1a353c0b7a22e424b76887b4e02f4107226d0146710ebc2da94a84f4fe6f37dc",
+    "asset_sha256": "c87939372490be6fe4b7b75d1616b9a088fe4446c97819bd592c93ccfb55b138",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-W12": {
+    "id": "TGE-W12",
+    "name": "The Coffee Arrived",
+    "asset": "art/TGE-W12.jpg",
+    "web_asset": "art/web/TGE-W12.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "d388470853efb3964015f2e16c7346a309e175cb1e81c41ca79d5720331b1a49",
+    "asset_sha256": "f1bbbcc56719519bed1e0fad8154aacce784811b6db4673465602a9ccd9e310c",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-W13": {
+    "id": "TGE-W13",
+    "name": "One More Thing",
+    "asset": "art/TGE-W13.jpg",
+    "web_asset": "art/web/TGE-W13.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "4eb68acadeba0c50425de87692d70e775ca671942c997fe630b4bb0a9365463d",
+    "asset_sha256": "4b5f16c936a9f6869b10b4d747de2b1b8fe371513909a6d39f67a17211764ee7",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-W14": {
+    "id": "TGE-W14",
+    "name": "Emergency Fund",
+    "asset": "art/TGE-W14.jpg",
+    "web_asset": "art/web/TGE-W14.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "555529a4d69490a8c3cc723dffd7633fb7a27c5862593c60a10317de7d14b3b8",
+    "asset_sha256": "a463a905826641df4ec801ab3d0c971b5fa95f3c2331e4c4c0b8abbb27300b8a",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-W15": {
+    "id": "TGE-W15",
+    "name": "The Public Remembers",
+    "asset": "art/TGE-W15.jpg",
+    "web_asset": "art/web/TGE-W15.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1024,
+      683
+    ],
+    "source_png_sha256": "de35ce76a3912e37617289eded53d704ebdffcd01bdc0a41363a8b7a2e5bf06c",
+    "asset_sha256": "cb5cede52a54cf43006406c56fca4ff81aca6124be0ad9b562b545e0b126fe04",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-M01": {
+    "id": "TGE-M01",
+    "name": "Breaking News!",
+    "asset": "art/TGE-M01.jpg",
+    "web_asset": "art/web/TGE-M01.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1536,
+      1024
+    ],
+    "source_png_sha256": "16ead79dede3c3cd7423bb722c584a89664effc41b1b0e41a11c96ff317a8c5e",
+    "asset_sha256": "d307d31809b5d5eff2fd96e65dcb891950c5352be12b3f85fa31ab0fe29d0bac",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-D01": {
+    "id": "TGE-D01",
+    "name": "Broadcast Storm",
+    "asset": "art/TGE-D01.jpg",
+    "web_asset": "art/web/TGE-D01.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1536,
+      1024
+    ],
+    "source_png_sha256": "2bbd3d56efc3e10da5dbfbc18d0093f5760a22b411c6d78eb80088ac6a26cd2e",
+    "asset_sha256": "f038061aa53f7c060b8586dcaecafa6d0f99b11602855c6685301c37e55fd344",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-P01": {
+    "id": "TGE-P01",
+    "name": "Executive War Room",
+    "asset": "art/TGE-P01.jpg",
+    "web_asset": "art/web/TGE-P01.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1536,
+      1024
+    ],
+    "source_png_sha256": "fd13e03d56c1da5b1f9146601f5d4d7bc3f8789be3409a5738a08a1061082c12",
+    "asset_sha256": "0861a02b3f1a1df85df6442336be804cc8d0d1d5eca0bf5645acf66bc761ead2",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-C01": {
+    "id": "TGE-C01",
+    "name": "The Prophecy (Again)",
+    "asset": "art/TGE-C01.jpg",
+    "web_asset": "art/web/TGE-C01.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1536,
+      1024
+    ],
+    "source_png_sha256": "81ce92580a8ff471d5f02a542c11c6917affa56f7a88e96915869fcf645a8009",
+    "asset_sha256": "a7ed124aee48941e8c490f59666aa1cc043c827bba973912d2dcd8746d59dc9f",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-H01": {
+    "id": "TGE-H01",
+    "name": "Last Ticket Standing",
+    "asset": "art/TGE-H01.jpg",
+    "web_asset": "art/web/TGE-H01.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1536,
+      1024
+    ],
+    "source_png_sha256": "1813f19a0b3889880c9ec301f4357bf46be871870bb507ef1786ce08991f0fa0",
+    "asset_sha256": "7ee3346cd484e82b18d499003452b33cddcb5978105faa6504bcff9bfc9d467f",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  },
+  "TGE-W01": {
+    "id": "TGE-W01",
+    "name": "This Was Only a Test",
+    "asset": "art/TGE-W01.jpg",
+    "web_asset": "art/web/TGE-W01.jpg",
+    "source_dimensions": [
+      1536,
+      1024
+    ],
+    "asset_dimensions": [
+      1536,
+      1024
+    ],
+    "source_png_sha256": "757fc9af9bc748418b72ffdb272af1dd6a7723012b9b5fc4af6b9b4bc0323854",
+    "asset_sha256": "da52c7007583469aeb7fb4ce020c5df0b3aa3fb1d0e7e18864a36763ebc376be",
+    "generation": "individual built-in image generation",
+    "status": "illustrated"
+  }
+}

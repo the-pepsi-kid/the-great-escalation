@@ -1,0 +1,106 @@
+{
+  "passed": 25,
+  "total": 25,
+  "results": [
+    {
+      "name": "exactly 110 unique cards and all six category counts",
+      "pass": true
+    },
+    {
+      "name": "card metadata, targets, costs and all operation implementations",
+      "pass": true
+    },
+    {
+      "name": "2 to 6 players have valid initial card conservation",
+      "pass": true
+    },
+    {
+      "name": "all three prebuilt five-card openings preserve the shared 110-card set",
+      "pass": true
+    },
+    {
+      "name": "illegal actions are atomic",
+      "pass": true
+    },
+    {
+      "name": "verification reveals evidence once and cannot be farmed",
+      "pass": true
+    },
+    {
+      "name": "rumor debunk removes narrative and damages sponsor, not Stability",
+      "pass": true
+    },
+    {
+      "name": "repair pays durable rewards and retires resolved incident",
+      "pass": true
+    },
+    {
+      "name": "rumors cannot be repaired or monetized as real damage",
+      "pass": true
+    },
+    {
+      "name": "shields consume once and block a whole audit",
+      "pass": true
+    },
+    {
+      "name": "audited Liability becomes durable Blame and costs Leverage",
+      "pass": true
+    },
+    {
+      "name": "influence transfer conserves actual available Influence at cap",
+      "pass": true
+    },
+    {
+      "name": "stored report boost is consumed and capped",
+      "pass": true
+    },
+    {
+      "name": "support bonuses apply only once per own turn",
+      "pass": true
+    },
+    {
+      "name": "third support retires oldest and preserves all cards",
+      "pass": true
+    },
+    {
+      "name": "containment expires by round and actual damage uses the pre-damage Panic",
+      "pass": true
+    },
+    {
+      "name": "each of the 90 action cards resolves in a legal fixture",
+      "pass": true
+    },
+    {
+      "name": "all 20 incident cards have severity, tags, evidence and reveal timing",
+      "pass": true
+    },
+    {
+      "name": "all 110 cards have different mechanical signatures apart from their titles and causes",
+      "pass": true
+    },
+    {
+      "name": "incident resolution bonuses pay only the fixer and only once",
+      "pass": true
+    },
+    {
+      "name": "all strategies use the highest lane, not summed engines",
+      "pass": true
+    },
+    {
+      "name": "collapse is a collective loss and cannot create a profiteer winner",
+      "pass": true
+    },
+    {
+      "name": "neglecting every repair causes collapse for every supported player count",
+      "pass": true
+    },
+    {
+      "name": "hotseat and seeded bots are deterministic",
+      "pass": true
+    },
+    {
+      "name": "seeded 2 through 6-player full matches terminate without invalid state",
+      "pass": true
+    }
+  ]
+}

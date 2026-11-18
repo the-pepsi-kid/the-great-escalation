@@ -1,0 +1,15 @@
+{
+  "status": "blocked before browser walkthrough",
+  "passed": 0,
+  "executed_browser_test_cases": 0,
+  "reasons": [
+    "The local Playwright Chromium launch could not create its process singleton socket: Operation not permitted.",
+    "The cloud preview browser explicitly blocks file: URLs. No alternative browser route was attempted after that denial."
+  ],
+  "remaining": [
+    "Execute tests/browser.test.cjs in a browser-enabled environment.",
+    "Visually review desktop and mobile layouts.",
+    "Verify actual dialog targeting, save import/export, autosave, hotseat handoff and bot turn pacing."
+  ],
+  "claim_limit": "The browser shell is implemented and its embedded JavaScript compiles. It has not been validated through a live browser in this production run."
+}

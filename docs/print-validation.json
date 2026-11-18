@@ -1,0 +1,15 @@
+{
+  "cards": 110,
+  "illustrated": 110,
+  "pending_art": 0,
+  "minimum_art_height_pt": 82.2,
+  "rules_font_pt": 8.0,
+  "trim_inches": [
+    2.5,
+    3.5
+  ],
+  "bleed_inches": 0.125,
+  "face_pages": 110,
+  "duplex_pages": 38,
+  "manual_pages": 9
+}

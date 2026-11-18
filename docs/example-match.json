@@ -1,0 +1,253 @@
+{
+  "seed": 431638,
+  "turns": [
+    {
+      "round": 1,
+      "player": "The Repair Desk",
+      "actions": [
+        "The Senior Systems Engineer",
+        "Repair -> DHCP Hunger Games"
+      ],
+      "influence": 4,
+      "credibility": 4,
+      "prestige": 6
+    },
+    {
+      "round": 1,
+      "player": "The Nightly Bulletin",
+      "actions": [
+        "Numerological Alignment",
+        "Expert Panel of Absolutely Nobody"
+      ],
+      "influence": 6,
+      "credibility": 2,
+      "prestige": 12
+    },
+    {
+      "round": 2,
+      "player": "The Repair Desk",
+      "actions": [
+        "Congressional Hearing -> The Nightly Bulletin",
+        "Verify -> Region Unavailable"
+      ],
+      "influence": 5,
+      "credibility": 6,
+      "prestige": 12
+    },
+    {
+      "round": 2,
+      "player": "The Nightly Bulletin",
+      "actions": [
+        "The Algorithm Has Spoken",
+        "Report -> Region Unavailable"
+      ],
+      "influence": 6,
+      "credibility": 2,
+      "prestige": 19
+    },
+    {
+      "round": 3,
+      "player": "The Repair Desk",
+      "actions": [
+        "Repair -> Region Unavailable",
+        "Repair -> Region Unavailable"
+      ],
+      "influence": 7,
+      "credibility": 6,
+      "prestige": 18
+    },
+    {
+      "round": 3,
+      "player": "The Nightly Bulletin",
+      "actions": [
+        "Report -> Empty Generator Tank",
+        "Report -> Empty Generator Tank"
+      ],
+      "influence": 7,
+      "credibility": 2,
+      "prestige": 24
+    },
+    {
+      "round": 4,
+      "player": "The Repair Desk",
+      "actions": [
+        "Rollback Plan -> Empty Generator Tank",
+        "Verify -> Identity Provider Vacation"
+      ],
+      "influence": 7,
+      "credibility": 6,
+      "prestige": 22
+    },
+    {
+      "round": 4,
+      "player": "The Nightly Bulletin",
+      "actions": [
+        "Report -> Identity Provider Vacation",
+        "All Hands on Deck -> Identity Provider Vacation"
+      ],
+      "influence": 7,
+      "credibility": 3,
+      "prestige": 28
+    },
+    {
+      "round": 5,
+      "player": "The Repair Desk",
+      "actions": [
+        "Repair -> Identity Provider Vacation",
+        "Verify -> Broadcast Storm"
+      ],
+      "influence": 8,
+      "credibility": 6,
+      "prestige": 28
+    },
+    {
+      "round": 5,
+      "player": "The Nightly Bulletin",
+      "actions": [
+        "The Insider Knows",
+        "Report -> Broadcast Storm"
+      ],
+      "influence": 6,
+      "credibility": 2,
+      "prestige": 37
+    },
+    {
+      "round": 6,
+      "player": "The Repair Desk",
+      "actions": [
+        "Repair -> The Building Has One Uplink",
+        "Read the Fucking Logs -> The Insider Knows"
+      ],
+      "influence": 8,
+      "credibility": 6,
+      "prestige": 32
+    },
+    {
+      "round": 6,
+      "player": "The Nightly Bulletin",
+      "actions": [
+        "Report -> Broadcast Storm",
+        "Report -> Broadcast Storm"
+      ],
+      "influence": 6,
+      "credibility": 2,
+      "prestige": 39
+    },
+    {
+      "round": 7,
+      "player": "The Repair Desk",
+      "actions": [
+        "Repair -> Broadcast Storm",
+        "Repair -> Broadcast Storm"
+      ],
+      "influence": 9,
+      "credibility": 6,
+      "prestige": 38
+    },
+    {
+      "round": 7,
+      "player": "The Nightly Bulletin",
+      "actions": [
+        "Report -> Nationwide Ground Stop",
+        "The Junior Asked Why -> Nationwide Ground Stop"
+      ],
+      "influence": 6,
+      "credibility": 4,
+      "prestige": 44
+    },
+    {
+      "round": 8,
+      "player": "The Repair Desk",
+      "actions": [
+        "Repair -> Nationwide Ground Stop",
+        "Repair -> Nationwide Ground Stop"
+      ],
+      "influence": 10,
+      "credibility": 6,
+      "prestige": 44
+    },
+    {
+      "round": 8,
+      "player": "The Nightly Bulletin",
+      "actions": [
+        "Report -> Flooded Equipment Closet",
+        "Report -> Flooded Equipment Closet"
+      ],
+      "influence": 7,
+      "credibility": 4,
+      "prestige": 49
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "stability": 24,
+      "panic": 5
+    },
+    {
+      "round": 2,
+      "stability": 22,
+      "panic": 7
+    },
+    {
+      "round": 3,
+      "stability": 23,
+      "panic": 11
+    },
+    {
+      "round": 4,
+      "stability": 23,
+      "panic": 12
+    },
+    {
+      "round": 5,
+      "stability": 22,
+      "panic": 17
+    },
+    {
+      "round": 6,
+      "stability": 22,
+      "panic": 18
+    },
+    {
+      "round": 7,
+      "stability": 22,
+      "panic": 18
+    },
+    {
+      "round": 8,
+      "stability": 22,
+      "panic": 18
+    }
+  ],
+  "reason": "rounds",
+  "players": [
+    {
+      "name": "The Repair Desk",
+      "score": {
+        "total": 44,
+        "lanes": {
+          "restoration": 44,
+          "media": 6,
+          "exploitation": 3
+        },
+        "path": "restoration"
+      }
+    },
+    {
+      "name": "The Nightly Bulletin",
+      "score": {
+        "total": 49,
+        "lanes": {
+          "restoration": 8,
+          "media": 49,
+          "exploitation": 0
+        },
+        "path": "media"
+      }
+    }
+  ],
+  "winners": [
+    "The Nightly Bulletin"
+  ]
+}

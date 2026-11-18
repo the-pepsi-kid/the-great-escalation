@@ -1,0 +1,772 @@
+[
+  {
+    "id": "TGE-M01",
+    "name": "Breaking News!",
+    "path": "art/TGE-M01.jpg",
+    "status": "generated reference illustration",
+    "brief": "A frantic television anchor presents a flaming beige computer while a tiny technician plugs in its loose cable."
+  },
+  {
+    "id": "TGE-M02",
+    "name": "Anonymous Sources",
+    "path": "art/TGE-M02.jpg",
+    "status": "generated illustration",
+    "brief": "A broadcaster interviews a silhouette behind three curtains; the silhouette is itself reading a rumor from another television."
+  },
+  {
+    "id": "TGE-M03",
+    "name": "The Algorithm Has Spoken",
+    "path": "art/TGE-M03.jpg",
+    "status": "generated illustration",
+    "brief": "An enormous mechanical newsroom sorting machine feeds tiny audience members customized portions of illustrated dread."
+  },
+  {
+    "id": "TGE-M04",
+    "name": "Expert Panel of Absolutely Nobody",
+    "path": "art/TGE-M04.jpg",
+    "status": "generated illustration",
+    "brief": "Six self-appointed experts argue around seven microphones while a qualified technician waits outside the studio glass."
+  },
+  {
+    "id": "TGE-M05",
+    "name": "Downdetector Says We're Dying",
+    "path": "art/TGE-M05.jpg",
+    "status": "generated illustration",
+    "brief": "A terrified family stares at a single red point on a giant outage map while their functioning room glows with electronics."
+  },
+  {
+    "id": "TGE-M06",
+    "name": "We Interrupt This Program",
+    "path": "art/TGE-M06.jpg",
+    "status": "generated illustration",
+    "brief": "A television producer physically interrupts a repair technician to insert a lavish advertisement into an emergency broadcast."
+  },
+  {
+    "id": "TGE-M07",
+    "name": "Live From the Parking Lot",
+    "path": "art/TGE-M07.jpg",
+    "status": "generated illustration",
+    "brief": "A field reporter gravely points at a perfectly ordinary office parking lot, framed as if it were an archaeological catastrophe."
+  },
+  {
+    "id": "TGE-M08",
+    "name": "Context Is Behind a Paywall",
+    "path": "art/TGE-M08.jpg",
+    "status": "generated illustration",
+    "brief": "A newspaper barricade hides a simple mundane explanation; a coin slot offers a narrow glimpse behind the sensational front page."
+  },
+  {
+    "id": "TGE-M09",
+    "name": "Correction on Page 47",
+    "path": "art/TGE-M09.jpg",
+    "status": "generated illustration",
+    "brief": "A tiny correction occupies a remote back page of a newspaper whose front cover depicts the end of the world."
+  },
+  {
+    "id": "TGE-M10",
+    "name": "Leaked Slide Deck",
+    "path": "art/TGE-M10.jpg",
+    "status": "generated illustration",
+    "brief": "An executive secretly hands over an enormous slide deck while every nearby employee openly holds a copy."
+  },
+  {
+    "id": "TGE-M11",
+    "name": "The Thumbnail Has Flames",
+    "path": "art/TGE-M11.jpg",
+    "status": "generated illustration",
+    "brief": "A graphic designer paints flames around a photograph of a cool, unplugged server; the real computer sits harmlessly beside them."
+  },
+  {
+    "id": "TGE-M12",
+    "name": "Breaking: Still Broken",
+    "path": "art/TGE-M12.jpg",
+    "status": "generated illustration",
+    "brief": "Three television crews film the same technician working on the same broken server from increasingly dramatic camera angles."
+  },
+  {
+    "id": "TGE-M13",
+    "name": "Community Radio",
+    "path": "art/TGE-M13.jpg",
+    "status": "generated illustration",
+    "brief": "A calm community radio host gives practical instructions beside a lantern while anxious neighbors gradually relax."
+  },
+  {
+    "id": "TGE-M14",
+    "name": "Follow the Money",
+    "path": "art/TGE-M14.jpg",
+    "status": "generated illustration",
+    "brief": "An investigator follows a winding trail of banknotes that ends at an invoice for the investigation itself."
+  },
+  {
+    "id": "TGE-M15",
+    "name": "Scheduled Outrage",
+    "path": "art/TGE-M15.jpg",
+    "status": "generated illustration",
+    "brief": "A studio clock controls a conveyor belt of identical outraged presenters emerging from theatrical dressing rooms."
+  },
+  {
+    "id": "TGE-M16",
+    "name": "Retraction Speedrun",
+    "path": "art/TGE-M16.jpg",
+    "status": "generated illustration",
+    "brief": "A breathless editor tears down a catastrophe poster while a warehouse worker is still printing merchandise for it."
+  },
+  {
+    "id": "TGE-M17",
+    "name": "Independent Fact Check",
+    "path": "art/TGE-M17.jpg",
+    "status": "generated illustration",
+    "brief": "A modest investigator compares a loud rumor board against a small, clear collection of physical records and receipts."
+  },
+  {
+    "id": "TGE-M18",
+    "name": "The Camera Found IT",
+    "path": "art/TGE-M18.jpg",
+    "status": "generated illustration",
+    "brief": "A camera operator finally swivels away from a grandstanding executive and toward the technician reconnecting the network."
+  },
+  {
+    "id": "TGE-M19",
+    "name": "Emergency Press Conference",
+    "path": "art/TGE-M19.jpg",
+    "status": "generated illustration",
+    "brief": "A beautiful emergency podium, six functioning microphones, and elaborate lighting surround a visibly disconnected network rack."
+  },
+  {
+    "id": "TGE-M20",
+    "name": "Public Service Announcement",
+    "path": "art/TGE-M20.jpg",
+    "status": "generated illustration",
+    "brief": "A public-service announcer holds a clear practical diagram while a group of sensationalist presenters waits impatiently backstage."
+  },
+  {
+    "id": "TGE-M21",
+    "name": "A Screenshot Is Not a Source",
+    "path": "art/TGE-M21.jpg",
+    "status": "generated illustration",
+    "brief": "An investigator magnifies a pixelated picture of another pixelated picture; the actual source sits unopened on the desk."
+  },
+  {
+    "id": "TGE-M22",
+    "name": "The Mic Is Still On",
+    "path": "art/TGE-M22.jpg",
+    "status": "generated illustration",
+    "brief": "An executive whispers into a colleague's ear while the giant studio microphone remains illuminated in front of them."
+  },
+  {
+    "id": "TGE-M23",
+    "name": "Longform Investigation",
+    "path": "art/TGE-M23.jpg",
+    "status": "generated illustration",
+    "brief": "A patient reporter works late through boxes of records while a conveyor belt of instant reactions rushes past the window."
+  },
+  {
+    "id": "TGE-M24",
+    "name": "Emergency Broadcast Loop",
+    "path": "art/TGE-M24.jpg",
+    "status": "generated illustration",
+    "brief": "A dusty emergency television endlessly repeats an alarm in a room where the original problem was fixed days ago."
+  },
+  {
+    "id": "TGE-M25",
+    "name": "Responsible Headline",
+    "path": "art/TGE-M25.jpg",
+    "status": "generated illustration",
+    "brief": "A grounded local reporter watches a technician repair a real fault; a restrained camera crew lets the work happen."
+  },
+  {
+    "id": "TGE-D01",
+    "name": "Broadcast Storm",
+    "path": "art/TGE-D01.jpg",
+    "status": "generated reference illustration",
+    "brief": "An octopus-like tangle of ethernet cables lashes through a beige network closet while a technician discovers two ports plugged into one another."
+  },
+  {
+    "id": "TGE-D02",
+    "name": "Nationwide Ground Stop",
+    "path": "art/TGE-D02.jpg",
+    "status": "generated illustration",
+    "brief": "A motionless fleet of airplanes waits under a clear sky while an exhausted controller stares at a tiny service-token alert."
+  },
+  {
+    "id": "TGE-D03",
+    "name": "Banking Outage",
+    "path": "art/TGE-D03.jpg",
+    "status": "generated illustration",
+    "brief": "A bank lobby crowds around an unavailable payment terminal while a technician follows one misplaced network cable behind the teller wall."
+  },
+  {
+    "id": "TGE-D04",
+    "name": "The Legacy Router",
+    "path": "art/TGE-D04.jpg",
+    "status": "generated illustration",
+    "brief": "A yellowed ancient router sits on a velvet historical pedestal, surrounded by executives afraid to touch its failing power brick."
+  },
+  {
+    "id": "TGE-D05",
+    "name": "Global DNS Failure",
+    "path": "art/TGE-D05.jpg",
+    "status": "generated illustration",
+    "brief": "A city of working computers points toward an empty directory board, unable to locate services that are visibly still running."
+  },
+  {
+    "id": "TGE-D06",
+    "name": "Unapproved Production Change",
+    "path": "art/TGE-D06.jpg",
+    "status": "generated illustration",
+    "brief": "A cheerful engineer makes a tiny keyboard edit as a long row of production monitors changes color behind them."
+  },
+  {
+    "id": "TGE-D07",
+    "name": "Expired Certificate",
+    "path": "art/TGE-D07.jpg",
+    "status": "generated illustration",
+    "brief": "An imposing office security door rejects a harmless certificate because a tiny wall calendar has advanced one day."
+  },
+  {
+    "id": "TGE-D08",
+    "name": "Fiber-Seeking Backhoe",
+    "path": "art/TGE-D08.jpg",
+    "status": "generated illustration",
+    "brief": "A backhoe bucket delicately and unerringly snips a lone underground fiber cable while workers study an inaccurate map."
+  },
+  {
+    "id": "TGE-D09",
+    "name": "Read-Only Backup",
+    "path": "art/TGE-D09.jpg",
+    "status": "generated illustration",
+    "brief": "An immaculate backup vault is full of empty folders; a restoration engineer realizes the neatly maintained shelf contains nothing."
+  },
+  {
+    "id": "TGE-D10",
+    "name": "Region Unavailable",
+    "path": "art/TGE-D10.jpg",
+    "status": "generated illustration",
+    "brief": "An abstract cloud facility becomes an overcrowded physical operations room with overloaded consoles and distant stranded users."
+  },
+  {
+    "id": "TGE-D11",
+    "name": "Ransomware Drill Gone Live",
+    "path": "art/TGE-D11.jpg",
+    "status": "generated illustration",
+    "brief": "A training console accidentally drives a real production machine while the instructor's celebratory drill props fall to the floor."
+  },
+  {
+    "id": "TGE-D12",
+    "name": "Empty Generator Tank",
+    "path": "art/TGE-D12.jpg",
+    "status": "generated illustration",
+    "brief": "A pristine emergency generator sits beside an empty fuel gauge and a thick, confidently approved continuity binder."
+  },
+  {
+    "id": "TGE-D13",
+    "name": "DHCP Hunger Games",
+    "path": "art/TGE-D13.jpg",
+    "status": "generated illustration",
+    "brief": "A queue of desperate laptops waits at an address dispenser that contains one remaining numbered ticket, rendered without readable digits."
+  },
+  {
+    "id": "TGE-D14",
+    "name": "Identity Provider Vacation",
+    "path": "art/TGE-D14.jpg",
+    "status": "generated illustration",
+    "brief": "Employees hold valid badges outside a locked electronic office while a neglected directory-sync computer sleeps behind glass."
+  },
+  {
+    "id": "TGE-D15",
+    "name": "Flooded Equipment Closet",
+    "path": "art/TGE-D15.jpg",
+    "status": "generated illustration",
+    "brief": "A plumbing leak drips into a floor-mounted rack as a technician arrives with a ladder and an extremely unimpressed expression."
+  },
+  {
+    "id": "TGE-D16",
+    "name": "Patching the Wrong Cluster",
+    "path": "art/TGE-D16.jpg",
+    "status": "generated illustration",
+    "brief": "An overenthusiastic maintenance operator shuts down two supposedly independent server clusters at the same moment."
+  },
+  {
+    "id": "TGE-D17",
+    "name": "Vendor Status: Operational",
+    "path": "art/TGE-D17.jpg",
+    "status": "generated illustration",
+    "brief": "A cheerful green status display monitors itself while every real service console behind it is dark."
+  },
+  {
+    "id": "TGE-D18",
+    "name": "The Building Has One Uplink",
+    "path": "art/TGE-D18.jpg",
+    "status": "generated illustration",
+    "brief": "An entire office's network connections narrow into a single fragile transceiver held together with a cable tie."
+  },
+  {
+    "id": "TGE-D19",
+    "name": "The Spreadsheet Was Production",
+    "path": "art/TGE-D19.jpg",
+    "status": "generated illustration",
+    "brief": "An immense industrial process depends on a humble spreadsheet open on an abandoned beige desktop computer."
+  },
+  {
+    "id": "TGE-D20",
+    "name": "Friday at 4:59",
+    "path": "art/TGE-D20.jpg",
+    "status": "generated illustration",
+    "brief": "A grinning deployment engineer puts on a weekend jacket as a small configuration file tumbles into a production machine."
+  },
+  {
+    "id": "TGE-P01",
+    "name": "Executive War Room",
+    "path": "art/TGE-P01.jpg",
+    "status": "generated reference illustration",
+    "brief": "Executives in an ornate boardroom worship a giant blank emergency dashboard while an exhausted technician crawls beneath the table fixing cables."
+  },
+  {
+    "id": "TGE-P02",
+    "name": "Emergency Executive Meeting",
+    "path": "art/TGE-P02.jpg",
+    "status": "generated illustration",
+    "brief": "An emergency meeting expands into a second, larger boardroom while the same unresolved outage follows on a wheeled monitor."
+  },
+  {
+    "id": "TGE-P03",
+    "name": "Strategic Infrastructure Heritage",
+    "path": "art/TGE-P03.jpg",
+    "status": "generated illustration",
+    "brief": "Executives unveil a ceremonial plaque on an obsolete router while its warning lights blink desperately beneath the ribbon."
+  },
+  {
+    "id": "TGE-P04",
+    "name": "The Sacred Dashboard",
+    "path": "art/TGE-P04.jpg",
+    "status": "generated illustration",
+    "brief": "A robed corporate official kneels before a luminous green dashboard in an otherwise completely dark office."
+  },
+  {
+    "id": "TGE-P05",
+    "name": "Congressional Hearing",
+    "path": "art/TGE-P05.jpg",
+    "status": "generated illustration",
+    "brief": "A fictional committee studies a single unsigned approval document under bright lamps while a witness points toward a mountain of unread binders."
+  },
+  {
+    "id": "TGE-P06",
+    "name": "The Contractor Has Been Identified",
+    "path": "art/TGE-P06.jpg",
+    "status": "generated illustration",
+    "brief": "An executive spotlight follows a lone contractor away from the actual decision makers seated comfortably in shadow."
+  },
+  {
+    "id": "TGE-P07",
+    "name": "The Consultant's Consultant",
+    "path": "art/TGE-P07.jpg",
+    "status": "generated illustration",
+    "brief": "A consultant opens a polished briefcase containing a smaller consultant who opens an even smaller briefcase."
+  },
+  {
+    "id": "TGE-P08",
+    "name": "Steering Committee",
+    "path": "art/TGE-P08.jpg",
+    "status": "generated illustration",
+    "brief": "A steering wheel mounted at a committee table has many hands on it and is connected to absolutely nothing."
+  },
+  {
+    "id": "TGE-P09",
+    "name": "Budget Reallocation",
+    "path": "art/TGE-P09.jpg",
+    "status": "generated illustration",
+    "brief": "One department's budget bucket is quietly siphoned into another while both managers smile at a shared efficiency chart."
+  },
+  {
+    "id": "TGE-P10",
+    "name": "Mandatory Awareness Training",
+    "path": "art/TGE-P10.jpg",
+    "status": "generated illustration",
+    "brief": "An employee finishes a cybersecurity training module while an obviously suspicious congratulatory envelope slides underneath the keyboard."
+  },
+  {
+    "id": "TGE-P11",
+    "name": "No One Owns This System",
+    "path": "art/TGE-P11.jpg",
+    "status": "generated illustration",
+    "brief": "A server sits on a rotating departmental handoff carousel; every manager points to the next office as alarms continue."
+  },
+  {
+    "id": "TGE-P12",
+    "name": "All Hands on Deck",
+    "path": "art/TGE-P12.jpg",
+    "status": "generated illustration",
+    "brief": "Managers finally roll up their sleeves and help technicians lift replacement equipment into a damaged rack."
+  },
+  {
+    "id": "TGE-P13",
+    "name": "Minutes Were Approved",
+    "path": "art/TGE-P13.jpg",
+    "status": "generated illustration",
+    "brief": "A spotless approval stamp lands on meeting minutes with a conspicuous empty space where the decision should have been."
+  },
+  {
+    "id": "TGE-P14",
+    "name": "Crisis Branding Workshop",
+    "path": "art/TGE-P14.jpg",
+    "status": "generated illustration",
+    "brief": "A branding workshop carefully chooses catastrophe-colored swatches while an actual repair queue grows outside the room."
+  },
+  {
+    "id": "TGE-P15",
+    "name": "Emergency Procurement",
+    "path": "art/TGE-P15.jpg",
+    "status": "generated illustration",
+    "brief": "A technician receives a crucial replacement part by bicycle courier while the enormous purchase-order machine is still warming up."
+  },
+  {
+    "id": "TGE-P16",
+    "name": "Premium Support Tier",
+    "path": "art/TGE-P16.jpg",
+    "status": "generated illustration",
+    "brief": "A luxury concierge offers a velvet-rope entrance to a support desk while a queue of ordinary emergencies waits nearby."
+  },
+  {
+    "id": "TGE-P17",
+    "name": "Legal Has Joined the Call",
+    "path": "art/TGE-P17.jpg",
+    "status": "generated illustration",
+    "brief": "An austere legal adviser reaches for the mute button just as a technician begins pointing at the actual incident evidence."
+  },
+  {
+    "id": "TGE-P18",
+    "name": "Return to Office (During the Outage)",
+    "path": "art/TGE-P18.jpg",
+    "status": "generated illustration",
+    "brief": "Employees obediently return to an office full of blank screens and disconnected desk phones, watched by a satisfied executive."
+  },
+  {
+    "id": "TGE-P19",
+    "name": "Audit Committee Calendar",
+    "path": "art/TGE-P19.jpg",
+    "status": "generated illustration",
+    "brief": "An audit committee carefully squeezes a stack of accountability records into a very narrow appointment slot."
+  },
+  {
+    "id": "TGE-P20",
+    "name": "Emergency Change Approval",
+    "path": "art/TGE-P20.jpg",
+    "status": "generated illustration",
+    "brief": "Three ordinary people read, sign and implement the same clear repair document while ceremonial approval machinery gathers dust."
+  },
+  {
+    "id": "TGE-C01",
+    "name": "The Prophecy (Again)",
+    "path": "art/TGE-C01.jpg",
+    "status": "generated reference illustration",
+    "brief": "A fictional theatrical prophet in a cheap suit points at a wall of clocks and obsolete calendars while a stagehand quietly replaces the date card."
+  },
+  {
+    "id": "TGE-C02",
+    "name": "Tomorrow Is the Day",
+    "path": "art/TGE-C02.jpg",
+    "status": "generated illustration",
+    "brief": "A prophet unveils tomorrow's calendar page while an assistant wheels in a vast supply of identical future calendar pages."
+  },
+  {
+    "id": "TGE-C03",
+    "name": "Numerological Alignment",
+    "path": "art/TGE-C03.jpg",
+    "status": "generated illustration",
+    "brief": "An enthusiast connects arbitrary clock faces, receipts and cereal shapes with red string while ignoring an obvious broken plug."
+  },
+  {
+    "id": "TGE-C04",
+    "name": "The Insider Knows",
+    "path": "art/TGE-C04.jpg",
+    "status": "generated illustration",
+    "brief": "A concealed informant presents an empty envelope inside several increasingly secretive locked containers."
+  },
+  {
+    "id": "TGE-C05",
+    "name": "Trust the Plan",
+    "path": "art/TGE-C05.jpg",
+    "status": "generated illustration",
+    "brief": "Followers solemnly carry a rolled plan that is visibly being drawn by someone walking behind the procession."
+  },
+  {
+    "id": "TGE-C06",
+    "name": "Global Blackout (Rumored)",
+    "path": "art/TGE-C06.jpg",
+    "status": "generated illustration",
+    "brief": "A well-lit prediction studio presents a dark globe while an ordinary street outside carries on with every light working."
+  },
+  {
+    "id": "TGE-C07",
+    "name": "Screenshot of a Screenshot",
+    "path": "art/TGE-C07.jpg",
+    "status": "generated illustration",
+    "brief": "A rumor passes through a row of increasingly old photocopiers until its final blurry image is treated as sacred evidence."
+  },
+  {
+    "id": "TGE-C08",
+    "name": "Coincidence Department",
+    "path": "art/TGE-C08.jpg",
+    "status": "generated illustration",
+    "brief": "A frantic investigator links a spilled coffee cup to a distant network outage with an absurdly long length of red string."
+  },
+  {
+    "id": "TGE-C09",
+    "name": "Secret Weather Machine",
+    "path": "art/TGE-C09.jpg",
+    "status": "generated illustration",
+    "brief": "An elaborate imaginary weather-control console is assembled from a desk fan, a kettle and dramatic unrelated satellite photographs."
+  },
+  {
+    "id": "TGE-C10",
+    "name": "Quantum Patriot Router",
+    "path": "art/TGE-C10.jpg",
+    "status": "generated illustration",
+    "brief": "A huckster presents a flag-draped router whose ethernet cables evaporate into theatrical stage fog."
+  },
+  {
+    "id": "TGE-C11",
+    "name": "The Date Has Been Revised",
+    "path": "art/TGE-C11.jpg",
+    "status": "generated illustration",
+    "brief": "A stagehand replaces an apocalypse date card with a new blank card while the prophet keeps the same triumphant pose."
+  },
+  {
+    "id": "TGE-C12",
+    "name": "Encrypted Voice Note",
+    "path": "art/TGE-C12.jpg",
+    "status": "generated illustration",
+    "brief": "A whispering personality records a voice message beneath layers of blankets while a mundane visible explanation waits on the desk."
+  },
+  {
+    "id": "TGE-C13",
+    "name": "Just Asking Questions",
+    "path": "art/TGE-C13.jpg",
+    "status": "generated illustration",
+    "brief": "An interviewer releases an endless stream of question-shaped paper while a simple answer remains trapped in a closed drawer."
+  },
+  {
+    "id": "TGE-C14",
+    "name": "The Caveat Was Classified",
+    "path": "art/TGE-C14.jpg",
+    "status": "generated illustration",
+    "brief": "A self-appointed authority hides a tiny caveat inside an absurdly large locked classified binder."
+  },
+  {
+    "id": "TGE-C15",
+    "name": "Unfollowed by Reality",
+    "path": "art/TGE-C15.jpg",
+    "status": "generated illustration",
+    "brief": "A confident online personality watches their fantastical forecast dissolve against an ordinary sunlit scene of people doing repairs."
+  },
+  {
+    "id": "TGE-H01",
+    "name": "Last Ticket Standing",
+    "path": "art/TGE-H01.jpg",
+    "status": "generated reference illustration",
+    "brief": "A small diverse team of six exhausted IT technicians works in a dark operations room, lit by a single amber terminal; behind them a city slowly lights up."
+  },
+  {
+    "id": "TGE-H02",
+    "name": "The Senior Systems Engineer",
+    "path": "art/TGE-H02.jpg",
+    "status": "generated illustration",
+    "brief": "A composed senior engineer with worn glasses points to one simple physical diagram while a room full of argumentative managers falls silent."
+  },
+  {
+    "id": "TGE-H03",
+    "name": "DNS Fixes Everything",
+    "path": "art/TGE-H03.jpg",
+    "status": "generated illustration",
+    "brief": "A technician changes one tiny directory entry and a citywide web of disconnected service lines suddenly finds its destinations."
+  },
+  {
+    "id": "TGE-H04",
+    "name": "Have You Tried Restarting It?",
+    "path": "art/TGE-H04.jpg",
+    "status": "generated illustration",
+    "brief": "A tired technician reaches for the plain power switch while a crowd awaits an extravagantly complicated technical ritual."
+  },
+  {
+    "id": "TGE-H05",
+    "name": "Read the Fucking Logs",
+    "path": "art/TGE-H05.jpg",
+    "status": "generated illustration",
+    "brief": "An engineer opens one unassuming log file while three elaborate speculative conspiracy diagrams collapse behind the monitor."
+  },
+  {
+    "id": "TGE-H06",
+    "name": "The Sacred Maintenance Window",
+    "path": "art/TGE-H06.jpg",
+    "status": "generated illustration",
+    "brief": "A quiet night-shift team performs careful documented maintenance under a warmly lit clock, with no executives in sight."
+  },
+  {
+    "id": "TGE-H07",
+    "name": "Known Good Backup",
+    "path": "art/TGE-H07.jpg",
+    "status": "generated illustration",
+    "brief": "A recovery engineer restores actual files from a tested backup while untouched glossy backup reports lie in a discarded stack."
+  },
+  {
+    "id": "TGE-H08",
+    "name": "The Help Desk Remembers",
+    "path": "art/TGE-H08.jpg",
+    "status": "generated illustration",
+    "brief": "A help-desk worker opens an old ticket drawer and immediately recognizes a problem that a startled executive insists is unprecedented."
+  },
+  {
+    "id": "TGE-H09",
+    "name": "Packet Capture",
+    "path": "art/TGE-H09.jpg",
+    "status": "generated illustration",
+    "brief": "An analyst watches a clear stream of network packets pass through a diagnostic lens while a melodramatic rumor board blurs behind them."
+  },
+  {
+    "id": "TGE-H10",
+    "name": "Rollback Plan",
+    "path": "art/TGE-H10.jpg",
+    "status": "generated illustration",
+    "brief": "An engineer calmly turns a deployment mechanism backward and the old, stable configuration slides neatly into place."
+  },
+  {
+    "id": "TGE-H11",
+    "name": "Field Technician",
+    "path": "art/TGE-H11.jpg",
+    "status": "generated illustration",
+    "brief": "A field technician with a ladder and tool bag replaces a failed physical uplink beneath an enormous advertisement for cloud services."
+  },
+  {
+    "id": "TGE-H12",
+    "name": "Unpaid Overtime",
+    "path": "art/TGE-H12.jpg",
+    "status": "generated illustration",
+    "brief": "An exhausted night-shift engineer solves an outage beside a cold meal and a wall of unanswered staffing requests."
+  },
+  {
+    "id": "TGE-H13",
+    "name": "Documented Runbook",
+    "path": "art/TGE-H13.jpg",
+    "status": "generated illustration",
+    "brief": "A clear practical runbook is passed from an experienced worker to a new team as a lone indispensable expert finally takes a day off."
+  },
+  {
+    "id": "TGE-H14",
+    "name": "The Junior Asked Why",
+    "path": "art/TGE-H14.jpg",
+    "status": "generated illustration",
+    "brief": "A junior technician raises one thoughtful hand and points to an obvious contradiction that an entire senior meeting has overlooked."
+  },
+  {
+    "id": "TGE-H15",
+    "name": "Working as Intended",
+    "path": "art/TGE-H15.jpg",
+    "status": "generated illustration",
+    "brief": "An ordinary working system quietly performs its actual purpose while the technicians enjoy an unusually undramatic cup of coffee."
+  },
+  {
+    "id": "TGE-W01",
+    "name": "This Was Only a Test",
+    "path": "art/TGE-W01.jpg",
+    "status": "generated reference illustration",
+    "brief": "A vintage emergency broadcast television glows in an empty bunker; its screen shows only a clean abstract calibration target, while a relaxed technician reaches for the off switch. No text."
+  },
+  {
+    "id": "TGE-W02",
+    "name": "Close All Tickets",
+    "path": "art/TGE-W02.jpg",
+    "status": "generated illustration",
+    "brief": "An executive sweeps a pile of unresolved ticket folders into a cabinet while every user behind the glass still holds broken equipment."
+  },
+  {
+    "id": "TGE-W03",
+    "name": "Executive Panic",
+    "path": "art/TGE-W03.jpg",
+    "status": "generated illustration",
+    "brief": "A relaxed boardroom erupts into theatrical alarm only when the chief executive notices the already-existing outage screen."
+  },
+  {
+    "id": "TGE-W04",
+    "name": "The Apocalypse Has Been Downgraded",
+    "path": "art/TGE-W04.jpg",
+    "status": "generated illustration",
+    "brief": "A stagehand lowers an enormous apocalypse prop to reveal a small, ordinary technical inconvenience behind it."
+  },
+  {
+    "id": "TGE-W05",
+    "name": "The Great Compliance",
+    "path": "art/TGE-W05.jpg",
+    "status": "generated illustration",
+    "brief": "Calm robot evidence clerks present organized receipts to an ordinary human court; a judge and counsel examine them with visible procedural care."
+  },
+  {
+    "id": "TGE-W06",
+    "name": "Quiet Weekend",
+    "path": "art/TGE-W06.jpg",
+    "status": "generated illustration",
+    "brief": "A silent operations room and a peaceful street share a slow Saturday morning, with technicians suspiciously enjoying their breakfast."
+  },
+  {
+    "id": "TGE-W07",
+    "name": "Third-Party Review",
+    "path": "art/TGE-W07.jpg",
+    "status": "generated illustration",
+    "brief": "An independent reviewer studies physical evidence at a plain desk while interested executives wait outside the glass."
+  },
+  {
+    "id": "TGE-W08",
+    "name": "Mutual Aid",
+    "path": "art/TGE-W08.jpg",
+    "status": "generated illustration",
+    "brief": "Neighbors and technicians share tools and carry replacement equipment together without banners, sponsorships or cameras."
+  },
+  {
+    "id": "TGE-W09",
+    "name": "The News Cycle Moved On",
+    "path": "art/TGE-W09.jpg",
+    "status": "generated illustration",
+    "brief": "A caravan of news cameras leaves one repaired service and rushes toward a distant new flashing light."
+  },
+  {
+    "id": "TGE-W10",
+    "name": "The Follow-Up Never Happened",
+    "path": "art/TGE-W10.jpg",
+    "status": "generated illustration",
+    "brief": "A meeting action item slips through a growing maze of empty calendar boxes and dusty follow-up folders."
+  },
+  {
+    "id": "TGE-W11",
+    "name": "Unscheduled Transparency",
+    "path": "art/TGE-W11.jpg",
+    "status": "generated illustration",
+    "brief": "A technician opens the actual incident record to everyone before a group of speechwriters can finish arranging their talking points."
+  },
+  {
+    "id": "TGE-W12",
+    "name": "The Coffee Arrived",
+    "path": "art/TGE-W12.jpg",
+    "status": "generated illustration",
+    "brief": "A bicycle courier delivers a tray of strong coffee to a night-shift operations room whose entire team visibly regains focus."
+  },
+  {
+    "id": "TGE-W13",
+    "name": "One More Thing",
+    "path": "art/TGE-W13.jpg",
+    "status": "generated illustration",
+    "brief": "A meeting presenter produces one last small folder from behind their back while the exhausted audience reaches for the door."
+  },
+  {
+    "id": "TGE-W14",
+    "name": "Emergency Fund",
+    "path": "art/TGE-W14.jpg",
+    "status": "generated illustration",
+    "brief": "A long-locked emergency fund cabinet finally opens for a visibly real operational emergency rather than a ceremonial executive request."
+  },
+  {
+    "id": "TGE-W15",
+    "name": "The Public Remembers",
+    "path": "art/TGE-W15.jpg",
+    "status": "generated illustration",
+    "brief": "Ordinary users recognize the technician who fixed their systems and call them back, passing an unused executive publicity stand."
+  }
+]

@@ -1,0 +1,2295 @@
+{
+  "passed": 572,
+  "total": 572,
+  "checks": [
+    {
+      "name": "HTML static element IDs are unique",
+      "pass": true
+    },
+    {
+      "name": "HTML has no external script, stylesheet, image or link dependencies",
+      "pass": true
+    },
+    {
+      "name": "Eight manual tables and the complete engine example are embedded",
+      "pass": true
+    },
+    {
+      "name": "All build placeholders were substituted",
+      "pass": true
+    },
+    {
+      "name": "All three embedded JavaScript blocks compile",
+      "pass": true
+    },
+    {
+      "name": "Embedded JavaScript block 1 compiles",
+      "pass": true
+    },
+    {
+      "name": "Embedded JavaScript block 2 compiles",
+      "pass": true
+    },
+    {
+      "name": "Embedded JavaScript block 3 compiles",
+      "pass": true
+    },
+    {
+      "name": "Offline HTML embeds exactly the current source-of-truth catalog",
+      "pass": true
+    },
+    {
+      "name": "All 110 actual illustration files match declared completion",
+      "pass": true
+    },
+    {
+      "name": "Every card has a distinct written illustration scene",
+      "pass": true
+    },
+    {
+      "name": "TGE-M01 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M02 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M03 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M04 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M05 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M06 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M07 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M08 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M09 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M10 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M11 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M12 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M13 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M14 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M15 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M16 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M17 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M18 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M19 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M20 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M21 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M22 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M23 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M24 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-M25 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-D01 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-D02 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-D03 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-D04 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-D05 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-D06 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-D07 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-D08 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-D09 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-D10 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-D11 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-D12 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-D13 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-D14 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-D15 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-D16 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-D17 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-D18 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-D19 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-D20 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-P01 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-P02 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-P03 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-P04 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-P05 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-P06 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-P07 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-P08 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-P09 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-P10 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-P11 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-P12 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-P13 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-P14 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-P15 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-P16 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-P17 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-P18 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-P19 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-P20 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-C01 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-C02 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-C03 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-C04 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-C05 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-C06 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-C07 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-C08 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-C09 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-C10 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-C11 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-C12 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-C13 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-C14 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-C15 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-H01 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-H02 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-H03 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-H04 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-H05 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-H06 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-H07 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-H08 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-H09 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-H10 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-H11 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-H12 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-H13 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-H14 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-H15 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-W01 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-W02 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-W03 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-W04 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-W05 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-W06 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-W07 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-W08 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-W09 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-W10 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-W11 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-W12 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-W13 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-W14 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "TGE-W15 asset state is honest",
+      "pass": true
+    },
+    {
+      "name": "110 individually generated source images recorded",
+      "pass": true
+    },
+    {
+      "name": "110 different source image checksums",
+      "pass": true
+    },
+    {
+      "name": "Rules engine unchanged by the art update",
+      "pass": true
+    },
+    {
+      "name": "Every card mechanic unchanged by the art update",
+      "pass": true
+    },
+    {
+      "name": "110 single-card PDF pages",
+      "pass": true
+    },
+    {
+      "name": "TGE-M01 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M01 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M01 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M01 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M02 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M02 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M02 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M02 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M03 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M03 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M03 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M03 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M04 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M04 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M04 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M04 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M05 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M05 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M05 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M05 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M06 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M06 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M06 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M06 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M07 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M07 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M07 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M07 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M08 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M08 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M08 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M08 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M09 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M09 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M09 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M09 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M10 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M10 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M10 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M10 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M11 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M11 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M11 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M11 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M12 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M12 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M12 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M12 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M13 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M13 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M13 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M13 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M14 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M14 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M14 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M14 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M15 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M15 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M15 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M15 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M16 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M16 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M16 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M16 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M17 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M17 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M17 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M17 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M18 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M18 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M18 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M18 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M19 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M19 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M19 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M19 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M20 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M20 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M20 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M20 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M21 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M21 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M21 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M21 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M22 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M22 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M22 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M22 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M23 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M23 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M23 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M23 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M24 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M24 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M24 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M24 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-M25 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-M25 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-M25 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-M25 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-D01 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-D01 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-D01 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-D01 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-D02 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-D02 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-D02 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-D02 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-D03 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-D03 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-D03 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-D03 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-D04 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-D04 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-D04 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-D04 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-D05 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-D05 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-D05 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-D05 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-D06 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-D06 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-D06 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-D06 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-D07 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-D07 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-D07 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-D07 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-D08 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-D08 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-D08 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-D08 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-D09 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-D09 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-D09 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-D09 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-D10 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-D10 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-D10 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-D10 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-D11 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-D11 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-D11 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-D11 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-D12 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-D12 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-D12 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-D12 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-D13 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-D13 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-D13 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-D13 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-D14 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-D14 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-D14 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-D14 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-D15 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-D15 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-D15 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-D15 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-D16 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-D16 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-D16 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-D16 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-D17 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-D17 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-D17 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-D17 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-D18 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-D18 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-D18 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-D18 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-D19 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-D19 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-D19 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-D19 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-D20 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-D20 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-D20 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-D20 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-P01 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-P01 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-P01 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-P01 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-P02 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-P02 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-P02 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-P02 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-P03 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-P03 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-P03 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-P03 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-P04 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-P04 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-P04 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-P04 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-P05 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-P05 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-P05 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-P05 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-P06 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-P06 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-P06 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-P06 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-P07 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-P07 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-P07 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-P07 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-P08 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-P08 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-P08 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-P08 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-P09 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-P09 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-P09 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-P09 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-P10 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-P10 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-P10 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-P10 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-P11 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-P11 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-P11 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-P11 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-P12 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-P12 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-P12 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-P12 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-P13 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-P13 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-P13 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-P13 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-P14 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-P14 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-P14 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-P14 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-P15 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-P15 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-P15 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-P15 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-P16 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-P16 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-P16 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-P16 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-P17 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-P17 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-P17 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-P17 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-P18 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-P18 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-P18 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-P18 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-P19 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-P19 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-P19 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-P19 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-P20 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-P20 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-P20 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-P20 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-C01 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-C01 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-C01 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-C01 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-C02 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-C02 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-C02 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-C02 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-C03 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-C03 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-C03 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-C03 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-C04 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-C04 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-C04 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-C04 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-C05 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-C05 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-C05 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-C05 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-C06 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-C06 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-C06 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-C06 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-C07 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-C07 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-C07 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-C07 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-C08 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-C08 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-C08 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-C08 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-C09 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-C09 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-C09 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-C09 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-C10 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-C10 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-C10 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-C10 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-C11 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-C11 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-C11 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-C11 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-C12 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-C12 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-C12 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-C12 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-C13 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-C13 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-C13 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-C13 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-C14 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-C14 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-C14 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-C14 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-C15 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-C15 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-C15 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-C15 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-H01 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-H01 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-H01 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-H01 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-H02 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-H02 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-H02 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-H02 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-H03 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-H03 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-H03 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-H03 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-H04 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-H04 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-H04 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-H04 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-H05 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-H05 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-H05 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-H05 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-H06 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-H06 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-H06 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-H06 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-H07 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-H07 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-H07 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-H07 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-H08 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-H08 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-H08 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-H08 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-H09 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-H09 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-H09 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-H09 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-H10 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-H10 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-H10 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-H10 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-H11 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-H11 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-H11 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-H11 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-H12 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-H12 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-H12 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-H12 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-H13 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-H13 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-H13 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-H13 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-H14 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-H14 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-H14 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-H14 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-H15 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-H15 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-H15 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-H15 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-W01 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-W01 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-W01 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-W01 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-W02 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-W02 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-W02 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-W02 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-W03 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-W03 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-W03 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-W03 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-W04 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-W04 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-W04 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-W04 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-W05 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-W05 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-W05 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-W05 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-W06 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-W06 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-W06 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-W06 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-W07 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-W07 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-W07 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-W07 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-W08 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-W08 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-W08 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-W08 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-W09 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-W09 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-W09 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-W09 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-W10 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-W10 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-W10 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-W10 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-W11 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-W11 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-W11 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-W11 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-W12 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-W12 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-W12 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-W12 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-W13 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-W13 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-W13 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-W13 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-W14 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-W14 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-W14 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-W14 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "TGE-W15 PDF contains its own text",
+      "pass": true
+    },
+    {
+      "name": "TGE-W15 has poker-size trim and 0.125-inch bleed",
+      "pass": true
+    },
+    {
+      "name": "TGE-W15 printable face contains one high-resolution illustration",
+      "pass": true
+    },
+    {
+      "name": "TGE-W15 printable face has no art placeholder",
+      "pass": true
+    },
+    {
+      "name": "All 110 printable illustrations are distinct",
+      "pass": true
+    },
+    {
+      "name": "Ten-page atlas contains every illustration",
+      "pass": true
+    },
+    {
+      "name": "38 duplex pages and 19 front/back sheets",
+      "pass": true
+    },
+    {
+      "name": "Two distinct card back pages",
+      "pass": true
+    },
+    {
+      "name": "Full catalog workbook exported",
+      "pass": true
+    },
+    {
+      "name": "All 110 images are embedded as valid JPEG data",
+      "pass": true
+    }
+  ],
+  "note": "Static artifact and PDF checks. These do not replace a live browser walkthrough."
+}

@@ -1,0 +1,4386 @@
+{
+  "title": "THE GREAT ESCALATION",
+  "version": "0.1.0",
+  "edition": "Fully illustrated 110-card playable alpha",
+  "tagline": "When everything becomes a crisis, competence is the ultimate conspiracy.",
+  "categories": [
+    {
+      "code": "M",
+      "name": "Breaking News & Media",
+      "count": 25,
+      "color": "#237c91"
+    },
+    {
+      "code": "D",
+      "name": "Infrastructure Disasters",
+      "count": 20,
+      "color": "#c34c38"
+    },
+    {
+      "code": "P",
+      "name": "Political & Corporate Panic",
+      "count": 20,
+      "color": "#926224"
+    },
+    {
+      "code": "C",
+      "name": "Conspiracies & Prophecies",
+      "count": 15,
+      "color": "#80649b"
+    },
+    {
+      "code": "H",
+      "name": "IT Heroes & Countermeasures",
+      "count": 15,
+      "color": "#34785f"
+    },
+    {
+      "code": "W",
+      "name": "Emergency Events & Wildcards",
+      "count": 15,
+      "color": "#ac5270"
+    }
+  ],
+  "cards": [
+    {
+      "id": "TGE-M01",
+      "name": "Breaking News!",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": null,
+      "effects": [
+        {
+          "op": "report",
+          "n": 2
+        },
+        {
+          "op": "panic",
+          "n": 1
+        }
+      ],
+      "rules": "Report the selected real incident for 2 Reach, plus your stored boost (max 5 Reach). Raise Panic by 1.",
+      "rules_short": "Report a real incident for 2 Reach plus your boost (maximum 5). Consume the boost. Raise Panic by 1.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "We interrupted the solution to bring you the problem.",
+      "illustration": {
+        "path": "art/TGE-M01.jpg",
+        "status": "generated reference illustration",
+        "brief": "A frantic television anchor presents a flaming beige computer while a tiny technician plugs in its loose cable."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M02",
+      "name": "Anonymous Sources",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 0,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "rumor",
+          "n": 2
+        },
+        {
+          "op": "panic",
+          "n": 2
+        },
+        {
+          "op": "credibility",
+          "n": -1
+        }
+      ],
+      "rules": "Create an unsupported rumor and gain 2 Reach. Verification can debunk it. Raise Panic by 2. Lose 1 Credibility.",
+      "rules_short": "Sponsor a rumor and gain 2 Reach. It is vulnerable to verification. Raise Panic by 2. Lose 1 Credibility.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Any player can use basic Verify to debunk this rumor, removing 1 sponsor Reach and adding 1 Blame.",
+      "flavor": "A person familiar with a person familiar with the matter.",
+      "illustration": {
+        "path": "art/TGE-M02.jpg",
+        "status": "generated illustration",
+        "brief": "A broadcaster interviews a silhouette behind three curtains; the silhouette is itself reading a rumor from another television."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M03",
+      "name": "The Algorithm Has Spoken",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "boost",
+          "n": 2
+        },
+        {
+          "op": "reach",
+          "n": 1
+        },
+        {
+          "op": "panic",
+          "n": 1
+        }
+      ],
+      "rules": "Your next report gains +2 Reach (boosts cap at 3). Gain 1 Reach. Raise Panic by 1.",
+      "rules_short": "Your next report gains +2 Reach (boosts cap at 3). Gain 1 Reach. Raise Panic by 1.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "The machine has identified your preferred flavor of dread.",
+      "illustration": {
+        "path": "art/TGE-M03.jpg",
+        "status": "generated illustration",
+        "brief": "An enormous mechanical newsroom sorting machine feeds tiny audience members customized portions of illustrated dread."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M04",
+      "name": "Expert Panel of Absolutely Nobody",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "reach",
+          "n": 2
+        },
+        {
+          "op": "panic",
+          "n": 2
+        },
+        {
+          "op": "credibility",
+          "n": -1
+        }
+      ],
+      "rules": "Gain 2 Reach. Raise Panic by 2. Lose 1 Credibility.",
+      "rules_short": "Gain 2 Reach. Raise Panic by 2. Lose 1 Credibility.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "Six chairs. Seven opinions. Zero relevant qualifications.",
+      "illustration": {
+        "path": "art/TGE-M04.jpg",
+        "status": "generated illustration",
+        "brief": "Six self-appointed experts argue around seven microphones while a qualified technician waits outside the studio glass."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M05",
+      "name": "Downdetector Says We're Dying",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": null,
+      "effects": [
+        {
+          "op": "escalate",
+          "n": 1
+        },
+        {
+          "op": "report",
+          "n": 2
+        },
+        {
+          "op": "panic",
+          "n": 2
+        }
+      ],
+      "rules": "Add 1 severity to the selected real incident (maximum 8). Report the selected real incident for 2 Reach, plus your stored boost (max 5 Reach). Raise Panic by 2.",
+      "rules_short": "Add 1 severity to the selected real incident (maximum 8). Report a real incident for 2 Reach plus your boost (maximum 5). Consume the boost. Raise Panic by 2.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "A red dot is apparently a death certificate.",
+      "illustration": {
+        "path": "art/TGE-M05.jpg",
+        "status": "generated illustration",
+        "brief": "A terrified family stares at a single red point on a giant outage map while their functioning room glows with electronics."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M06",
+      "name": "We Interrupt This Program",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "draw",
+          "n": 2
+        },
+        {
+          "op": "panic",
+          "n": 1
+        }
+      ],
+      "rules": "Draw 2 cards. Raise Panic by 1.",
+      "rules_short": "Draw 2 cards. Raise Panic by 1.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "Even the emergency has an ad break.",
+      "illustration": {
+        "path": "art/TGE-M06.jpg",
+        "status": "generated illustration",
+        "brief": "A television producer physically interrupts a repair technician to insert a lavish advertisement into an emergency broadcast."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M07",
+      "name": "Live From the Parking Lot",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": null,
+      "effects": [
+        {
+          "op": "report",
+          "n": 1
+        },
+        {
+          "op": "credibility",
+          "n": 1
+        }
+      ],
+      "rules": "Report the selected real incident for 1 Reach, plus your stored boost (max 5 Reach). Gain 1 Credibility.",
+      "rules_short": "Report a real incident for 1 Reach plus your boost (maximum 5). Consume the boost. Gain 1 Credibility.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "The building remains behind us. More as it develops.",
+      "illustration": {
+        "path": "art/TGE-M07.jpg",
+        "status": "generated illustration",
+        "brief": "A field reporter gravely points at a perfectly ordinary office parking lot, framed as if it were an archaeological catastrophe."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M08",
+      "name": "Context Is Behind a Paywall",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 0,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "influence",
+          "n": 3
+        },
+        {
+          "op": "credibility",
+          "n": -1
+        }
+      ],
+      "rules": "Gain 3 Influence. Lose 1 Credibility.",
+      "rules_short": "Gain 3 Influence. Lose 1 Credibility.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "The first three paragraphs of the apocalypse are free.",
+      "illustration": {
+        "path": "art/TGE-M08.jpg",
+        "status": "generated illustration",
+        "brief": "A newspaper barricade hides a simple mundane explanation; a coin slot offers a narrow glimpse behind the sensational front page."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M09",
+      "name": "Correction on Page 47",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "panic",
+          "n": -2
+        },
+        {
+          "op": "credibility",
+          "n": 1
+        },
+        {
+          "op": "draw",
+          "n": 1
+        }
+      ],
+      "rules": "Lower Panic by 2. Gain 1 Credibility. Draw 1 card.",
+      "rules_short": "Lower Panic by 2. Gain 1 Credibility. Draw 1 card.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "Yesterday's extinction event was a printer jam.",
+      "illustration": {
+        "path": "art/TGE-M09.jpg",
+        "status": "generated illustration",
+        "brief": "A tiny correction occupies a remote back page of a newspaper whose front cover depicts the end of the world."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M10",
+      "name": "Leaked Slide Deck",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "rival",
+      "condition": null,
+      "effects": [
+        {
+          "op": "audit",
+          "n": 1
+        },
+        {
+          "op": "draw",
+          "n": 1
+        }
+      ],
+      "rules": "Audit up to 1 issues at one rival: oldest rumor first, then Liability, then report boost. Each audited Liability becomes Blame and costs 1 Leverage and 1 Credibility. A productive audit earns 1 Accountability and 1 Credibility. One shield blocks the whole audit. Draw 1 card.",
+      "rules_short": "Audit up to 1 issues at one rival. One shield blocks the audit. Use normal audit rewards. Draw 1 card.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Use Audit Shields. Honest players without rumors, Liability, or boosts cannot be audited.",
+      "flavor": "Confidential. Forwarded by everyone.",
+      "illustration": {
+        "path": "art/TGE-M10.jpg",
+        "status": "generated illustration",
+        "brief": "An executive secretly hands over an enormous slide deck while every nearby employee openly holds a copy."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M11",
+      "name": "The Thumbnail Has Flames",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "reach",
+          "n": 2
+        },
+        {
+          "op": "panic",
+          "n": 2
+        },
+        {
+          "op": "credibility",
+          "n": -1
+        },
+        {
+          "op": "boost",
+          "n": 1
+        }
+      ],
+      "rules": "Gain 2 Reach. Raise Panic by 2. Lose 1 Credibility. Your next report gains +1 Reach (boosts cap at 3).",
+      "rules_short": "Gain 2 Reach. Raise Panic by 2. Lose 1 Credibility. Your next report gains +1 Reach (boosts cap at 3).",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "The server was not actually on fire. The engagement was.",
+      "illustration": {
+        "path": "art/TGE-M11.jpg",
+        "status": "generated illustration",
+        "brief": "A graphic designer paints flames around a photograph of a cool, unplugged server; the real computer sits harmlessly beside them."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M12",
+      "name": "Breaking: Still Broken",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": "verified",
+      "effects": [
+        {
+          "op": "report",
+          "n": 2
+        },
+        {
+          "op": "draw",
+          "n": 1
+        }
+      ],
+      "rules": "Report the selected real incident for 2 Reach, plus your stored boost (max 5 Reach). Draw 1 card.",
+      "rules_short": "Report a real incident for 2 Reach plus your boost (maximum 5). Consume the boost. Draw 1 card.",
+      "restriction": "The selected real incident must already be verified.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "Our third exclusive confirmation of the same outage.",
+      "illustration": {
+        "path": "art/TGE-M12.jpg",
+        "status": "generated illustration",
+        "brief": "Three television crews film the same technician working on the same broken server from increasingly dramatic camera angles."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M13",
+      "name": "Community Radio",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "panic",
+          "n": -1
+        },
+        {
+          "op": "credibility",
+          "n": 1
+        },
+        {
+          "op": "reach",
+          "n": 1
+        }
+      ],
+      "rules": "Lower Panic by 1. Gain 1 Credibility. Gain 1 Reach.",
+      "rules_short": "Lower Panic by 1. Gain 1 Credibility. Gain 1 Reach.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "A calm voice. A working frequency. Revolutionary stuff.",
+      "illustration": {
+        "path": "art/TGE-M13.jpg",
+        "status": "generated illustration",
+        "brief": "A calm community radio host gives practical instructions beside a lantern while anxious neighbors gradually relax."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M14",
+      "name": "Follow the Money",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "rival",
+      "condition": null,
+      "effects": [
+        {
+          "op": "audit",
+          "n": 1
+        },
+        {
+          "op": "influence",
+          "n": 1
+        }
+      ],
+      "rules": "Audit up to 1 issues at one rival: oldest rumor first, then Liability, then report boost. Each audited Liability becomes Blame and costs 1 Leverage and 1 Credibility. A productive audit earns 1 Accountability and 1 Credibility. One shield blocks the whole audit. Gain 1 Influence.",
+      "rules_short": "Audit up to 1 issues at one rival. One shield blocks the audit. Use normal audit rewards. Gain 1 Influence.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Use Audit Shields. Honest players without rumors, Liability, or boosts cannot be audited.",
+      "flavor": "It led to an invoice for following the money.",
+      "illustration": {
+        "path": "art/TGE-M14.jpg",
+        "status": "generated illustration",
+        "brief": "An investigator follows a winding trail of banknotes that ends at an invoice for the investigation itself."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M15",
+      "name": "Scheduled Outrage",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 0,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "boost",
+          "n": 1
+        },
+        {
+          "op": "panic",
+          "n": 1
+        }
+      ],
+      "rules": "Your next report gains +1 Reach (boosts cap at 3). Raise Panic by 1.",
+      "rules_short": "Your next report gains +1 Reach (boosts cap at 3). Raise Panic by 1.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "The indignation is live. The footage is from Tuesday.",
+      "illustration": {
+        "path": "art/TGE-M15.jpg",
+        "status": "generated illustration",
+        "brief": "A studio clock controls a conveyor belt of identical outraged presenters emerging from theatrical dressing rooms."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M16",
+      "name": "Retraction Speedrun",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "rumor",
+      "condition": null,
+      "effects": [
+        {
+          "op": "verify",
+          "n": 1
+        },
+        {
+          "op": "draw",
+          "n": 1
+        }
+      ],
+      "rules": "Verify the selected unknown case. Earn 1 Accountability and 1 Credibility. A real incident lowers Panic by 1; a rumor is removed, lowers it by 2, and its sponsor loses 1 Reach and takes 1 Blame. Draw 1 card.",
+      "rules_short": "Verify one unknown case. Use normal evidence and debunk rewards. Draw 1 card.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Withdraw or verify the rumor first.",
+      "flavor": "The correction arrived before the merchandise.",
+      "illustration": {
+        "path": "art/TGE-M16.jpg",
+        "status": "generated illustration",
+        "brief": "A breathless editor tears down a catastrophe poster while a warehouse worker is still printing merchandise for it."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M17",
+      "name": "Independent Fact Check",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "unknown",
+      "condition": null,
+      "effects": [
+        {
+          "op": "verify",
+          "n": 1
+        },
+        {
+          "op": "panic",
+          "n": -1
+        }
+      ],
+      "rules": "Verify the selected unknown case. Earn 1 Accountability and 1 Credibility. A real incident lowers Panic by 1; a rumor is removed, lowers it by 2, and its sponsor loses 1 Reach and takes 1 Blame. Lower Panic by 1.",
+      "rules_short": "Verify one unknown case. Use normal evidence and debunk rewards. Lower Panic by 1.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Verify the case first to deny this target.",
+      "flavor": "An astonishing number of facts survived being checked.",
+      "illustration": {
+        "path": "art/TGE-M17.jpg",
+        "status": "generated illustration",
+        "brief": "A modest investigator compares a loud rumor board against a small, clear collection of physical records and receipts."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M18",
+      "name": "The Camera Found IT",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": "verified",
+      "effects": [
+        {
+          "op": "repair",
+          "n": 1
+        },
+        {
+          "op": "report",
+          "n": 2
+        }
+      ],
+      "rules": "Repair 1 severity on the selected real incident and restore 1 Stability. Verified work earns 1 Accountability; resolving it earns +1 Accountability, +1 Credibility, and +1 more Stability. Report the selected real incident for 2 Reach, plus your stored boost (max 5 Reach).",
+      "rules_short": "Repair 1 severity. Use normal work and resolution rewards. Report a real incident for 2 Reach plus your boost (maximum 5). Consume the boost.",
+      "restriction": "The selected real incident must already be verified.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "For once, the person fixing it gets the lower third.",
+      "illustration": {
+        "path": "art/TGE-M18.jpg",
+        "status": "generated illustration",
+        "brief": "A camera operator finally swivels away from a grandstanding executive and toward the technician reconnecting the network."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M19",
+      "name": "Emergency Press Conference",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "panic",
+          "n": -1
+        },
+        {
+          "op": "influence",
+          "n": 2
+        },
+        {
+          "op": "credibility",
+          "n": 1
+        }
+      ],
+      "rules": "Lower Panic by 1. Gain 2 Influence. Gain 1 Credibility.",
+      "rules_short": "Lower Panic by 1. Gain 2 Influence. Gain 1 Credibility.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "The podium is operational. The network is not.",
+      "illustration": {
+        "path": "art/TGE-M19.jpg",
+        "status": "generated illustration",
+        "brief": "A beautiful emergency podium, six functioning microphones, and elaborate lighting surround a visibly disconnected network rack."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M20",
+      "name": "Public Service Announcement",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "panic",
+          "n": -3
+        },
+        {
+          "op": "reach",
+          "n": 1
+        }
+      ],
+      "rules": "Lower Panic by 3. Gain 1 Reach.",
+      "rules_short": "Lower Panic by 3. Gain 1 Reach.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "Remain calm. Yes, that is the entire announcement.",
+      "illustration": {
+        "path": "art/TGE-M20.jpg",
+        "status": "generated illustration",
+        "brief": "A public-service announcer holds a clear practical diagram while a group of sensationalist presenters waits impatiently backstage."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M21",
+      "name": "A Screenshot Is Not a Source",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "rumor",
+      "condition": null,
+      "effects": [
+        {
+          "op": "verify",
+          "n": 1
+        },
+        {
+          "op": "shield",
+          "n": 1
+        }
+      ],
+      "rules": "Verify the selected unknown case. Earn 1 Accountability and 1 Credibility. A real incident lowers Panic by 1; a rumor is removed, lowers it by 2, and its sponsor loses 1 Reach and takes 1 Blame. Gain 1 Audit Shield.",
+      "rules_short": "Verify one unknown case. Use normal evidence and debunk rewards. Gain 1 Audit Shield.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Withdraw or verify the rumor first.",
+      "flavor": "Especially a screenshot of your own screenshot.",
+      "illustration": {
+        "path": "art/TGE-M21.jpg",
+        "status": "generated illustration",
+        "brief": "An investigator magnifies a pixelated picture of another pixelated picture; the actual source sits unopened on the desk."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M22",
+      "name": "The Mic Is Still On",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "rival",
+      "condition": null,
+      "effects": [
+        {
+          "op": "audit",
+          "n": 1
+        },
+        {
+          "op": "leverage",
+          "n": 1
+        }
+      ],
+      "rules": "Audit up to 1 issues at one rival: oldest rumor first, then Liability, then report boost. Each audited Liability becomes Blame and costs 1 Leverage and 1 Credibility. A productive audit earns 1 Accountability and 1 Credibility. One shield blocks the whole audit. Gain 1 Leverage.",
+      "rules_short": "Audit up to 1 issues at one rival. One shield blocks the audit. Use normal audit rewards. Gain 1 Leverage.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Use Audit Shields. Honest players without rumors, Liability, or boosts cannot be audited.",
+      "flavor": "We will now hear the internal version of that statement.",
+      "illustration": {
+        "path": "art/TGE-M22.jpg",
+        "status": "generated illustration",
+        "brief": "An executive whispers into a colleague's ear while the giant studio microphone remains illuminated in front of them."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M23",
+      "name": "Longform Investigation",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 3,
+      "timing": "Your turn; costs 1 action",
+      "target": "rival",
+      "condition": null,
+      "effects": [
+        {
+          "op": "audit",
+          "n": 2
+        },
+        {
+          "op": "draw",
+          "n": 2
+        }
+      ],
+      "rules": "Audit up to 2 issues at one rival: oldest rumor first, then Liability, then report boost. Each audited Liability becomes Blame and costs 1 Leverage and 1 Credibility. A productive audit earns 1 Accountability and 1 Credibility. One shield blocks the whole audit. Draw 2 cards.",
+      "rules_short": "Audit up to 2 issues at one rival. One shield blocks the audit. Use normal audit rewards. Draw 2 cards.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Use Audit Shields. Honest players without rumors, Liability, or boosts cannot be audited.",
+      "flavor": "It took longer than a thread. That was the point.",
+      "illustration": {
+        "path": "art/TGE-M23.jpg",
+        "status": "generated illustration",
+        "brief": "A patient reporter works late through boxes of records while a conveyor belt of instant reactions rushes past the window."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M24",
+      "name": "Emergency Broadcast Loop",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "boost",
+          "n": 2
+        },
+        {
+          "op": "panic",
+          "n": 1
+        },
+        {
+          "op": "draw",
+          "n": 1
+        }
+      ],
+      "rules": "Your next report gains +2 Reach (boosts cap at 3). Raise Panic by 1. Draw 1 card.",
+      "rules_short": "Your next report gains +2 Reach (boosts cap at 3). Raise Panic by 1. Draw 1 card.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "The warning has outlived the event.",
+      "illustration": {
+        "path": "art/TGE-M24.jpg",
+        "status": "generated illustration",
+        "brief": "A dusty emergency television endlessly repeats an alarm in a room where the original problem was fixed days ago."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-M25",
+      "name": "Responsible Headline",
+      "category": "Breaking News & Media",
+      "category_code": "M",
+      "color": "#237c91",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": "verified",
+      "effects": [
+        {
+          "op": "report",
+          "n": 2
+        },
+        {
+          "op": "panic",
+          "n": -1
+        }
+      ],
+      "rules": "Report the selected real incident for 2 Reach, plus your stored boost (max 5 Reach). Lower Panic by 1.",
+      "rules_short": "Report a real incident for 2 Reach plus your boost (maximum 5). Consume the boost. Lower Panic by 1.",
+      "restriction": "The selected real incident must already be verified.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "LOCAL SYSTEM FAILS. LOCAL PEOPLE REPAIR SYSTEM.",
+      "illustration": {
+        "path": "art/TGE-M25.jpg",
+        "status": "generated illustration",
+        "brief": "A grounded local reporter watches a technician repair a real fault; a restrained camera crew lets the work happen."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-D01",
+      "name": "Broadcast Storm",
+      "category": "Infrastructure Disasters",
+      "category_code": "D",
+      "color": "#c34c38",
+      "type": "Incident",
+      "cost": 0,
+      "timing": "Reveal at round start; never enters a player hand",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "incident",
+          "n": 4,
+          "panic": 1,
+          "tags": [
+            "network"
+          ],
+          "cause": "An unmanaged switch loop is flooding the network."
+        }
+      ],
+      "rules": "Enter as a real, unverified incident with 4 severity. Raise Panic by 1. At round end, uncontained real incidents deal combined damage equal to their remaining severity divided by 4, rounded up.",
+      "restriction": "Only the incident deck reveals this card. The real-incident limit is player count + 2.",
+      "counterplay": "Verify to reveal the cause and earn Accountability. Repair to remove severity. Contain to prevent round-end damage for one round.",
+      "flavor": "Every packet has been invited to every meeting.",
+      "illustration": {
+        "path": "art/TGE-D01.jpg",
+        "status": "generated reference illustration",
+        "brief": "An octopus-like tangle of ethernet cables lashes through a beige network closet while a technician discovers two ports plugged into one another."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "incident"
+      },
+      "rules_short": "Real incident. Initial severity 4. Panic +1. Verify, contain, or repair. Uncontained severity contributes to round-end damage."
+    },
+    {
+      "id": "TGE-D02",
+      "name": "Nationwide Ground Stop",
+      "category": "Infrastructure Disasters",
+      "category_code": "D",
+      "color": "#c34c38",
+      "type": "Incident",
+      "cost": 0,
+      "timing": "Reveal at round start; never enters a player hand",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "incident",
+          "n": 4,
+          "panic": 2,
+          "tags": [
+            "software"
+          ],
+          "cause": "An expired flight-information service token blocked updates.",
+          "resolution_bonus": [
+            {
+              "op": "panic",
+              "n": -2
+            }
+          ]
+        }
+      ],
+      "rules": "Enter as a real, unverified incident with 4 severity. Raise Panic by 2. At round end, uncontained real incidents deal combined damage equal to their remaining severity divided by 4, rounded up. Resolution bonus for the fixer: Lower Panic by 2.",
+      "restriction": "Only the incident deck reveals this card. The real-incident limit is player count + 2.",
+      "counterplay": "Verify to reveal the cause and earn Accountability. Repair to remove severity. Contain to prevent round-end damage for one round.",
+      "flavor": "The planes work. The permission to know where they are does not.",
+      "illustration": {
+        "path": "art/TGE-D02.jpg",
+        "status": "generated illustration",
+        "brief": "A motionless fleet of airplanes waits under a clear sky while an exhausted controller stares at a tiny service-token alert."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "incident"
+      },
+      "rules_short": "Real incident. Initial severity 4. Panic +2. Verify, contain, or repair. Uncontained severity contributes to round-end damage. Resolution bonus for the fixer: Lower Panic by 2."
+    },
+    {
+      "id": "TGE-D03",
+      "name": "Banking Outage",
+      "category": "Infrastructure Disasters",
+      "category_code": "D",
+      "color": "#c34c38",
+      "type": "Incident",
+      "cost": 0,
+      "timing": "Reveal at round start; never enters a player hand",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "incident",
+          "n": 4,
+          "panic": 2,
+          "tags": [
+            "network"
+          ],
+          "cause": "A routing policy isolated the payment gateway.",
+          "resolution_bonus": [
+            {
+              "op": "influence",
+              "n": 2
+            }
+          ]
+        }
+      ],
+      "rules": "Enter as a real, unverified incident with 4 severity. Raise Panic by 2. At round end, uncontained real incidents deal combined damage equal to their remaining severity divided by 4, rounded up. Resolution bonus for the fixer: Gain 2 Influence.",
+      "restriction": "Only the incident deck reveals this card. The real-incident limit is player count + 2.",
+      "counterplay": "Verify to reveal the cause and earn Accountability. Repair to remove severity. Contain to prevent round-end damage for one round.",
+      "flavor": "Your money is safe. Its whereabouts are temporarily abstract.",
+      "illustration": {
+        "path": "art/TGE-D03.jpg",
+        "status": "generated illustration",
+        "brief": "A bank lobby crowds around an unavailable payment terminal while a technician follows one misplaced network cable behind the teller wall."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "incident"
+      },
+      "rules_short": "Real incident. Initial severity 4. Panic +2. Verify, contain, or repair. Uncontained severity contributes to round-end damage. Resolution bonus for the fixer: Gain 2 Influence."
+    },
+    {
+      "id": "TGE-D04",
+      "name": "The Legacy Router",
+      "category": "Infrastructure Disasters",
+      "category_code": "D",
+      "color": "#c34c38",
+      "type": "Incident",
+      "cost": 0,
+      "timing": "Reveal at round start; never enters a player hand",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "incident",
+          "n": 3,
+          "panic": 1,
+          "tags": [
+            "network",
+            "physical"
+          ],
+          "cause": "An unsupported router exhausted its memory.",
+          "resolution_bonus": [
+            {
+              "op": "credibility",
+              "n": 1
+            }
+          ]
+        }
+      ],
+      "rules": "Enter as a real, unverified incident with 3 severity. Raise Panic by 1. At round end, uncontained real incidents deal combined damage equal to their remaining severity divided by 4, rounded up. Resolution bonus for the fixer: Gain 1 Credibility.",
+      "restriction": "Only the incident deck reveals this card. The real-incident limit is player count + 2.",
+      "counterplay": "Verify to reveal the cause and earn Accountability. Repair to remove severity. Contain to prevent round-end damage for one round.",
+      "flavor": "It has survived three mergers and no firmware updates.",
+      "illustration": {
+        "path": "art/TGE-D04.jpg",
+        "status": "generated illustration",
+        "brief": "A yellowed ancient router sits on a velvet historical pedestal, surrounded by executives afraid to touch its failing power brick."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "incident"
+      },
+      "rules_short": "Real incident. Initial severity 3. Panic +1. Verify, contain, or repair. Uncontained severity contributes to round-end damage. Resolution bonus for the fixer: Gain 1 Credibility."
+    },
+    {
+      "id": "TGE-D05",
+      "name": "Global DNS Failure",
+      "category": "Infrastructure Disasters",
+      "category_code": "D",
+      "color": "#c34c38",
+      "type": "Incident",
+      "cost": 0,
+      "timing": "Reveal at round start; never enters a player hand",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "incident",
+          "n": 5,
+          "panic": 2,
+          "tags": [
+            "network"
+          ],
+          "cause": "A bad DNS change propagated to production resolvers."
+        }
+      ],
+      "rules": "Enter as a real, unverified incident with 5 severity. Raise Panic by 2. At round end, uncontained real incidents deal combined damage equal to their remaining severity divided by 4, rounded up.",
+      "restriction": "Only the incident deck reveals this card. The real-incident limit is player count + 2.",
+      "counterplay": "Verify to reveal the cause and earn Accountability. Repair to remove severity. Contain to prevent round-end damage for one round.",
+      "flavor": "Civilization cannot find civilization.",
+      "illustration": {
+        "path": "art/TGE-D05.jpg",
+        "status": "generated illustration",
+        "brief": "A city of working computers points toward an empty directory board, unable to locate services that are visibly still running."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "incident"
+      },
+      "rules_short": "Real incident. Initial severity 5. Panic +2. Verify, contain, or repair. Uncontained severity contributes to round-end damage."
+    },
+    {
+      "id": "TGE-D06",
+      "name": "Unapproved Production Change",
+      "category": "Infrastructure Disasters",
+      "category_code": "D",
+      "color": "#c34c38",
+      "type": "Incident",
+      "cost": 0,
+      "timing": "Reveal at round start; never enters a player hand",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "incident",
+          "n": 3,
+          "panic": 1,
+          "tags": [
+            "software"
+          ],
+          "cause": "A direct production edit bypassed validation.",
+          "resolution_bonus": [
+            {
+              "op": "draw",
+              "n": 1
+            }
+          ]
+        }
+      ],
+      "rules": "Enter as a real, unverified incident with 3 severity. Raise Panic by 1. At round end, uncontained real incidents deal combined damage equal to their remaining severity divided by 4, rounded up. Resolution bonus for the fixer: Draw 1 card.",
+      "restriction": "Only the incident deck reveals this card. The real-incident limit is player count + 2.",
+      "counterplay": "Verify to reveal the cause and earn Accountability. Repair to remove severity. Contain to prevent round-end damage for one round.",
+      "flavor": "A small change, as measured by the person who left.",
+      "illustration": {
+        "path": "art/TGE-D06.jpg",
+        "status": "generated illustration",
+        "brief": "A cheerful engineer makes a tiny keyboard edit as a long row of production monitors changes color behind them."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "incident"
+      },
+      "rules_short": "Real incident. Initial severity 3. Panic +1. Verify, contain, or repair. Uncontained severity contributes to round-end damage. Resolution bonus for the fixer: Draw 1 card."
+    },
+    {
+      "id": "TGE-D07",
+      "name": "Expired Certificate",
+      "category": "Infrastructure Disasters",
+      "category_code": "D",
+      "color": "#c34c38",
+      "type": "Incident",
+      "cost": 0,
+      "timing": "Reveal at round start; never enters a player hand",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "incident",
+          "n": 2,
+          "panic": 1,
+          "tags": [
+            "identity"
+          ],
+          "cause": "An unrenewed TLS certificate broke service authentication."
+        }
+      ],
+      "rules": "Enter as a real, unverified incident with 2 severity. Raise Panic by 1. At round end, uncontained real incidents deal combined damage equal to their remaining severity divided by 4, rounded up.",
+      "restriction": "Only the incident deck reveals this card. The real-incident limit is player count + 2.",
+      "counterplay": "Verify to reveal the cause and earn Accountability. Repair to remove severity. Contain to prevent round-end damage for one round.",
+      "flavor": "The entire company has been defeated by a date.",
+      "illustration": {
+        "path": "art/TGE-D07.jpg",
+        "status": "generated illustration",
+        "brief": "An imposing office security door rejects a harmless certificate because a tiny wall calendar has advanced one day."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "incident"
+      },
+      "rules_short": "Real incident. Initial severity 2. Panic +1. Verify, contain, or repair. Uncontained severity contributes to round-end damage."
+    },
+    {
+      "id": "TGE-D08",
+      "name": "Fiber-Seeking Backhoe",
+      "category": "Infrastructure Disasters",
+      "category_code": "D",
+      "color": "#c34c38",
+      "type": "Incident",
+      "cost": 0,
+      "timing": "Reveal at round start; never enters a player hand",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "incident",
+          "n": 4,
+          "panic": 1,
+          "tags": [
+            "network",
+            "physical"
+          ],
+          "cause": "Excavation severed the only fiber route."
+        }
+      ],
+      "rules": "Enter as a real, unverified incident with 4 severity. Raise Panic by 1. At round end, uncontained real incidents deal combined damage equal to their remaining severity divided by 4, rounded up.",
+      "restriction": "Only the incident deck reveals this card. The real-incident limit is player count + 2.",
+      "counterplay": "Verify to reveal the cause and earn Accountability. Repair to remove severity. Contain to prevent round-end damage for one round.",
+      "flavor": "Nature's most accurate cable locator.",
+      "illustration": {
+        "path": "art/TGE-D08.jpg",
+        "status": "generated illustration",
+        "brief": "A backhoe bucket delicately and unerringly snips a lone underground fiber cable while workers study an inaccurate map."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "incident"
+      },
+      "rules_short": "Real incident. Initial severity 4. Panic +1. Verify, contain, or repair. Uncontained severity contributes to round-end damage."
+    },
+    {
+      "id": "TGE-D09",
+      "name": "Read-Only Backup",
+      "category": "Infrastructure Disasters",
+      "category_code": "D",
+      "color": "#c34c38",
+      "type": "Incident",
+      "cost": 0,
+      "timing": "Reveal at round start; never enters a player hand",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "incident",
+          "n": 4,
+          "panic": 1,
+          "tags": [
+            "storage"
+          ],
+          "cause": "The backup account could read data but never write it."
+        }
+      ],
+      "rules": "Enter as a real, unverified incident with 4 severity. Raise Panic by 1. At round end, uncontained real incidents deal combined damage equal to their remaining severity divided by 4, rounded up.",
+      "restriction": "Only the incident deck reveals this card. The real-incident limit is player count + 2.",
+      "counterplay": "Verify to reveal the cause and earn Accountability. Repair to remove severity. Contain to prevent round-end damage for one round.",
+      "flavor": "Thirty green reports. Zero recoverable files.",
+      "illustration": {
+        "path": "art/TGE-D09.jpg",
+        "status": "generated illustration",
+        "brief": "An immaculate backup vault is full of empty folders; a restoration engineer realizes the neatly maintained shelf contains nothing."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "incident"
+      },
+      "rules_short": "Real incident. Initial severity 4. Panic +1. Verify, contain, or repair. Uncontained severity contributes to round-end damage."
+    },
+    {
+      "id": "TGE-D10",
+      "name": "Region Unavailable",
+      "category": "Infrastructure Disasters",
+      "category_code": "D",
+      "color": "#c34c38",
+      "type": "Incident",
+      "cost": 0,
+      "timing": "Reveal at round start; never enters a player hand",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "incident",
+          "n": 5,
+          "panic": 2,
+          "tags": [
+            "cloud"
+          ],
+          "cause": "A regional control plane failed during a migration."
+        }
+      ],
+      "rules": "Enter as a real, unverified incident with 5 severity. Raise Panic by 2. At round end, uncontained real incidents deal combined damage equal to their remaining severity divided by 4, rounded up.",
+      "restriction": "Only the incident deck reveals this card. The real-incident limit is player count + 2.",
+      "counterplay": "Verify to reveal the cause and earn Accountability. Repair to remove severity. Contain to prevent round-end damage for one round.",
+      "flavor": "The cloud is somebody else's very crowded war room.",
+      "illustration": {
+        "path": "art/TGE-D10.jpg",
+        "status": "generated illustration",
+        "brief": "An abstract cloud facility becomes an overcrowded physical operations room with overloaded consoles and distant stranded users."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "incident"
+      },
+      "rules_short": "Real incident. Initial severity 5. Panic +2. Verify, contain, or repair. Uncontained severity contributes to round-end damage."
+    },
+    {
+      "id": "TGE-D11",
+      "name": "Ransomware Drill Gone Live",
+      "category": "Infrastructure Disasters",
+      "category_code": "D",
+      "color": "#c34c38",
+      "type": "Incident",
+      "cost": 0,
+      "timing": "Reveal at round start; never enters a player hand",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "incident",
+          "n": 5,
+          "panic": 2,
+          "tags": [
+            "security"
+          ],
+          "cause": "A simulation tool was pointed at production storage."
+        }
+      ],
+      "rules": "Enter as a real, unverified incident with 5 severity. Raise Panic by 2. At round end, uncontained real incidents deal combined damage equal to their remaining severity divided by 4, rounded up.",
+      "restriction": "Only the incident deck reveals this card. The real-incident limit is player count + 2.",
+      "counterplay": "Verify to reveal the cause and earn Accountability. Repair to remove severity. Contain to prevent round-end damage for one round.",
+      "flavor": "The exercise has exceeded all expectations.",
+      "illustration": {
+        "path": "art/TGE-D11.jpg",
+        "status": "generated illustration",
+        "brief": "A training console accidentally drives a real production machine while the instructor's celebratory drill props fall to the floor."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "incident"
+      },
+      "rules_short": "Real incident. Initial severity 5. Panic +2. Verify, contain, or repair. Uncontained severity contributes to round-end damage."
+    },
+    {
+      "id": "TGE-D12",
+      "name": "Empty Generator Tank",
+      "category": "Infrastructure Disasters",
+      "category_code": "D",
+      "color": "#c34c38",
+      "type": "Incident",
+      "cost": 0,
+      "timing": "Reveal at round start; never enters a player hand",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "incident",
+          "n": 4,
+          "panic": 1,
+          "tags": [
+            "physical"
+          ],
+          "cause": "The generator test never included checking the fuel.",
+          "resolution_bonus": [
+            {
+              "op": "stability",
+              "n": 2
+            }
+          ]
+        }
+      ],
+      "rules": "Enter as a real, unverified incident with 4 severity. Raise Panic by 1. At round end, uncontained real incidents deal combined damage equal to their remaining severity divided by 4, rounded up. Resolution bonus for the fixer: Restore 2 Stability.",
+      "restriction": "Only the incident deck reveals this card. The real-incident limit is player count + 2.",
+      "counterplay": "Verify to reveal the cause and earn Accountability. Repair to remove severity. Contain to prevent round-end damage for one round.",
+      "flavor": "The continuity plan runs on assumptions.",
+      "illustration": {
+        "path": "art/TGE-D12.jpg",
+        "status": "generated illustration",
+        "brief": "A pristine emergency generator sits beside an empty fuel gauge and a thick, confidently approved continuity binder."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "incident"
+      },
+      "rules_short": "Real incident. Initial severity 4. Panic +1. Verify, contain, or repair. Uncontained severity contributes to round-end damage. Resolution bonus for the fixer: Restore 2 Stability."
+    },
+    {
+      "id": "TGE-D13",
+      "name": "DHCP Hunger Games",
+      "category": "Infrastructure Disasters",
+      "category_code": "D",
+      "color": "#c34c38",
+      "type": "Incident",
+      "cost": 0,
+      "timing": "Reveal at round start; never enters a player hand",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "incident",
+          "n": 3,
+          "panic": 1,
+          "tags": [
+            "network"
+          ],
+          "cause": "The address pool is exhausted by abandoned leases."
+        }
+      ],
+      "rules": "Enter as a real, unverified incident with 3 severity. Raise Panic by 1. At round end, uncontained real incidents deal combined damage equal to their remaining severity divided by 4, rounded up.",
+      "restriction": "Only the incident deck reveals this card. The real-incident limit is player count + 2.",
+      "counterplay": "Verify to reveal the cause and earn Accountability. Repair to remove severity. Contain to prevent round-end damage for one round.",
+      "flavor": "May the next available address be ever in your favor.",
+      "illustration": {
+        "path": "art/TGE-D13.jpg",
+        "status": "generated illustration",
+        "brief": "A queue of desperate laptops waits at an address dispenser that contains one remaining numbered ticket, rendered without readable digits."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "incident"
+      },
+      "rules_short": "Real incident. Initial severity 3. Panic +1. Verify, contain, or repair. Uncontained severity contributes to round-end damage."
+    },
+    {
+      "id": "TGE-D14",
+      "name": "Identity Provider Vacation",
+      "category": "Infrastructure Disasters",
+      "category_code": "D",
+      "color": "#c34c38",
+      "type": "Incident",
+      "cost": 0,
+      "timing": "Reveal at round start; never enters a player hand",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "incident",
+          "n": 4,
+          "panic": 1,
+          "tags": [
+            "identity"
+          ],
+          "cause": "A directory-sync failure locked out valid accounts."
+        }
+      ],
+      "rules": "Enter as a real, unverified incident with 4 severity. Raise Panic by 1. At round end, uncontained real incidents deal combined damage equal to their remaining severity divided by 4, rounded up.",
+      "restriction": "Only the incident deck reveals this card. The real-incident limit is player count + 2.",
+      "counterplay": "Verify to reveal the cause and earn Accountability. Repair to remove severity. Contain to prevent round-end damage for one round.",
+      "flavor": "Please sign in to report that you cannot sign in.",
+      "illustration": {
+        "path": "art/TGE-D14.jpg",
+        "status": "generated illustration",
+        "brief": "Employees hold valid badges outside a locked electronic office while a neglected directory-sync computer sleeps behind glass."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "incident"
+      },
+      "rules_short": "Real incident. Initial severity 4. Panic +1. Verify, contain, or repair. Uncontained severity contributes to round-end damage."
+    },
+    {
+      "id": "TGE-D15",
+      "name": "Flooded Equipment Closet",
+      "category": "Infrastructure Disasters",
+      "category_code": "D",
+      "color": "#c34c38",
+      "type": "Incident",
+      "cost": 0,
+      "timing": "Reveal at round start; never enters a player hand",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "incident",
+          "n": 4,
+          "panic": 1,
+          "tags": [
+            "physical"
+          ],
+          "cause": "A plumbing leak reached floor-mounted equipment.",
+          "resolution_bonus": [
+            {
+              "op": "panic",
+              "n": -2
+            }
+          ]
+        }
+      ],
+      "rules": "Enter as a real, unverified incident with 4 severity. Raise Panic by 1. At round end, uncontained real incidents deal combined damage equal to their remaining severity divided by 4, rounded up. Resolution bonus for the fixer: Lower Panic by 2.",
+      "restriction": "Only the incident deck reveals this card. The real-incident limit is player count + 2.",
+      "counterplay": "Verify to reveal the cause and earn Accountability. Repair to remove severity. Contain to prevent round-end damage for one round.",
+      "flavor": "The rack has achieved liquid cooling.",
+      "illustration": {
+        "path": "art/TGE-D15.jpg",
+        "status": "generated illustration",
+        "brief": "A plumbing leak drips into a floor-mounted rack as a technician arrives with a ladder and an extremely unimpressed expression."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "incident"
+      },
+      "rules_short": "Real incident. Initial severity 4. Panic +1. Verify, contain, or repair. Uncontained severity contributes to round-end damage. Resolution bonus for the fixer: Lower Panic by 2."
+    },
+    {
+      "id": "TGE-D16",
+      "name": "Patching the Wrong Cluster",
+      "category": "Infrastructure Disasters",
+      "category_code": "D",
+      "color": "#c34c38",
+      "type": "Incident",
+      "cost": 0,
+      "timing": "Reveal at round start; never enters a player hand",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "incident",
+          "n": 3,
+          "panic": 1,
+          "tags": [
+            "software"
+          ],
+          "cause": "The maintenance target list included both failover nodes.",
+          "resolution_bonus": [
+            {
+              "op": "influence",
+              "n": 2
+            }
+          ]
+        }
+      ],
+      "rules": "Enter as a real, unverified incident with 3 severity. Raise Panic by 1. At round end, uncontained real incidents deal combined damage equal to their remaining severity divided by 4, rounded up. Resolution bonus for the fixer: Gain 2 Influence.",
+      "restriction": "Only the incident deck reveals this card. The real-incident limit is player count + 2.",
+      "counterplay": "Verify to reveal the cause and earn Accountability. Repair to remove severity. Contain to prevent round-end damage for one round.",
+      "flavor": "High availability met highly enthusiastic patching.",
+      "illustration": {
+        "path": "art/TGE-D16.jpg",
+        "status": "generated illustration",
+        "brief": "An overenthusiastic maintenance operator shuts down two supposedly independent server clusters at the same moment."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "incident"
+      },
+      "rules_short": "Real incident. Initial severity 3. Panic +1. Verify, contain, or repair. Uncontained severity contributes to round-end damage. Resolution bonus for the fixer: Gain 2 Influence."
+    },
+    {
+      "id": "TGE-D17",
+      "name": "Vendor Status: Operational",
+      "category": "Infrastructure Disasters",
+      "category_code": "D",
+      "color": "#c34c38",
+      "type": "Incident",
+      "cost": 0,
+      "timing": "Reveal at round start; never enters a player hand",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "incident",
+          "n": 3,
+          "panic": 2,
+          "tags": [
+            "cloud"
+          ],
+          "cause": "The status monitor cannot reach the failed service either."
+        }
+      ],
+      "rules": "Enter as a real, unverified incident with 3 severity. Raise Panic by 2. At round end, uncontained real incidents deal combined damage equal to their remaining severity divided by 4, rounded up.",
+      "restriction": "Only the incident deck reveals this card. The real-incident limit is player count + 2.",
+      "counterplay": "Verify to reveal the cause and earn Accountability. Repair to remove severity. Contain to prevent round-end damage for one round.",
+      "flavor": "The dashboard has successfully monitored itself.",
+      "illustration": {
+        "path": "art/TGE-D17.jpg",
+        "status": "generated illustration",
+        "brief": "A cheerful green status display monitors itself while every real service console behind it is dark."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "incident"
+      },
+      "rules_short": "Real incident. Initial severity 3. Panic +2. Verify, contain, or repair. Uncontained severity contributes to round-end damage."
+    },
+    {
+      "id": "TGE-D18",
+      "name": "The Building Has One Uplink",
+      "category": "Infrastructure Disasters",
+      "category_code": "D",
+      "color": "#c34c38",
+      "type": "Incident",
+      "cost": 0,
+      "timing": "Reveal at round start; never enters a player hand",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "incident",
+          "n": 3,
+          "panic": 1,
+          "tags": [
+            "network",
+            "physical"
+          ],
+          "cause": "A failed transceiver removed the only WAN connection."
+        }
+      ],
+      "rules": "Enter as a real, unverified incident with 3 severity. Raise Panic by 1. At round end, uncontained real incidents deal combined damage equal to their remaining severity divided by 4, rounded up.",
+      "restriction": "Only the incident deck reveals this card. The real-incident limit is player count + 2.",
+      "counterplay": "Verify to reveal the cause and earn Accountability. Repair to remove severity. Contain to prevent round-end damage for one round.",
+      "flavor": "Redundancy was value-engineered into a future meeting.",
+      "illustration": {
+        "path": "art/TGE-D18.jpg",
+        "status": "generated illustration",
+        "brief": "An entire office's network connections narrow into a single fragile transceiver held together with a cable tie."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "incident"
+      },
+      "rules_short": "Real incident. Initial severity 3. Panic +1. Verify, contain, or repair. Uncontained severity contributes to round-end damage."
+    },
+    {
+      "id": "TGE-D19",
+      "name": "The Spreadsheet Was Production",
+      "category": "Infrastructure Disasters",
+      "category_code": "D",
+      "color": "#c34c38",
+      "type": "Incident",
+      "cost": 0,
+      "timing": "Reveal at round start; never enters a player hand",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "incident",
+          "n": 2,
+          "panic": 1,
+          "tags": [
+            "software"
+          ],
+          "cause": "An undocumented workbook supplied the live inventory feed."
+        }
+      ],
+      "rules": "Enter as a real, unverified incident with 2 severity. Raise Panic by 1. At round end, uncontained real incidents deal combined damage equal to their remaining severity divided by 4, rounded up.",
+      "restriction": "Only the incident deck reveals this card. The real-incident limit is player count + 2.",
+      "counterplay": "Verify to reveal the cause and earn Accountability. Repair to remove severity. Contain to prevent round-end damage for one round.",
+      "flavor": "The business-critical platform was named final_FINAL2.xlsx.",
+      "illustration": {
+        "path": "art/TGE-D19.jpg",
+        "status": "generated illustration",
+        "brief": "An immense industrial process depends on a humble spreadsheet open on an abandoned beige desktop computer."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "incident"
+      },
+      "rules_short": "Real incident. Initial severity 2. Panic +1. Verify, contain, or repair. Uncontained severity contributes to round-end damage."
+    },
+    {
+      "id": "TGE-D20",
+      "name": "Friday at 4:59",
+      "category": "Infrastructure Disasters",
+      "category_code": "D",
+      "color": "#c34c38",
+      "type": "Incident",
+      "cost": 0,
+      "timing": "Reveal at round start; never enters a player hand",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "incident",
+          "n": 4,
+          "panic": 2,
+          "tags": [
+            "software"
+          ],
+          "cause": "An untested deployment removed a required configuration."
+        }
+      ],
+      "rules": "Enter as a real, unverified incident with 4 severity. Raise Panic by 2. At round end, uncontained real incidents deal combined damage equal to their remaining severity divided by 4, rounded up.",
+      "restriction": "Only the incident deck reveals this card. The real-incident limit is player count + 2.",
+      "counterplay": "Verify to reveal the cause and earn Accountability. Repair to remove severity. Contain to prevent round-end damage for one round.",
+      "flavor": "Deployment complete. Engineer unavailable.",
+      "illustration": {
+        "path": "art/TGE-D20.jpg",
+        "status": "generated illustration",
+        "brief": "A grinning deployment engineer puts on a weekend jacket as a small configuration file tumbles into a production machine."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "incident"
+      },
+      "rules_short": "Real incident. Initial severity 4. Panic +2. Verify, contain, or repair. Uncontained severity contributes to round-end damage."
+    },
+    {
+      "id": "TGE-P01",
+      "name": "Executive War Room",
+      "category": "Political & Corporate Panic",
+      "category_code": "P",
+      "color": "#926224",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": null,
+      "effects": [
+        {
+          "op": "contain",
+          "n": 1
+        },
+        {
+          "op": "panic",
+          "n": 2
+        },
+        {
+          "op": "influence",
+          "n": 3
+        },
+        {
+          "op": "liability",
+          "n": 1
+        }
+      ],
+      "rules": "Contain the selected real incident through this round: it causes no round-end damage or Panic. Raise Panic by 2. Gain 3 Influence. Take 1 Liability.",
+      "rules_short": "Contain the selected real incident through this round: it causes no round-end damage or Panic. Raise Panic by 2. Gain 3 Influence. Take 1 Liability.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "All personnel must attend. Except those currently resolving the emergency.",
+      "illustration": {
+        "path": "art/TGE-P01.jpg",
+        "status": "generated reference illustration",
+        "brief": "Executives in an ornate boardroom worship a giant blank emergency dashboard while an exhausted technician crawls beneath the table fixing cables."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "opportunism"
+      }
+    },
+    {
+      "id": "TGE-P02",
+      "name": "Emergency Executive Meeting",
+      "category": "Political & Corporate Panic",
+      "category_code": "P",
+      "color": "#926224",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "influence",
+          "n": 4
+        },
+        {
+          "op": "panic",
+          "n": 1
+        }
+      ],
+      "rules": "Gain 4 Influence. Raise Panic by 1.",
+      "rules_short": "Gain 4 Influence. Raise Panic by 1.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "The crisis has been escalated to a larger table.",
+      "illustration": {
+        "path": "art/TGE-P02.jpg",
+        "status": "generated illustration",
+        "brief": "An emergency meeting expands into a second, larger boardroom while the same unresolved outage follows on a wheeled monitor."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "opportunism"
+      }
+    },
+    {
+      "id": "TGE-P03",
+      "name": "Strategic Infrastructure Heritage",
+      "category": "Political & Corporate Panic",
+      "category_code": "P",
+      "color": "#926224",
+      "type": "Action",
+      "cost": 0,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": null,
+      "effects": [
+        {
+          "op": "influence",
+          "n": 3
+        },
+        {
+          "op": "escalate",
+          "n": 1
+        },
+        {
+          "op": "liability",
+          "n": 1
+        }
+      ],
+      "rules": "Gain 3 Influence. Add 1 severity to the selected real incident (maximum 8). Take 1 Liability.",
+      "rules_short": "Gain 3 Influence. Add 1 severity to the selected real incident (maximum 8). Take 1 Liability.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "Obsolete is a technical term. Heritage is a budget strategy.",
+      "illustration": {
+        "path": "art/TGE-P03.jpg",
+        "status": "generated illustration",
+        "brief": "Executives unveil a ceremonial plaque on an obsolete router while its warning lights blink desperately beneath the ribbon."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "opportunism"
+      }
+    },
+    {
+      "id": "TGE-P04",
+      "name": "The Sacred Dashboard",
+      "category": "Political & Corporate Panic",
+      "category_code": "P",
+      "color": "#926224",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "boost",
+          "n": 2
+        },
+        {
+          "op": "shield",
+          "n": 1
+        }
+      ],
+      "rules": "Your next report gains +2 Reach (boosts cap at 3). Gain 1 Audit Shield.",
+      "rules_short": "Your next report gains +2 Reach (boosts cap at 3). Gain 1 Audit Shield.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "HOLY HOLY. ALL METRICS ARE GREEN. THE BUILDING IS DARK.",
+      "illustration": {
+        "path": "art/TGE-P04.jpg",
+        "status": "generated illustration",
+        "brief": "A robed corporate official kneels before a luminous green dashboard in an otherwise completely dark office."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "opportunism"
+      }
+    },
+    {
+      "id": "TGE-P05",
+      "name": "Congressional Hearing",
+      "category": "Political & Corporate Panic",
+      "category_code": "P",
+      "color": "#926224",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "rival",
+      "condition": null,
+      "effects": [
+        {
+          "op": "audit",
+          "n": 2
+        }
+      ],
+      "rules": "Audit up to 2 issues at one rival: oldest rumor first, then Liability, then report boost. Each audited Liability becomes Blame and costs 1 Leverage and 1 Credibility. A productive audit earns 1 Accountability and 1 Credibility. One shield blocks the whole audit.",
+      "rules_short": "Audit up to 2 issues at one rival. One shield blocks the audit. Use normal audit rewards.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Use Audit Shields. Honest players without rumors, Liability, or boosts cannot be audited.",
+      "flavor": "For the record, who approved the thing no one read?",
+      "illustration": {
+        "path": "art/TGE-P05.jpg",
+        "status": "generated illustration",
+        "brief": "A fictional committee studies a single unsigned approval document under bright lamps while a witness points toward a mountain of unread binders."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "opportunism"
+      }
+    },
+    {
+      "id": "TGE-P06",
+      "name": "The Contractor Has Been Identified",
+      "category": "Political & Corporate Panic",
+      "category_code": "P",
+      "color": "#926224",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "rival",
+      "condition": "liability",
+      "effects": [
+        {
+          "op": "transfer",
+          "n": 1
+        },
+        {
+          "op": "influence",
+          "n": 1
+        }
+      ],
+      "rules": "Transfer up to 1 of your Liability to a rival. A shield blocks the transfer. Blame cannot be transferred. Gain 1 Influence.",
+      "rules_short": "Transfer up to 1 of your Liability to a rival. A shield blocks the transfer. Blame cannot be transferred. Gain 1 Influence.",
+      "restriction": "You must have at least 1 Liability.",
+      "counterplay": "Use Audit Shields. Honest players without rumors, Liability, or boosts cannot be audited.",
+      "flavor": "Their contract did not include attending the blame meeting.",
+      "illustration": {
+        "path": "art/TGE-P06.jpg",
+        "status": "generated illustration",
+        "brief": "An executive spotlight follows a lone contractor away from the actual decision makers seated comfortably in shadow."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "opportunism"
+      }
+    },
+    {
+      "id": "TGE-P07",
+      "name": "The Consultant's Consultant",
+      "category": "Political & Corporate Panic",
+      "category_code": "P",
+      "color": "#926224",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "influence",
+          "n": 6
+        },
+        {
+          "op": "liability",
+          "n": 1
+        }
+      ],
+      "rules": "Gain 6 Influence. Take 1 Liability.",
+      "rules_short": "Gain 6 Influence. Take 1 Liability.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "We recommend commissioning a recommendation.",
+      "illustration": {
+        "path": "art/TGE-P07.jpg",
+        "status": "generated illustration",
+        "brief": "A consultant opens a polished briefcase containing a smaller consultant who opens an even smaller briefcase."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "opportunism"
+      }
+    },
+    {
+      "id": "TGE-P08",
+      "name": "Steering Committee",
+      "category": "Political & Corporate Panic",
+      "category_code": "P",
+      "color": "#926224",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": null,
+      "effects": [
+        {
+          "op": "contain",
+          "n": 1
+        },
+        {
+          "op": "panic",
+          "n": -1
+        }
+      ],
+      "rules": "Contain the selected real incident through this round: it causes no round-end damage or Panic. Lower Panic by 1.",
+      "rules_short": "Contain the selected real incident through this round: it causes no round-end damage or Panic. Lower Panic by 1.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "Nothing moves until we agree which direction not to move.",
+      "illustration": {
+        "path": "art/TGE-P08.jpg",
+        "status": "generated illustration",
+        "brief": "A steering wheel mounted at a committee table has many hands on it and is connected to absolutely nothing."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "opportunism"
+      }
+    },
+    {
+      "id": "TGE-P09",
+      "name": "Budget Reallocation",
+      "category": "Political & Corporate Panic",
+      "category_code": "P",
+      "color": "#926224",
+      "type": "Action",
+      "cost": 0,
+      "timing": "Your turn; costs 1 action",
+      "target": "rival",
+      "condition": null,
+      "effects": [
+        {
+          "op": "steal",
+          "n": 2
+        },
+        {
+          "op": "liability",
+          "n": 1
+        }
+      ],
+      "rules": "Transfer up to 2 Influence from a rival to you. A shield blocks the transfer. Take 1 Liability.",
+      "rules_short": "Transfer up to 2 Influence from a rival to you. A shield blocks the transfer. Take 1 Liability.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Use Audit Shields. Honest players without rumors, Liability, or boosts cannot be audited.",
+      "flavor": "We found efficiencies in somebody else's department.",
+      "illustration": {
+        "path": "art/TGE-P09.jpg",
+        "status": "generated illustration",
+        "brief": "One department's budget bucket is quietly siphoned into another while both managers smile at a shared efficiency chart."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "opportunism"
+      }
+    },
+    {
+      "id": "TGE-P10",
+      "name": "Mandatory Awareness Training",
+      "category": "Political & Corporate Panic",
+      "category_code": "P",
+      "color": "#926224",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "shield",
+          "n": 1
+        },
+        {
+          "op": "credibility",
+          "n": 1
+        },
+        {
+          "op": "draw",
+          "n": 1
+        }
+      ],
+      "rules": "Gain 1 Audit Shield. Gain 1 Credibility. Draw 1 card.",
+      "rules_short": "Gain 1 Audit Shield. Gain 1 Credibility. Draw 1 card.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "The phishing email congratulated you on passing.",
+      "illustration": {
+        "path": "art/TGE-P10.jpg",
+        "status": "generated illustration",
+        "brief": "An employee finishes a cybersecurity training module while an obviously suspicious congratulatory envelope slides underneath the keyboard."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "opportunism"
+      }
+    },
+    {
+      "id": "TGE-P11",
+      "name": "No One Owns This System",
+      "category": "Political & Corporate Panic",
+      "category_code": "P",
+      "color": "#926224",
+      "type": "Action",
+      "cost": 0,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": null,
+      "effects": [
+        {
+          "op": "escalate",
+          "n": 1
+        },
+        {
+          "op": "panic",
+          "n": 1
+        },
+        {
+          "op": "influence",
+          "n": 2
+        }
+      ],
+      "rules": "Add 1 severity to the selected real incident (maximum 8). Raise Panic by 1. Gain 2 Influence.",
+      "rules_short": "Add 1 severity to the selected real incident (maximum 8). Raise Panic by 1. Gain 2 Influence.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "It belongs to the organization, which is currently in a meeting.",
+      "illustration": {
+        "path": "art/TGE-P11.jpg",
+        "status": "generated illustration",
+        "brief": "A server sits on a rotating departmental handoff carousel; every manager points to the next office as alarms continue."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "opportunism"
+      }
+    },
+    {
+      "id": "TGE-P12",
+      "name": "All Hands on Deck",
+      "category": "Political & Corporate Panic",
+      "category_code": "P",
+      "color": "#926224",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": null,
+      "effects": [
+        {
+          "op": "repair",
+          "n": 3
+        },
+        {
+          "op": "credibility",
+          "n": 1
+        }
+      ],
+      "rules": "Repair 3 severity on the selected real incident and restore 1 Stability. Verified work earns 1 Accountability; resolving it earns +1 Accountability, +1 Credibility, and +1 more Stability. Gain 1 Credibility.",
+      "rules_short": "Repair 3 severity. Use normal work and resolution rewards. Gain 1 Credibility.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "An emergency so severe that management became useful.",
+      "illustration": {
+        "path": "art/TGE-P12.jpg",
+        "status": "generated illustration",
+        "brief": "Managers finally roll up their sleeves and help technicians lift replacement equipment into a damaged rack."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "opportunism"
+      }
+    },
+    {
+      "id": "TGE-P13",
+      "name": "Minutes Were Approved",
+      "category": "Political & Corporate Panic",
+      "category_code": "P",
+      "color": "#926224",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "clearLiability",
+          "n": 1
+        },
+        {
+          "op": "credibility",
+          "n": 1
+        }
+      ],
+      "rules": "Remove up to 1 of your Liability. Blame remains. Gain 1 Credibility.",
+      "rules_short": "Remove up to 1 of your Liability. Blame remains. Gain 1 Credibility.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "The decision was missing. The approval was immaculate.",
+      "illustration": {
+        "path": "art/TGE-P13.jpg",
+        "status": "generated illustration",
+        "brief": "A spotless approval stamp lands on meeting minutes with a conspicuous empty space where the decision should have been."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "opportunism"
+      }
+    },
+    {
+      "id": "TGE-P14",
+      "name": "Crisis Branding Workshop",
+      "category": "Political & Corporate Panic",
+      "category_code": "P",
+      "color": "#926224",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "leverage",
+          "n": 2
+        },
+        {
+          "op": "panic",
+          "n": 1
+        },
+        {
+          "op": "liability",
+          "n": 1
+        }
+      ],
+      "rules": "Gain 2 Leverage. Raise Panic by 1. Take 1 Liability.",
+      "rules_short": "Gain 2 Leverage. Raise Panic by 1. Take 1 Liability.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "Before we restore services, can we align on the logo?",
+      "illustration": {
+        "path": "art/TGE-P14.jpg",
+        "status": "generated illustration",
+        "brief": "A branding workshop carefully chooses catastrophe-colored swatches while an actual repair queue grows outside the room."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "opportunism"
+      }
+    },
+    {
+      "id": "TGE-P15",
+      "name": "Emergency Procurement",
+      "category": "Political & Corporate Panic",
+      "category_code": "P",
+      "color": "#926224",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": null,
+      "effects": [
+        {
+          "op": "repair",
+          "n": 2
+        },
+        {
+          "op": "leverage",
+          "n": 1
+        }
+      ],
+      "rules": "Repair 2 severity on the selected real incident and restore 1 Stability. Verified work earns 1 Accountability; resolving it earns +1 Accountability, +1 Credibility, and +1 more Stability. Gain 1 Leverage.",
+      "rules_short": "Repair 2 severity. Use normal work and resolution rewards. Gain 1 Leverage.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "The replacement part arrives before the purchase order.",
+      "illustration": {
+        "path": "art/TGE-P15.jpg",
+        "status": "generated illustration",
+        "brief": "A technician receives a crucial replacement part by bicycle courier while the enormous purchase-order machine is still warming up."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "opportunism"
+      }
+    },
+    {
+      "id": "TGE-P16",
+      "name": "Premium Support Tier",
+      "category": "Political & Corporate Panic",
+      "category_code": "P",
+      "color": "#926224",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": null,
+      "effects": [
+        {
+          "op": "leverage",
+          "n": 2
+        },
+        {
+          "op": "contain",
+          "n": 1
+        }
+      ],
+      "rules": "Gain 2 Leverage. Contain the selected real incident through this round: it causes no round-end damage or Panic.",
+      "rules_short": "Gain 2 Leverage. Contain the selected real incident through this round: it causes no round-end damage or Panic.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "Your emergency is very important to our pricing model.",
+      "illustration": {
+        "path": "art/TGE-P16.jpg",
+        "status": "generated illustration",
+        "brief": "A luxury concierge offers a velvet-rope entrance to a support desk while a queue of ordinary emergencies waits nearby."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "opportunism"
+      }
+    },
+    {
+      "id": "TGE-P17",
+      "name": "Legal Has Joined the Call",
+      "category": "Political & Corporate Panic",
+      "category_code": "P",
+      "color": "#926224",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "shield",
+          "n": 2
+        },
+        {
+          "op": "credibility",
+          "n": -1
+        }
+      ],
+      "rules": "Gain 2 Audit Shields. Lose 1 Credibility.",
+      "rules_short": "Gain 2 Audit Shields. Lose 1 Credibility.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "Please stop describing the incident accurately.",
+      "illustration": {
+        "path": "art/TGE-P17.jpg",
+        "status": "generated illustration",
+        "brief": "An austere legal adviser reaches for the mute button just as a technician begins pointing at the actual incident evidence."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "opportunism"
+      }
+    },
+    {
+      "id": "TGE-P18",
+      "name": "Return to Office (During the Outage)",
+      "category": "Political & Corporate Panic",
+      "category_code": "P",
+      "color": "#926224",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "panic",
+          "n": 2
+        },
+        {
+          "op": "influence",
+          "n": 3
+        },
+        {
+          "op": "credibility",
+          "n": -1
+        }
+      ],
+      "rules": "Raise Panic by 2. Gain 3 Influence. Lose 1 Credibility.",
+      "rules_short": "Raise Panic by 2. Gain 3 Influence. Lose 1 Credibility.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "Come together. Sit silently. Reconnect indefinitely.",
+      "illustration": {
+        "path": "art/TGE-P18.jpg",
+        "status": "generated illustration",
+        "brief": "Employees obediently return to an office full of blank screens and disconnected desk phones, watched by a satisfied executive."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "opportunism"
+      }
+    },
+    {
+      "id": "TGE-P19",
+      "name": "Audit Committee Calendar",
+      "category": "Political & Corporate Panic",
+      "category_code": "P",
+      "color": "#926224",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "rival",
+      "condition": null,
+      "effects": [
+        {
+          "op": "audit",
+          "n": 1
+        },
+        {
+          "op": "steal",
+          "n": 2
+        }
+      ],
+      "rules": "Audit up to 1 issues at one rival: oldest rumor first, then Liability, then report boost. Each audited Liability becomes Blame and costs 1 Leverage and 1 Credibility. A productive audit earns 1 Accountability and 1 Credibility. One shield blocks the whole audit. Transfer up to 2 Influence from a rival to you. A shield blocks the transfer.",
+      "rules_short": "Audit up to 1 issues at one rival. One shield blocks the audit. Use normal audit rewards. Transfer up to 2 Influence from a rival to you. A shield blocks the transfer.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Use Audit Shields. Honest players without rumors, Liability, or boosts cannot be audited.",
+      "flavor": "Accountability has a slot at 11:45.",
+      "illustration": {
+        "path": "art/TGE-P19.jpg",
+        "status": "generated illustration",
+        "brief": "An audit committee carefully squeezes a stack of accountability records into a very narrow appointment slot."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "opportunism"
+      }
+    },
+    {
+      "id": "TGE-P20",
+      "name": "Emergency Change Approval",
+      "category": "Political & Corporate Panic",
+      "category_code": "P",
+      "color": "#926224",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": "verified",
+      "effects": [
+        {
+          "op": "repair",
+          "n": 2
+        },
+        {
+          "op": "draw",
+          "n": 1
+        }
+      ],
+      "rules": "Repair 2 severity on the selected real incident and restore 1 Stability. Verified work earns 1 Accountability; resolving it earns +1 Accountability, +1 Credibility, and +1 more Stability. Draw 1 card.",
+      "rules_short": "Repair 2 severity. Use normal work and resolution rewards. Draw 1 card.",
+      "restriction": "The selected real incident must already be verified.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "Someone read it. Someone signed it. Someone fixed it.",
+      "illustration": {
+        "path": "art/TGE-P20.jpg",
+        "status": "generated illustration",
+        "brief": "Three ordinary people read, sign and implement the same clear repair document while ceremonial approval machinery gathers dust."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "opportunism"
+      }
+    },
+    {
+      "id": "TGE-C01",
+      "name": "The Prophecy (Again)",
+      "category": "Conspiracies & Prophecies",
+      "category_code": "C",
+      "color": "#80649b",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "rumor",
+          "n": 2
+        },
+        {
+          "op": "panic",
+          "n": 3
+        }
+      ],
+      "rules": "Create an unsupported rumor and gain 2 Reach. Verification can debunk it. Raise Panic by 3.",
+      "rules_short": "Sponsor a rumor and gain 2 Reach. It is vulnerable to verification. Raise Panic by 3.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Any player can use basic Verify to debunk this rumor, removing 1 sponsor Reach and adding 1 Blame.",
+      "flavor": "The end is near. The subscription renews monthly.",
+      "illustration": {
+        "path": "art/TGE-C01.jpg",
+        "status": "generated reference illustration",
+        "brief": "A fictional theatrical prophet in a cheap suit points at a wall of clocks and obsolete calendars while a stagehand quietly replaces the date card."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-C02",
+      "name": "Tomorrow Is the Day",
+      "category": "Conspiracies & Prophecies",
+      "category_code": "C",
+      "color": "#80649b",
+      "type": "Action",
+      "cost": 0,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "rumor",
+          "n": 1
+        },
+        {
+          "op": "panic",
+          "n": 2
+        }
+      ],
+      "rules": "Create an unsupported rumor and gain 1 Reach. Verification can debunk it. Raise Panic by 2.",
+      "rules_short": "Sponsor a rumor and gain 1 Reach. It is vulnerable to verification. Raise Panic by 2.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Any player can use basic Verify to debunk this rumor, removing 1 sponsor Reach and adding 1 Blame.",
+      "flavor": "An excellent date. Very reusable.",
+      "illustration": {
+        "path": "art/TGE-C02.jpg",
+        "status": "generated illustration",
+        "brief": "A prophet unveils tomorrow's calendar page while an assistant wheels in a vast supply of identical future calendar pages."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-C03",
+      "name": "Numerological Alignment",
+      "category": "Conspiracies & Prophecies",
+      "category_code": "C",
+      "color": "#80649b",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "rumor",
+          "n": 2
+        },
+        {
+          "op": "panic",
+          "n": 2
+        },
+        {
+          "op": "boost",
+          "n": 1
+        }
+      ],
+      "rules": "Create an unsupported rumor and gain 2 Reach. Verification can debunk it. Raise Panic by 2. Your next report gains +1 Reach (boosts cap at 3).",
+      "rules_short": "Sponsor a rumor and gain 2 Reach. It is vulnerable to verification. Raise Panic by 2. Your next report gains +1 Reach (boosts cap at 3).",
+      "restriction": "No additional restriction.",
+      "counterplay": "Any player can use basic Verify to debunk this rumor, removing 1 sponsor Reach and adding 1 Blame.",
+      "flavor": "Add the digits. Ignore the denominator.",
+      "illustration": {
+        "path": "art/TGE-C03.jpg",
+        "status": "generated illustration",
+        "brief": "An enthusiast connects arbitrary clock faces, receipts and cereal shapes with red string while ignoring an obvious broken plug."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-C04",
+      "name": "The Insider Knows",
+      "category": "Conspiracies & Prophecies",
+      "category_code": "C",
+      "color": "#80649b",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "rumor",
+          "n": 3
+        },
+        {
+          "op": "panic",
+          "n": 3
+        },
+        {
+          "op": "credibility",
+          "n": -1
+        }
+      ],
+      "rules": "Create an unsupported rumor and gain 3 Reach. Verification can debunk it. Raise Panic by 3. Lose 1 Credibility.",
+      "rules_short": "Sponsor a rumor and gain 3 Reach. It is vulnerable to verification. Raise Panic by 3. Lose 1 Credibility.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Any player can use basic Verify to debunk this rumor, removing 1 sponsor Reach and adding 1 Blame.",
+      "flavor": "They cannot reveal the source. Or the facts. Or the meaning.",
+      "illustration": {
+        "path": "art/TGE-C04.jpg",
+        "status": "generated illustration",
+        "brief": "A concealed informant presents an empty envelope inside several increasingly secretive locked containers."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-C05",
+      "name": "Trust the Plan",
+      "category": "Conspiracies & Prophecies",
+      "category_code": "C",
+      "color": "#80649b",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "shield",
+          "n": 1
+        },
+        {
+          "op": "influence",
+          "n": 2
+        },
+        {
+          "op": "panic",
+          "n": 1
+        }
+      ],
+      "rules": "Gain 1 Audit Shield. Gain 2 Influence. Raise Panic by 1.",
+      "rules_short": "Gain 1 Audit Shield. Gain 2 Influence. Raise Panic by 1.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "The plan will be revealed after it has happened.",
+      "illustration": {
+        "path": "art/TGE-C05.jpg",
+        "status": "generated illustration",
+        "brief": "Followers solemnly carry a rolled plan that is visibly being drawn by someone walking behind the procession."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-C06",
+      "name": "Global Blackout (Rumored)",
+      "category": "Conspiracies & Prophecies",
+      "category_code": "C",
+      "color": "#80649b",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "rumor",
+          "n": 3
+        },
+        {
+          "op": "panic",
+          "n": 4
+        }
+      ],
+      "rules": "Create an unsupported rumor and gain 3 Reach. Verification can debunk it. Raise Panic by 4.",
+      "rules_short": "Sponsor a rumor and gain 3 Reach. It is vulnerable to verification. Raise Panic by 4.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Any player can use basic Verify to debunk this rumor, removing 1 sponsor Reach and adding 1 Blame.",
+      "flavor": "Every light in the prediction studio remains on.",
+      "illustration": {
+        "path": "art/TGE-C06.jpg",
+        "status": "generated illustration",
+        "brief": "A well-lit prediction studio presents a dark globe while an ordinary street outside carries on with every light working."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-C07",
+      "name": "Screenshot of a Screenshot",
+      "category": "Conspiracies & Prophecies",
+      "category_code": "C",
+      "color": "#80649b",
+      "type": "Action",
+      "cost": 0,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "rumor",
+          "n": 1
+        },
+        {
+          "op": "panic",
+          "n": 2
+        },
+        {
+          "op": "credibility",
+          "n": -1
+        }
+      ],
+      "rules": "Create an unsupported rumor and gain 1 Reach. Verification can debunk it. Raise Panic by 2. Lose 1 Credibility.",
+      "rules_short": "Sponsor a rumor and gain 1 Reach. It is vulnerable to verification. Raise Panic by 2. Lose 1 Credibility.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Any player can use basic Verify to debunk this rumor, removing 1 sponsor Reach and adding 1 Blame.",
+      "flavor": "Evidence, now with fewer pixels.",
+      "illustration": {
+        "path": "art/TGE-C07.jpg",
+        "status": "generated illustration",
+        "brief": "A rumor passes through a row of increasingly old photocopiers until its final blurry image is treated as sacred evidence."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-C08",
+      "name": "Coincidence Department",
+      "category": "Conspiracies & Prophecies",
+      "category_code": "C",
+      "color": "#80649b",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": null,
+      "effects": [
+        {
+          "op": "escalate",
+          "n": 1
+        },
+        {
+          "op": "report",
+          "n": 2
+        },
+        {
+          "op": "panic",
+          "n": 1
+        }
+      ],
+      "rules": "Add 1 severity to the selected real incident (maximum 8). Report the selected real incident for 2 Reach, plus your stored boost (max 5 Reach). Raise Panic by 1.",
+      "rules_short": "Add 1 severity to the selected real incident (maximum 8). Report a real incident for 2 Reach plus your boost (maximum 5). Consume the boost. Raise Panic by 1.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "Two unrelated things happened on the same internet.",
+      "illustration": {
+        "path": "art/TGE-C08.jpg",
+        "status": "generated illustration",
+        "brief": "A frantic investigator links a spilled coffee cup to a distant network outage with an absurdly long length of red string."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-C09",
+      "name": "Secret Weather Machine",
+      "category": "Conspiracies & Prophecies",
+      "category_code": "C",
+      "color": "#80649b",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "rumor",
+          "n": 2
+        },
+        {
+          "op": "panic",
+          "n": 3
+        },
+        {
+          "op": "credibility",
+          "n": -1
+        }
+      ],
+      "rules": "Create an unsupported rumor and gain 2 Reach. Verification can debunk it. Raise Panic by 3. Lose 1 Credibility.",
+      "rules_short": "Sponsor a rumor and gain 2 Reach. It is vulnerable to verification. Raise Panic by 3. Lose 1 Credibility.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Any player can use basic Verify to debunk this rumor, removing 1 sponsor Reach and adding 1 Blame.",
+      "flavor": "The forecast is partly confidential.",
+      "illustration": {
+        "path": "art/TGE-C09.jpg",
+        "status": "generated illustration",
+        "brief": "An elaborate imaginary weather-control console is assembled from a desk fan, a kettle and dramatic unrelated satellite photographs."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-C10",
+      "name": "Quantum Patriot Router",
+      "category": "Conspiracies & Prophecies",
+      "category_code": "C",
+      "color": "#80649b",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "rumor",
+          "n": 2
+        },
+        {
+          "op": "panic",
+          "n": 1
+        },
+        {
+          "op": "influence",
+          "n": 2
+        }
+      ],
+      "rules": "Create an unsupported rumor and gain 2 Reach. Verification can debunk it. Raise Panic by 1. Gain 2 Influence.",
+      "rules_short": "Sponsor a rumor and gain 2 Reach. It is vulnerable to verification. Raise Panic by 1. Gain 2 Influence.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Any player can use basic Verify to debunk this rumor, removing 1 sponsor Reach and adding 1 Blame.",
+      "flavor": "Your packets have been liberated from observable reality.",
+      "illustration": {
+        "path": "art/TGE-C10.jpg",
+        "status": "generated illustration",
+        "brief": "A huckster presents a flag-draped router whose ethernet cables evaporate into theatrical stage fog."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-C11",
+      "name": "The Date Has Been Revised",
+      "category": "Conspiracies & Prophecies",
+      "category_code": "C",
+      "color": "#80649b",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "rumor",
+      "condition": "ownRumor",
+      "effects": [
+        {
+          "op": "withdraw",
+          "n": 1
+        },
+        {
+          "op": "draw",
+          "n": 2
+        },
+        {
+          "op": "panic",
+          "n": -1
+        }
+      ],
+      "rules": "Withdraw your selected rumor without a debunk penalty. Lose 1 Reach. Draw 2 cards. Lower Panic by 1.",
+      "rules_short": "Withdraw your selected rumor without a debunk penalty. Lose 1 Reach. Draw 2 cards. Lower Panic by 1.",
+      "restriction": "Select a rumor you sponsor.",
+      "counterplay": "Withdraw or verify the rumor first.",
+      "flavor": "The prophecy was correct in a scheduling sense.",
+      "illustration": {
+        "path": "art/TGE-C11.jpg",
+        "status": "generated illustration",
+        "brief": "A stagehand replaces an apocalypse date card with a new blank card while the prophet keeps the same triumphant pose."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-C12",
+      "name": "Encrypted Voice Note",
+      "category": "Conspiracies & Prophecies",
+      "category_code": "C",
+      "color": "#80649b",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "rumor",
+          "n": 2
+        },
+        {
+          "op": "panic",
+          "n": 2
+        },
+        {
+          "op": "draw",
+          "n": 1
+        },
+        {
+          "op": "credibility",
+          "n": -1
+        }
+      ],
+      "rules": "Create an unsupported rumor and gain 2 Reach. Verification can debunk it. Raise Panic by 2. Draw 1 card. Lose 1 Credibility.",
+      "rules_short": "Sponsor a rumor and gain 2 Reach. It is vulnerable to verification. Raise Panic by 2. Draw 1 card. Lose 1 Credibility.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Any player can use basic Verify to debunk this rumor, removing 1 sponsor Reach and adding 1 Blame.",
+      "flavor": "A whisper is apparently end-to-end verification.",
+      "illustration": {
+        "path": "art/TGE-C12.jpg",
+        "status": "generated illustration",
+        "brief": "A whispering personality records a voice message beneath layers of blankets while a mundane visible explanation waits on the desk."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-C13",
+      "name": "Just Asking Questions",
+      "category": "Conspiracies & Prophecies",
+      "category_code": "C",
+      "color": "#80649b",
+      "type": "Action",
+      "cost": 0,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "reach",
+          "n": 1
+        },
+        {
+          "op": "panic",
+          "n": 1
+        },
+        {
+          "op": "credibility",
+          "n": -1
+        }
+      ],
+      "rules": "Gain 1 Reach. Raise Panic by 1. Lose 1 Credibility.",
+      "rules_short": "Gain 1 Reach. Raise Panic by 1. Lose 1 Credibility.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "The answers have been disabled in the comments.",
+      "illustration": {
+        "path": "art/TGE-C13.jpg",
+        "status": "generated illustration",
+        "brief": "An interviewer releases an endless stream of question-shaped paper while a simple answer remains trapped in a closed drawer."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-C14",
+      "name": "The Caveat Was Classified",
+      "category": "Conspiracies & Prophecies",
+      "category_code": "C",
+      "color": "#80649b",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "shield",
+          "n": 1
+        },
+        {
+          "op": "boost",
+          "n": 1
+        }
+      ],
+      "rules": "Gain 1 Audit Shield. Your next report gains +1 Reach (boosts cap at 3).",
+      "rules_short": "Gain 1 Audit Shield. Your next report gains +1 Reach (boosts cap at 3).",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "You would understand if you had the clearance to disagree.",
+      "illustration": {
+        "path": "art/TGE-C14.jpg",
+        "status": "generated illustration",
+        "brief": "A self-appointed authority hides a tiny caveat inside an absurdly large locked classified binder."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-C15",
+      "name": "Unfollowed by Reality",
+      "category": "Conspiracies & Prophecies",
+      "category_code": "C",
+      "color": "#80649b",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "debunkAll",
+          "n": 1
+        },
+        {
+          "op": "credibility",
+          "n": 1
+        }
+      ],
+      "rules": "Verify every rumor. Earn normal verification rewards for the first 3 only; every sponsor still takes the normal debunk penalty. Gain 1 Credibility.",
+      "rules_short": "Debunk every rumor. Gain verification rewards for the first 3 only; all sponsors take debunk penalties. Gain 1 Credibility.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "Reality has reviewed your thread and declined to participate.",
+      "illustration": {
+        "path": "art/TGE-C15.jpg",
+        "status": "generated illustration",
+        "brief": "A confident online personality watches their fantastical forecast dissolve against an ordinary sunlit scene of people doing repairs."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "narrative"
+      }
+    },
+    {
+      "id": "TGE-H01",
+      "name": "Last Ticket Standing",
+      "category": "IT Heroes & Countermeasures",
+      "category_code": "H",
+      "color": "#34785f",
+      "type": "Action",
+      "cost": 3,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": "emergency",
+      "effects": [
+        {
+          "op": "stability",
+          "n": 4
+        },
+        {
+          "op": "repair",
+          "n": 4
+        },
+        {
+          "op": "credibility",
+          "n": 1
+        }
+      ],
+      "rules": "Restore 4 Stability. Repair 4 severity on the selected real incident and restore 1 Stability. Verified work earns 1 Accountability; resolving it earns +1 Accountability, +1 Credibility, and +1 more Stability. Gain 1 Credibility.",
+      "rules_short": "Restore 4 Stability. Repair 4 severity. Use normal work and resolution rewards. Gain 1 Credibility.",
+      "restriction": "Stability must be 8 or lower.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "Six exhausted technicians. One remaining working coffee maker.",
+      "illustration": {
+        "path": "art/TGE-H01.jpg",
+        "status": "generated reference illustration",
+        "brief": "A small diverse team of six exhausted IT technicians works in a dark operations room, lit by a single amber terminal; behind them a city slowly lights up."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "restoration"
+      }
+    },
+    {
+      "id": "TGE-H02",
+      "name": "The Senior Systems Engineer",
+      "category": "IT Heroes & Countermeasures",
+      "category_code": "H",
+      "color": "#34785f",
+      "type": "Support",
+      "cost": 3,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "install",
+          "n": 1,
+          "asset": "engineer"
+        }
+      ],
+      "rules": "Install: once per turn, your first repair gets +1 severity repaired.",
+      "rules_short": "Install: once per turn, your first repair gets +1 severity repaired.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Two support slots per player. Installing a third retires the oldest; matching support bonuses trigger only once each turn.",
+      "flavor": "Calmly asks the question that ends the meeting.",
+      "illustration": {
+        "path": "art/TGE-H02.jpg",
+        "status": "generated illustration",
+        "brief": "A composed senior engineer with worn glasses points to one simple physical diagram while a room full of argumentative managers falls silent."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "restoration"
+      }
+    },
+    {
+      "id": "TGE-H03",
+      "name": "DNS Fixes Everything",
+      "category": "IT Heroes & Countermeasures",
+      "category_code": "H",
+      "color": "#34785f",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": "network",
+      "effects": [
+        {
+          "op": "repair",
+          "n": 3
+        }
+      ],
+      "rules": "Repair 3 severity on the selected real incident and restore 1 Stability. Verified work earns 1 Accountability; resolving it earns +1 Accountability, +1 Credibility, and +1 more Stability.",
+      "rules_short": "Repair 3 severity. Use normal work and resolution rewards.",
+      "restriction": "The selected incident must have the network tag.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "It was DNS. The exception was also DNS.",
+      "illustration": {
+        "path": "art/TGE-H03.jpg",
+        "status": "generated illustration",
+        "brief": "A technician changes one tiny directory entry and a citywide web of disconnected service lines suddenly finds its destinations."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "restoration"
+      }
+    },
+    {
+      "id": "TGE-H04",
+      "name": "Have You Tried Restarting It?",
+      "category": "IT Heroes & Countermeasures",
+      "category_code": "H",
+      "color": "#34785f",
+      "type": "Action",
+      "cost": 0,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": null,
+      "effects": [
+        {
+          "op": "repair",
+          "n": 1
+        },
+        {
+          "op": "panic",
+          "n": -1
+        }
+      ],
+      "rules": "Repair 1 severity on the selected real incident and restore 1 Stability. Verified work earns 1 Accountability; resolving it earns +1 Accountability, +1 Credibility, and +1 more Stability. Lower Panic by 1.",
+      "rules_short": "Repair 1 severity. Use normal work and resolution rewards. Lower Panic by 1.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "An ancient ritual with an uncomfortable success rate.",
+      "illustration": {
+        "path": "art/TGE-H04.jpg",
+        "status": "generated illustration",
+        "brief": "A tired technician reaches for the plain power switch while a crowd awaits an extravagantly complicated technical ritual."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "restoration"
+      }
+    },
+    {
+      "id": "TGE-H05",
+      "name": "Read the Fucking Logs",
+      "category": "IT Heroes & Countermeasures",
+      "category_code": "H",
+      "color": "#34785f",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "unknown",
+      "condition": null,
+      "effects": [
+        {
+          "op": "verify",
+          "n": 1
+        },
+        {
+          "op": "shield",
+          "n": 1
+        }
+      ],
+      "rules": "Verify the selected unknown case. Earn 1 Accountability and 1 Credibility. A real incident lowers Panic by 1; a rumor is removed, lowers it by 2, and its sponsor loses 1 Reach and takes 1 Blame. Gain 1 Audit Shield.",
+      "rules_short": "Verify one unknown case. Use normal evidence and debunk rewards. Gain 1 Audit Shield.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Verify the case first to deny this target.",
+      "flavor": "Prevent the next three speculative explanations by opening one file.",
+      "illustration": {
+        "path": "art/TGE-H05.jpg",
+        "status": "generated illustration",
+        "brief": "An engineer opens one unassuming log file while three elaborate speculative conspiracy diagrams collapse behind the monitor."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "restoration"
+      }
+    },
+    {
+      "id": "TGE-H06",
+      "name": "The Sacred Maintenance Window",
+      "category": "IT Heroes & Countermeasures",
+      "category_code": "H",
+      "color": "#34785f",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "containAll",
+          "n": 1
+        }
+      ],
+      "rules": "Contain every real incident through this round.",
+      "rules_short": "Contain every real incident through this round.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "For these brief hours, change is both permitted and documented.",
+      "illustration": {
+        "path": "art/TGE-H06.jpg",
+        "status": "generated illustration",
+        "brief": "A quiet night-shift team performs careful documented maintenance under a warmly lit clock, with no executives in sight."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "restoration"
+      }
+    },
+    {
+      "id": "TGE-H07",
+      "name": "Known Good Backup",
+      "category": "IT Heroes & Countermeasures",
+      "category_code": "H",
+      "color": "#34785f",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": "verified",
+      "effects": [
+        {
+          "op": "repair",
+          "n": 4
+        }
+      ],
+      "rules": "Repair 4 severity on the selected real incident and restore 1 Stability. Verified work earns 1 Accountability; resolving it earns +1 Accountability, +1 Credibility, and +1 more Stability.",
+      "rules_short": "Repair 4 severity. Use normal work and resolution rewards.",
+      "restriction": "The selected real incident must already be verified.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "A backup is an opinion until you restore it.",
+      "illustration": {
+        "path": "art/TGE-H07.jpg",
+        "status": "generated illustration",
+        "brief": "A recovery engineer restores actual files from a tested backup while untouched glossy backup reports lie in a discarded stack."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "restoration"
+      }
+    },
+    {
+      "id": "TGE-H08",
+      "name": "The Help Desk Remembers",
+      "category": "IT Heroes & Countermeasures",
+      "category_code": "H",
+      "color": "#34785f",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "unknown",
+      "condition": null,
+      "effects": [
+        {
+          "op": "verify",
+          "n": 1
+        },
+        {
+          "op": "draw",
+          "n": 1
+        }
+      ],
+      "rules": "Verify the selected unknown case. Earn 1 Accountability and 1 Credibility. A real incident lowers Panic by 1; a rumor is removed, lowers it by 2, and its sponsor loses 1 Reach and takes 1 Blame. Draw 1 card.",
+      "rules_short": "Verify one unknown case. Use normal evidence and debunk rewards. Draw 1 card.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Verify the case first to deny this target.",
+      "flavor": "Ticket 18427. Same problem. Same vice president.",
+      "illustration": {
+        "path": "art/TGE-H08.jpg",
+        "status": "generated illustration",
+        "brief": "A help-desk worker opens an old ticket drawer and immediately recognizes a problem that a startled executive insists is unprecedented."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "restoration"
+      }
+    },
+    {
+      "id": "TGE-H09",
+      "name": "Packet Capture",
+      "category": "IT Heroes & Countermeasures",
+      "category_code": "H",
+      "color": "#34785f",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": "network",
+      "effects": [
+        {
+          "op": "verify",
+          "n": 1
+        },
+        {
+          "op": "repair",
+          "n": 1
+        }
+      ],
+      "rules": "Verify the selected unknown case. Earn 1 Accountability and 1 Credibility. A real incident lowers Panic by 1; a rumor is removed, lowers it by 2, and its sponsor loses 1 Reach and takes 1 Blame. Repair 1 severity on the selected real incident and restore 1 Stability. Verified work earns 1 Accountability; resolving it earns +1 Accountability, +1 Credibility, and +1 more Stability.",
+      "rules_short": "Verify one unknown case. Use normal evidence and debunk rewards. Repair 1 severity. Use normal work and resolution rewards.",
+      "restriction": "The selected incident must have the network tag.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "The packets have no reason to protect your narrative.",
+      "illustration": {
+        "path": "art/TGE-H09.jpg",
+        "status": "generated illustration",
+        "brief": "An analyst watches a clear stream of network packets pass through a diagnostic lens while a melodramatic rumor board blurs behind them."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "restoration"
+      }
+    },
+    {
+      "id": "TGE-H10",
+      "name": "Rollback Plan",
+      "category": "IT Heroes & Countermeasures",
+      "category_code": "H",
+      "color": "#34785f",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": null,
+      "effects": [
+        {
+          "op": "repair",
+          "n": 3
+        },
+        {
+          "op": "panic",
+          "n": -1
+        }
+      ],
+      "rules": "Repair 3 severity on the selected real incident and restore 1 Stability. Verified work earns 1 Accountability; resolving it earns +1 Accountability, +1 Credibility, and +1 more Stability. Lower Panic by 1.",
+      "rules_short": "Repair 3 severity. Use normal work and resolution rewards. Lower Panic by 1.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "The bravest new feature is the old working version.",
+      "illustration": {
+        "path": "art/TGE-H10.jpg",
+        "status": "generated illustration",
+        "brief": "An engineer calmly turns a deployment mechanism backward and the old, stable configuration slides neatly into place."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "restoration"
+      }
+    },
+    {
+      "id": "TGE-H11",
+      "name": "Field Technician",
+      "category": "IT Heroes & Countermeasures",
+      "category_code": "H",
+      "color": "#34785f",
+      "type": "Support",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "install",
+          "n": 1,
+          "asset": "field"
+        },
+        {
+          "op": "credibility",
+          "n": 1
+        }
+      ],
+      "rules": "Install: once per turn, your first repair of a physical incident gets +2 severity repaired. Gain 1 Credibility.",
+      "rules_short": "Install: once per turn, your first repair of a physical incident gets +2 severity repaired. Gain 1 Credibility.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Two support slots per player. Installing a third retires the oldest; matching support bonuses trigger only once each turn.",
+      "flavor": "The cloud required someone with a ladder.",
+      "illustration": {
+        "path": "art/TGE-H11.jpg",
+        "status": "generated illustration",
+        "brief": "A field technician with a ladder and tool bag replaces a failed physical uplink beneath an enormous advertisement for cloud services."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "restoration"
+      }
+    },
+    {
+      "id": "TGE-H12",
+      "name": "Unpaid Overtime",
+      "category": "IT Heroes & Countermeasures",
+      "category_code": "H",
+      "color": "#34785f",
+      "type": "Action",
+      "cost": 0,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": null,
+      "effects": [
+        {
+          "op": "repair",
+          "n": 3
+        },
+        {
+          "op": "credibility",
+          "n": -1
+        },
+        {
+          "op": "panic",
+          "n": 1
+        }
+      ],
+      "rules": "Repair 3 severity on the selected real incident and restore 1 Stability. Verified work earns 1 Accountability; resolving it earns +1 Accountability, +1 Credibility, and +1 more Stability. Lose 1 Credibility. Raise Panic by 1.",
+      "rules_short": "Repair 3 severity. Use normal work and resolution rewards. Lose 1 Credibility. Raise Panic by 1.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "A heroic fix. A terrible staffing policy.",
+      "illustration": {
+        "path": "art/TGE-H12.jpg",
+        "status": "generated illustration",
+        "brief": "An exhausted night-shift engineer solves an outage beside a cold meal and a wall of unanswered staffing requests."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "restoration"
+      }
+    },
+    {
+      "id": "TGE-H13",
+      "name": "Documented Runbook",
+      "category": "IT Heroes & Countermeasures",
+      "category_code": "H",
+      "color": "#34785f",
+      "type": "Support",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "install",
+          "n": 1,
+          "asset": "runbook"
+        }
+      ],
+      "rules": "Install: once per turn, your first successful verification draws 1 card.",
+      "rules_short": "Install: once per turn, your first successful verification draws 1 card.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Two support slots per player. Installing a third retires the oldest; matching support bonuses trigger only once each turn.",
+      "flavor": "The sacred knowledge has escaped one person's memory.",
+      "illustration": {
+        "path": "art/TGE-H13.jpg",
+        "status": "generated illustration",
+        "brief": "A clear practical runbook is passed from an experienced worker to a new team as a lone indispensable expert finally takes a day off."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "restoration"
+      }
+    },
+    {
+      "id": "TGE-H14",
+      "name": "The Junior Asked Why",
+      "category": "IT Heroes & Countermeasures",
+      "category_code": "H",
+      "color": "#34785f",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "unknown",
+      "condition": null,
+      "effects": [
+        {
+          "op": "verify",
+          "n": 1
+        },
+        {
+          "op": "credibility",
+          "n": 1
+        }
+      ],
+      "rules": "Verify the selected unknown case. Earn 1 Accountability and 1 Credibility. A real incident lowers Panic by 1; a rumor is removed, lowers it by 2, and its sponsor loses 1 Reach and takes 1 Blame. Gain 1 Credibility.",
+      "rules_short": "Verify one unknown case. Use normal evidence and debunk rewards. Gain 1 Credibility.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Verify the case first to deny this target.",
+      "flavor": "The forbidden question had a very useful answer.",
+      "illustration": {
+        "path": "art/TGE-H14.jpg",
+        "status": "generated illustration",
+        "brief": "A junior technician raises one thoughtful hand and points to an obvious contradiction that an entire senior meeting has overlooked."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "restoration"
+      }
+    },
+    {
+      "id": "TGE-H15",
+      "name": "Working as Intended",
+      "category": "IT Heroes & Countermeasures",
+      "category_code": "H",
+      "color": "#34785f",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "stability",
+          "n": 3
+        },
+        {
+          "op": "panic",
+          "n": -1
+        }
+      ],
+      "rules": "Restore 3 Stability. Lower Panic by 1.",
+      "rules_short": "Restore 3 Stability. Lower Panic by 1.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "For once, this is good news.",
+      "illustration": {
+        "path": "art/TGE-H15.jpg",
+        "status": "generated illustration",
+        "brief": "An ordinary working system quietly performs its actual purpose while the technicians enjoy an unusually undramatic cup of coffee."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "restoration"
+      }
+    },
+    {
+      "id": "TGE-W01",
+      "name": "This Was Only a Test",
+      "category": "Emergency Events & Wildcards",
+      "category_code": "W",
+      "color": "#ac5270",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "rumor",
+      "condition": null,
+      "effects": [
+        {
+          "op": "verify",
+          "n": 1
+        },
+        {
+          "op": "panic",
+          "n": -1
+        }
+      ],
+      "rules": "Verify the selected unknown case. Earn 1 Accountability and 1 Credibility. A real incident lowers Panic by 1; a rumor is removed, lowers it by 2, and its sponsor loses 1 Reach and takes 1 Blame. Lower Panic by 1.",
+      "rules_short": "Verify one unknown case. Use normal evidence and debunk rewards. Lower Panic by 1.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Withdraw or verify the rumor first.",
+      "flavor": "Cancel the Apocalypse declaration. Return all unused panic.",
+      "illustration": {
+        "path": "art/TGE-W01.jpg",
+        "status": "generated reference illustration",
+        "brief": "A vintage emergency broadcast television glows in an empty bunker; its screen shows only a clean abstract calibration target, while a relaxed technician reaches for the off switch. No text."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "flex"
+      }
+    },
+    {
+      "id": "TGE-W02",
+      "name": "Close All Tickets",
+      "category": "Emergency Events & Wildcards",
+      "category_code": "W",
+      "color": "#ac5270",
+      "type": "Action",
+      "cost": 0,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "influence",
+          "n": 4
+        },
+        {
+          "op": "liability",
+          "n": 2
+        }
+      ],
+      "rules": "Gain 4 Influence. Take 2 Liability.",
+      "rules_short": "Gain 4 Influence. Take 2 Liability.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "The queue is empty. The users have merely stopped asking.",
+      "illustration": {
+        "path": "art/TGE-W02.jpg",
+        "status": "generated illustration",
+        "brief": "An executive sweeps a pile of unresolved ticket folders into a cabinet while every user behind the glass still holds broken equipment."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "flex"
+      }
+    },
+    {
+      "id": "TGE-W03",
+      "name": "Executive Panic",
+      "category": "Emergency Events & Wildcards",
+      "category_code": "W",
+      "color": "#ac5270",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "panic",
+          "n": 3
+        },
+        {
+          "op": "leverage",
+          "n": 2
+        },
+        {
+          "op": "liability",
+          "n": 1
+        }
+      ],
+      "rules": "Raise Panic by 3. Gain 2 Leverage. Take 1 Liability.",
+      "rules_short": "Raise Panic by 3. Gain 2 Leverage. Take 1 Liability.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "The emergency began when the CEO noticed the emergency.",
+      "illustration": {
+        "path": "art/TGE-W03.jpg",
+        "status": "generated illustration",
+        "brief": "A relaxed boardroom erupts into theatrical alarm only when the chief executive notices the already-existing outage screen."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "flex"
+      }
+    },
+    {
+      "id": "TGE-W04",
+      "name": "The Apocalypse Has Been Downgraded",
+      "category": "Emergency Events & Wildcards",
+      "category_code": "W",
+      "color": "#ac5270",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "panic",
+          "n": -5
+        },
+        {
+          "op": "credibility",
+          "n": 1
+        }
+      ],
+      "rules": "Lower Panic by 5. Gain 1 Credibility.",
+      "rules_short": "Lower Panic by 5. Gain 1 Credibility.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "From civilization-ending to mildly inconvenient.",
+      "illustration": {
+        "path": "art/TGE-W04.jpg",
+        "status": "generated illustration",
+        "brief": "A stagehand lowers an enormous apocalypse prop to reveal a small, ordinary technical inconvenience behind it."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "flex"
+      }
+    },
+    {
+      "id": "TGE-W05",
+      "name": "The Great Compliance",
+      "category": "Emergency Events & Wildcards",
+      "category_code": "W",
+      "color": "#ac5270",
+      "type": "Action",
+      "cost": 3,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "auditAll",
+          "n": 1
+        }
+      ],
+      "rules": "Audit one issue at every eligible rival. Each rival may block with one shield. Gain audit rewards for each productive audit.",
+      "rules_short": "Audit one issue at every eligible rival. Each rival may block with one shield. Gain audit rewards for each productive audit.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "The machines brought receipts. The humans brought due process.",
+      "illustration": {
+        "path": "art/TGE-W05.jpg",
+        "status": "generated illustration",
+        "brief": "Calm robot evidence clerks present organized receipts to an ordinary human court; a judge and counsel examine them with visible procedural care."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "flex"
+      }
+    },
+    {
+      "id": "TGE-W06",
+      "name": "Quiet Weekend",
+      "category": "Emergency Events & Wildcards",
+      "category_code": "W",
+      "color": "#ac5270",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "stability",
+          "n": 2
+        },
+        {
+          "op": "panic",
+          "n": -2
+        }
+      ],
+      "rules": "Restore 2 Stability. Lower Panic by 2.",
+      "rules_short": "Restore 2 Stability. Lower Panic by 2.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "No alerts. No predictions. Suspiciously pleasant.",
+      "illustration": {
+        "path": "art/TGE-W06.jpg",
+        "status": "generated illustration",
+        "brief": "A silent operations room and a peaceful street share a slow Saturday morning, with technicians suspiciously enjoying their breakfast."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "flex"
+      }
+    },
+    {
+      "id": "TGE-W07",
+      "name": "Third-Party Review",
+      "category": "Emergency Events & Wildcards",
+      "category_code": "W",
+      "color": "#ac5270",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "unknown",
+      "condition": null,
+      "effects": [
+        {
+          "op": "verify",
+          "n": 1
+        },
+        {
+          "op": "stability",
+          "n": 2
+        }
+      ],
+      "rules": "Verify the selected unknown case. Earn 1 Accountability and 1 Credibility. A real incident lowers Panic by 1; a rumor is removed, lowers it by 2, and its sponsor loses 1 Reach and takes 1 Blame. Restore 2 Stability.",
+      "rules_short": "Verify one unknown case. Use normal evidence and debunk rewards. Restore 2 Stability.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Verify the case first to deny this target.",
+      "flavor": "Someone without a bonus riding on the answer.",
+      "illustration": {
+        "path": "art/TGE-W07.jpg",
+        "status": "generated illustration",
+        "brief": "An independent reviewer studies physical evidence at a plain desk while interested executives wait outside the glass."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "flex"
+      }
+    },
+    {
+      "id": "TGE-W08",
+      "name": "Mutual Aid",
+      "category": "Emergency Events & Wildcards",
+      "category_code": "W",
+      "color": "#ac5270",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "real",
+      "condition": null,
+      "effects": [
+        {
+          "op": "repair",
+          "n": 3
+        },
+        {
+          "op": "allIncome",
+          "n": 1
+        }
+      ],
+      "rules": "Repair 3 severity on the selected real incident and restore 1 Stability. Verified work earns 1 Accountability; resolving it earns +1 Accountability, +1 Credibility, and +1 more Stability. Every other player gains 1 Influence.",
+      "rules_short": "Repair 3 severity. Use normal work and resolution rewards. Every other player gains 1 Influence.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Contain or repair the incident before this card can use it.",
+      "flavor": "Help arrived without a logo requirement.",
+      "illustration": {
+        "path": "art/TGE-W08.jpg",
+        "status": "generated illustration",
+        "brief": "Neighbors and technicians share tools and carry replacement equipment together without banners, sponsorships or cameras."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "flex"
+      }
+    },
+    {
+      "id": "TGE-W09",
+      "name": "The News Cycle Moved On",
+      "category": "Emergency Events & Wildcards",
+      "category_code": "W",
+      "color": "#ac5270",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "panic",
+          "n": -3
+        },
+        {
+          "op": "clearBoosts",
+          "n": 1
+        }
+      ],
+      "rules": "Lower Panic by 3. Remove every player's stored report boost.",
+      "rules_short": "Lower Panic by 3. Remove every player's stored report boost.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "Tomorrow's catastrophe is accepting sponsors.",
+      "illustration": {
+        "path": "art/TGE-W09.jpg",
+        "status": "generated illustration",
+        "brief": "A caravan of news cameras leaves one repaired service and rushes toward a distant new flashing light."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "flex"
+      }
+    },
+    {
+      "id": "TGE-W10",
+      "name": "The Follow-Up Never Happened",
+      "category": "Emergency Events & Wildcards",
+      "category_code": "W",
+      "color": "#ac5270",
+      "type": "Action",
+      "cost": 0,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "clearLiability",
+          "n": 1
+        },
+        {
+          "op": "credibility",
+          "n": -1
+        }
+      ],
+      "rules": "Remove up to 1 of your Liability. Blame remains. Lose 1 Credibility.",
+      "rules_short": "Remove up to 1 of your Liability. Blame remains. Lose 1 Credibility.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "The action item has achieved organizational invisibility.",
+      "illustration": {
+        "path": "art/TGE-W10.jpg",
+        "status": "generated illustration",
+        "brief": "A meeting action item slips through a growing maze of empty calendar boxes and dusty follow-up folders."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "flex"
+      }
+    },
+    {
+      "id": "TGE-W11",
+      "name": "Unscheduled Transparency",
+      "category": "Emergency Events & Wildcards",
+      "category_code": "W",
+      "color": "#ac5270",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "verifyAll",
+          "n": 1
+        },
+        {
+          "op": "panic",
+          "n": -2
+        }
+      ],
+      "rules": "Verify every unknown real incident. Earn normal verification rewards for the first 2 only; all verified incidents lower Panic by 1. Lower Panic by 2.",
+      "rules_short": "Verify all unknown real incidents. Gain verification rewards for the first 2 only; all lower Panic by 1. Lower Panic by 2.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "The logs were published before the talking points.",
+      "illustration": {
+        "path": "art/TGE-W11.jpg",
+        "status": "generated illustration",
+        "brief": "A technician opens the actual incident record to everyone before a group of speechwriters can finish arranging their talking points."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "flex"
+      }
+    },
+    {
+      "id": "TGE-W12",
+      "name": "The Coffee Arrived",
+      "category": "Emergency Events & Wildcards",
+      "category_code": "W",
+      "color": "#ac5270",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "draw",
+          "n": 3
+        },
+        {
+          "op": "stability",
+          "n": 1
+        }
+      ],
+      "rules": "Draw 3 cards. Restore 1 Stability.",
+      "rules_short": "Draw 3 cards. Restore 1 Stability.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "Morale has been restored in a legally distinct sense.",
+      "illustration": {
+        "path": "art/TGE-W12.jpg",
+        "status": "generated illustration",
+        "brief": "A bicycle courier delivers a tray of strong coffee to a night-shift operations room whose entire team visibly regains focus."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "flex"
+      }
+    },
+    {
+      "id": "TGE-W13",
+      "name": "One More Thing",
+      "category": "Emergency Events & Wildcards",
+      "category_code": "W",
+      "color": "#ac5270",
+      "type": "Action",
+      "cost": 1,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": null,
+      "effects": [
+        {
+          "op": "action",
+          "n": 1
+        },
+        {
+          "op": "draw",
+          "n": 1
+        }
+      ],
+      "rules": "Gain 1 additional action this turn. Draw 1 card.",
+      "rules_short": "Gain 1 additional action this turn. Draw 1 card.",
+      "restriction": "No additional restriction.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "A brief follow-up to the brief follow-up.",
+      "illustration": {
+        "path": "art/TGE-W13.jpg",
+        "status": "generated illustration",
+        "brief": "A meeting presenter produces one last small folder from behind their back while the exhausted audience reaches for the door."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "flex"
+      }
+    },
+    {
+      "id": "TGE-W14",
+      "name": "Emergency Fund",
+      "category": "Emergency Events & Wildcards",
+      "category_code": "W",
+      "color": "#ac5270",
+      "type": "Action",
+      "cost": 0,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": "fundEmergency",
+      "effects": [
+        {
+          "op": "influence",
+          "n": 4
+        }
+      ],
+      "rules": "Gain 4 Influence.",
+      "rules_short": "Gain 4 Influence.",
+      "restriction": "Stability must be 10 or lower.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "For actual emergencies. A radical interpretation.",
+      "illustration": {
+        "path": "art/TGE-W14.jpg",
+        "status": "generated illustration",
+        "brief": "A long-locked emergency fund cabinet finally opens for a visibly real operational emergency rather than a ceremonial executive request."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "flex"
+      }
+    },
+    {
+      "id": "TGE-W15",
+      "name": "The Public Remembers",
+      "category": "Emergency Events & Wildcards",
+      "category_code": "W",
+      "color": "#ac5270",
+      "type": "Action",
+      "cost": 2,
+      "timing": "Your turn; costs 1 action",
+      "target": "none",
+      "condition": "counterDiscard",
+      "effects": [
+        {
+          "op": "reclaim",
+          "n": 1
+        },
+        {
+          "op": "credibility",
+          "n": 1
+        }
+      ],
+      "rules": "Return the most recently discarded IT card to your hand. Gain 1 Credibility.",
+      "rules_short": "Return the most recently discarded IT card to your hand. Gain 1 Credibility.",
+      "restriction": "An IT card must be in the discard pile.",
+      "counterplay": "Reduce Panic, audit unsupported claims or liabilities, and manage the shared Stability clock.",
+      "flavor": "For once, the person who fixed it gets called back.",
+      "illustration": {
+        "path": "art/TGE-W15.jpg",
+        "status": "generated illustration",
+        "brief": "Ordinary users recognize the technician who fixed their systems and call them back, passing an unused executive publicity stand."
+      },
+      "balance": {
+        "version": "0.1.0",
+        "revision": 1,
+        "status": "alpha; automated playtest only",
+        "role": "flex"
+      }
+    }
+  ]
+}

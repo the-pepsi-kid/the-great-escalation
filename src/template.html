@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#8f302e"><title>The Great Escalation · Playtest 0.1</title><style>/*__STYLE__*/</style></head>
+<body>
+<a class="skip" href="#main">Skip to game</a>
+<header class="masthead">
+  <div class="edition"><span><b class="signal">●</b> THE NETWORK IS STILL DOWN</span><span>110 CARDS / 2–6 PLAYERS / PLAYTEST 0.1</span></div>
+  <div class="brandrow"><a class="wordmark" href="#" aria-label="The Great Escalation, play room"><span>THE GREAT</span><strong>ESCALATION<span class="brand-dot">.</span></strong></a><div class="brand-aside"><p>THE APOCALYPSE HAS<br>BEEN MONETIZED.</p><small>A strategy game of panic,<br>power &amp; people who fix things.</small></div></div>
+  <nav aria-label="Main navigation"><div class="tabs"><button class="tab active" data-view="play" aria-current="page">01 <span>Play room</span></button><button class="tab" data-view="collection">02 <span>The 110 cards</span></button><button class="tab" data-view="rules">03 <span>Field manual</span></button></div><button class="new-game" data-act="setup">New game <span aria-hidden="true">↗</span></button></nav>
+</header>
+<main id="main" tabindex="-1">
+  <section id="playView" aria-label="Play room"><div id="game"></div></section>
+  <section id="collectionView" hidden aria-label="Complete card collection"><div class="section-heading"><div><p class="eyebrow">THE COMPLETE ARCHIVE</p><h1>110 ways to make it worse.<br>Or, occasionally, better.</h1></div><p>Six categories. One shared mess.<br><span class="muted">110 individual illustrations / complete deck artwork.</span></p></div><div class="filters"><label>Search the archive<input id="search" type="search" placeholder="Title, rules, ID or flavor text…"></label><label>Category<select id="category"><option value="all">All six categories</option></select></label><label>Artwork<select id="artFilter"><option value="all">All cards</option><option value="ready">Illustrated cards</option><option value="pending">Illustration pending</option></select></label><span id="collectionCount" role="status"></span></div><div id="collectionGrid" class="collection-grid"></div></section>
+  <section id="rulesView" hidden aria-label="Rules manual"><div id="manualContent">/*__MANUAL__*/</div></section>
+</main>
+<footer><span>WHEN EVERYTHING BECOMES A CRISIS, COMPETENCE IS THE ULTIMATE CONSPIRACY.</span><span>Original game · 110-card illustrated alpha · 110 illustrations</span></footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="cardDialog" aria-labelledby="cardTitle"><div id="cardContent"></div></dialog>
+<dialog id="actionDialog" aria-labelledby="actionTitle"><div id="actionContent"></div></dialog>
+<dialog id="setupDialog" aria-labelledby="setupTitle"><form id="setupForm"><div class="dialog-top"><p class="eyebrow">A FRESH NEWS CYCLE</p><button type="button" class="close" data-close="setupDialog" aria-label="Close new game">×</button></div><h2 id="setupTitle">Civilization, take two.</h2><p>Eight rounds. Two actions each turn. Leave enough of the world running to enjoy your victory.</p><label>Your institution<input name="name" maxlength="36" value="You" required></label><div class="form-grid"><label>Players<select name="players"><option>2</option><option selected>3</option><option>4</option><option>5</option><option>6</option></select></label><label>Play mode<select name="mode"><option value="solo">You + automated rivals</option><option value="hotseat">Pass &amp; play (all human)</option></select></label></div><label>Automated rivals<select name="style"><option value="mixed">Mixed strategies</option><option value="restoration">Restoration</option><option value="media">Narrative</option><option value="exploitation">Exploitation</option></select></label><label>Opening hand (your institution)<select name="starter"><option value="standard">Standard mixed opening</option><option value="restoration">Restoration starter</option><option value="media">Newsroom starter</option><option value="exploitation">Crisis consultant starter</option></select></label><label>Game seed<input name="seed" type="number" min="1" max="4294967295" value="8112026"></label><p class="small muted">A new game replaces the current autosave. Export it first if you want to keep it.</p><button type="submit" class="primary wide">Open the war room →</button></form></dialog>
+<dialog id="handoffDialog" aria-labelledby="handoffTitle"><p class="eyebrow">PASS THE DEVICE</p><h2 id="handoffTitle"></h2><p>The next institution's hand stays covered until they are ready.</p><button class="primary wide" data-act="ready">I'm ready →</button></dialog>
+<input id="importFile" type="file" accept="application/json,.json" hidden>
+<script>const DATA=/*__DATA__*/; const ART=/*__ART__*/;</script>
+<script>/*__ENGINE__*/</script><script>/*__APP__*/</script>
+</body></html>
